@@ -1,0 +1,9042 @@
+RandomSolution
+
+트럭은 무작위 방향으로 움직이며,
+현재 위치의 자전거 수가 일정 수 이하면 보충하고,
+현재 위치의 자전거 수가 일정 수 이상이면 수거함
+
+== Start ==
+[parameters]
+problem: 1
+    def __init__(self, problem):
+        super().__init__(problem)
+
+        self.bike_arr = None
+        self.trucks = None
+        if problem == 1:
+            self.min_bikes = 2
+            self.max_bikes = 2
+        elif problem == 2:
+            self.min_bikes = 1
+            self.max_bikes = 2
+
+
+== Time: 0 ==
+failed_requests_count: 0
+distance: 0.0
+4 4 4 4 4 
+4 4 4 4 4 
+4 4 4 4 4 
+4 4 4 4 4 
+4 4 4 4 4 
+
+Truck(0): load 0
+Truck(1): load 0
+Truck(3): load 1
+Truck(4): load 1
+Truck(0): load 2
+Truck(2): load 6
+Truck(3): load 2
+Truck(2): load 6
+Truck(3): load 7
+Truck(0): load 7
+Truck(2): load 8
+Truck(4): load 3
+Truck(0): load 8
+Truck(4): load 3
+Truck(1): load 9
+
+== Time: 1 ==
+failed_requests_count: 0
+distance: 3.0
+4 3 3 4 4 
+2 2 3 4 4 
+2 2 4 4 4 
+2 2 4 4 4 
+2 4 4 4 4 
+
+Truck(1): load 9
+Truck(1): load 14
+Truck(4): load 19
+Truck(1): load 19
+Truck(4): load 18
+Truck(2): load 4
+Truck(4): load 18
+Truck(1): load 24
+Truck(2): load 4
+Truck(1): load 24
+Truck(3): load 5
+Truck(4): load 23
+Truck(3): load 5
+Truck(4): load 23
+
+== Time: 2 ==
+failed_requests_count: 0
+distance: 6.0
+2 2 2 2 2 
+2 2 3 2 2 
+2 2 4 4 4 
+2 2 4 3 4 
+2 2 4 4 4 
+
+Truck(1): load 13
+Truck(4): load 17
+Truck(4): load 17
+Truck(1): load 12
+Truck(1): load 12
+Truck(1): load 11
+
+== Time: 3 ==
+failed_requests_count: 0
+distance: 9.0
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 2 2 4 
+2 2 3 3 4 
+2 2 4 4 4 
+
+Truck(1): load 11
+Truck(0): unload 9
+Truck(1): load 16
+Truck(3): load 10
+Truck(1): load 21
+Truck(3): load 10
+Truck(1): load 21
+Truck(2): load 22
+Truck(3): load 15
+Truck(2): load 22
+Truck(3): load 15
+
+== Time: 4 ==
+failed_requests_count: 0
+distance: 12.4
+2 2 2 2 2 
+2 2 2 2 2 
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 2 2 4 
+
+Truck(4): unload 7
+
+== Time: 5 ==
+failed_requests_count: 0
+distance: 16.8
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 4 
+
+Truck(0): load 20
+Truck(0): load 20
+
+== Time: 6 ==
+failed_requests_count: 0
+distance: 20.7
+2 2 2 1 0 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 1 2 2 
+
+
+== Time: 7 ==
+failed_requests_count: 0
+distance: 24.4
+2 2 2 1 0 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 1 1 2 2 
+
+Truck(2): unload 5
+Truck(3): unload 19
+Truck(2): unload 10
+
+== Time: 8 ==
+failed_requests_count: 0
+distance: 28.3
+2 2 2 2 0 
+2 1 1 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 1 2 
+
+Truck(3): unload 8
+Truck(1): unload 15
+
+== Time: 9 ==
+failed_requests_count: 0
+distance: 32.4
+2 2 2 2 0 
+2 2 1 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+
+
+== Time: 10 ==
+failed_requests_count: 0
+distance: 36.8
+2 2 2 2 0 
+1 2 1 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+
+Truck(3): unload 3
+
+== Time: 11 ==
+failed_requests_count: 0
+distance: 40.5
+2 2 2 2 0 
+2 2 1 1 2 
+2 2 2 2 2 
+2 2 1 1 2 
+2 2 2 2 2 
+
+Truck(1): unload 13
+Truck(0): unload 24
+Truck(0): unload 24
+Truck(4): unload 18
+Truck(1): unload 11
+Truck(1): unload 16
+
+== Time: 12 ==
+failed_requests_count: 0
+distance: 44.0
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 1 2 2 
+2 2 2 2 2 
+
+Truck(0): unload 11
+
+== Time: 13 ==
+failed_requests_count: 0
+distance: 47.3
+2 2 1 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+
+Truck(2): unload 14
+
+== Time: 14 ==
+failed_requests_count: 0
+distance: 51.8
+2 2 1 2 2 
+2 2 1 2 2 
+2 3 2 2 2 
+2 2 3 2 2 
+2 1 1 2 2 
+
+Truck(1): load 11
+Truck(4): unload 5
+Truck(1): unload 13
+Truck(1): load 7
+Truck(2): unload 10
+
+== Time: 15 ==
+failed_requests_count: 0
+distance: 55.5
+1 2 0 2 2 
+2 2 2 2 2 
+2 2 2 3 2 
+2 2 2 2 2 
+1 2 2 2 2 
+
+Truck(1): unload 0
+
+== Time: 16 ==
+failed_requests_count: 1
+distance: 59.2
+1 2 0 2 2 
+2 2 2 2 2 
+2 2 2 3 2 
+2 2 2 1 2 
+1 2 1 2 2 
+
+Truck(1): unload 0
+Truck(2): unload 16
+Truck(4): load 17
+
+== Time: 17 ==
+failed_requests_count: 1
+distance: 62.9
+1 2 0 2 2 
+2 1 2 2 2 
+2 1 2 2 2 
+1 2 2 2 2 
+2 2 1 2 2 
+
+Truck(0): unload 10
+Truck(1): unload 1
+Truck(3): unload 7
+Truck(3): unload 8
+
+== Time: 18 ==
+failed_requests_count: 1
+distance: 67.3
+1 2 0 2 2 
+2 2 2 2 2 
+2 1 2 1 2 
+2 2 2 2 2 
+2 2 2 1 1 
+
+Truck(2): unload 17
+Truck(1): unload 14
+Truck(1): unload 14
+Truck(3): unload 4
+Truck(0): unload 7
+
+== Time: 19 ==
+failed_requests_count: 1
+distance: 70.8
+2 1 2 2 2 
+2 2 2 2 3 
+2 2 2 2 2 
+2 1 2 2 2 
+1 2 2 1 1 
+
+Truck(4): unload 6
+Truck(2): unload 15
+Truck(1): unload 0
+
+== Time: 20 ==
+failed_requests_count: 1
+distance: 74.8
+2 1 2 2 1 
+2 1 2 2 3 
+2 1 2 2 2 
+2 2 2 2 2 
+1 2 2 2 1 
+
+Truck(3): unload 8
+Truck(1): unload 0
+Truck(3): unload 7
+
+== Time: 21 ==
+failed_requests_count: 1
+distance: 78.4
+2 1 2 2 1 
+2 2 2 2 3 
+1 2 2 2 2 
+2 2 1 2 2 
+2 2 1 2 1 
+
+Truck(1): unload 11
+Truck(2): load 23
+Truck(3): unload 2
+Truck(4): unload 20
+Truck(4): unload 10
+
+== Time: 22 ==
+failed_requests_count: 1
+distance: 82.3
+2 1 2 2 1 
+2 1 2 3 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 3 2 
+
+Truck(1): load 15
+Truck(0): load 18
+
+== Time: 23 ==
+failed_requests_count: 1
+distance: 86.3
+2 1 2 2 1 
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 2 2 3 
+2 2 2 2 2 
+
+Truck(1): unload 8
+Truck(4): unload 24
+Truck(2): load 21
+Truck(1): unload 9
+
+== Time: 24 ==
+failed_requests_count: 1
+distance: 90.1
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+
+
+== Time: 25 ==
+failed_requests_count: 1
+distance: 93.7
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 1 2 1 2 
+2 2 2 2 2 
+
+Truck(1): unload 6
+Truck(0): unload 16
+
+== Time: 26 ==
+failed_requests_count: 1
+distance: 97.2
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 1 2 
+
+
+== Time: 27 ==
+failed_requests_count: 1
+distance: 101.3
+1 2 2 2 2 
+2 2 1 2 2 
+2 2 2 2 2 
+2 2 2 2 1 
+2 2 2 1 2 
+
+Truck(2): unload 15
+Truck(4): unload 21
+Truck(4): unload 13
+
+== Time: 28 ==
+failed_requests_count: 1
+distance: 105.3
+1 2 1 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+
+Truck(4): unload 14
+Truck(4): unload 4
+
+== Time: 29 ==
+failed_requests_count: 1
+distance: 109.0
+2 2 2 1 1 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 1 2 
+3 2 2 2 2 
+
+Truck(1): unload 16
+
+== Time: 30 ==
+failed_requests_count: 1
+distance: 112.8
+2 2 2 1 1 
+2 2 2 2 2 
+2 2 2 2 1 
+2 2 2 2 2 
+3 2 2 2 2 
+
+Truck(2): unload 19
+Truck(1): unload 22
+
+== Time: 31 ==
+failed_requests_count: 1
+distance: 116.9
+2 1 1 2 1 
+2 2 2 2 2 
+2 2 1 2 3 
+2 3 2 1 2 
+3 2 2 2 2 
+
+
+== Time: 32 ==
+failed_requests_count: 1
+distance: 120.7
+2 0 1 2 1 
+2 2 2 2 2 
+2 2 1 2 3 
+2 2 2 1 2 
+3 2 2 2 2 
+
+Truck(3): load 22
+
+== Time: 33 ==
+failed_requests_count: 1
+distance: 123.9
+2 0 1 2 1 
+2 2 2 2 2 
+2 2 1 2 2 
+2 3 2 1 2 
+3 2 2 2 2 
+
+Truck(3): unload 16
+Truck(4): load 6
+Truck(4): unload 12
+
+== Time: 34 ==
+failed_requests_count: 1
+distance: 127.8
+2 1 1 2 1 
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+3 2 2 2 2 
+
+
+== Time: 35 ==
+failed_requests_count: 1
+distance: 131.8
+2 1 1 3 1 
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 3 2 2 
+3 2 2 2 2 
+
+Truck(1): load 11
+
+== Time: 36 ==
+failed_requests_count: 1
+distance: 136.1
+2 1 0 3 1 
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+3 2 2 2 1 
+
+
+== Time: 37 ==
+failed_requests_count: 1
+distance: 140.2
+2 1 0 3 1 
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 2 2 1 
+3 2 2 2 1 
+
+Truck(2): load 19
+Truck(2): unload 24
+
+== Time: 38 ==
+failed_requests_count: 1
+distance: 144.0
+2 1 0 2 2 
+2 1 2 2 2 
+2 2 2 3 1 
+2 1 2 2 1 
+3 2 2 2 1 
+
+Truck(1): unload 14
+Truck(4): load 17
+Truck(4): unload 22
+Truck(0): load 0
+
+== Time: 39 ==
+failed_requests_count: 1
+distance: 147.6
+2 1 1 2 3 
+2 0 2 1 2 
+3 2 2 2 2 
+1 1 2 2 1 
+2 2 1 2 1 
+
+Truck(0): unload 1
+Truck(2): load 24
+Truck(2): unload 14
+
+== Time: 40 ==
+failed_requests_count: 1
+distance: 151.4
+2 1 2 2 2 
+2 0 2 0 1 
+3 2 2 2 2 
+2 1 2 2 1 
+2 2 1 2 1 
+
+Truck(0): load 2
+Truck(0): unload 8
+
+== Time: 41 ==
+failed_requests_count: 1
+distance: 155.3
+2 1 2 2 2 
+2 2 2 0 1 
+2 2 3 2 2 
+2 1 2 2 2 
+2 2 1 2 2 
+
+Truck(0): load 12
+Truck(0): unload 23
+
+== Time: 42 ==
+failed_requests_count: 1
+distance: 158.5
+2 1 2 2 2 
+2 2 2 0 2 
+1 2 2 3 2 
+2 1 2 2 2 
+2 2 1 2 2 
+
+
+== Time: 43 ==
+failed_requests_count: 1
+distance: 162.6
+2 0 2 1 2 
+2 2 2 0 2 
+1 2 2 2 2 
+2 1 2 2 2 
+2 2 1 2 2 
+
+
+== Time: 44 ==
+failed_requests_count: 1
+distance: 166.8
+2 0 3 0 2 
+2 2 2 0 2 
+1 2 2 2 1 
+2 1 2 2 2 
+2 2 1 2 1 
+
+Truck(0): load 14
+Truck(0): unload 9
+
+== Time: 45 ==
+failed_requests_count: 1
+distance: 171.2
+4 1 2 0 2 
+2 2 2 0 2 
+1 2 2 2 1 
+2 1 2 1 2 
+3 2 1 2 1 
+
+Truck(0): load 4
+Truck(0): load 4
+Truck(4): load 0
+Truck(0): unload 2
+
+== Time: 46 ==
+failed_requests_count: 1
+distance: 175.1
+2 1 2 0 2 
+2 2 2 0 2 
+2 2 1 2 1 
+2 1 2 1 2 
+3 2 1 2 1 
+
+Truck(4): unload 10
+Truck(0): unload 6
+Truck(1): load 0
+
+== Time: 47 ==
+failed_requests_count: 1
+distance: 178.6
+1 1 2 0 2 
+2 2 1 0 2 
+2 2 1 1 1 
+2 1 2 1 2 
+3 3 2 1 2 
+
+Truck(1): load 0
+Truck(1): load 5
+Truck(1): unload 16
+
+== Time: 48 ==
+failed_requests_count: 1
+distance: 182.3
+1 1 2 0 2 
+2 2 0 0 2 
+2 2 1 1 1 
+2 1 2 2 2 
+2 2 2 0 2 
+
+Truck(1): unload 17
+Truck(1): unload 22
+
+== Time: 49 ==
+failed_requests_count: 1
+distance: 185.8
+2 2 3 0 2 
+2 2 0 0 2 
+2 2 1 2 2 
+1 1 2 2 2 
+2 2 2 0 2 
+
+Truck(1): load 14
+Truck(1): unload 19
+
+== Time: 50 ==
+failed_requests_count: 1
+distance: 189.3
+2 2 2 1 2 
+2 2 0 0 2 
+2 2 0 2 2 
+1 1 2 1 2 
+2 2 2 0 3 
+
+
+== Time: 51 ==
+failed_requests_count: 1
+distance: 193.3
+2 2 3 2 1 
+2 1 0 0 2 
+1 2 0 2 2 
+1 1 2 0 2 
+2 2 2 0 3 
+
+Truck(2): load 14
+Truck(3): load 20
+Truck(3): unload 16
+
+== Time: 52 ==
+failed_requests_count: 1
+distance: 196.7
+2 2 2 2 0 
+2 1 0 0 2 
+1 2 0 2 2 
+1 0 2 1 1 
+2 2 2 0 2 
+
+Truck(2): unload 8
+
+== Time: 53 ==
+failed_requests_count: 2
+distance: 201.2
+2 3 2 2 0 
+2 2 1 0 2 
+1 2 0 2 2 
+1 0 2 1 1 
+2 2 2 0 2 
+
+
+== Time: 54 ==
+failed_requests_count: 2
+distance: 205.9
+2 3 2 2 1 
+2 3 1 0 2 
+1 2 0 2 2 
+1 0 2 0 0 
+2 3 2 0 2 
+
+Truck(4): load 8
+Truck(4): unload 13
+Truck(3): load 5
+
+== Time: 55 ==
+failed_requests_count: 3
+distance: 209.7
+2 3 2 2 1 
+2 2 2 0 2 
+1 2 0 1 2 
+1 0 2 0 0 
+2 1 2 0 2 
+
+Truck(3): unload 5
+
+== Time: 56 ==
+failed_requests_count: 3
+distance: 213.5
+2 3 2 2 1 
+2 2 2 0 2 
+1 2 0 0 2 
+1 0 3 1 0 
+2 2 2 0 2 
+
+Truck(3): load 9
+Truck(4): load 11
+Truck(4): unload 16
+
+== Time: 57 ==
+failed_requests_count: 3
+distance: 217.3
+2 2 2 2 1 
+2 2 2 1 2 
+1 2 1 0 2 
+1 0 2 2 1 
+2 2 2 0 2 
+
+Truck(3): unload 12
+
+== Time: 58 ==
+failed_requests_count: 3
+distance: 221.7
+2 2 2 1 2 
+3 2 1 0 2 
+1 3 3 0 2 
+1 0 2 2 1 
+2 2 2 0 2 
+
+Truck(0): load 7
+Truck(4): load 12
+Truck(4): unload 13
+Truck(0): unload 17
+Truck(2): load 3
+
+== Time: 59 ==
+failed_requests_count: 3
+distance: 225.2
+3 2 2 2 2 
+2 2 4 0 2 
+1 1 3 1 2 
+1 0 2 2 1 
+2 1 2 0 2 
+
+Truck(2): unload 2
+Truck(3): load 12
+Truck(3): load 13
+Truck(1): load 4
+Truck(3): load 13
+
+== Time: 60 ==
+failed_requests_count: 3
+distance: 228.6
+2 2 2 2 2 
+2 1 2 0 2 
+2 1 2 1 2 
+1 0 2 2 1 
+2 1 2 0 2 
+
+Truck(1): unload 8
+Truck(3): unload 17
+
+== Time: 61 ==
+failed_requests_count: 3
+distance: 232.3
+2 2 3 2 2 
+2 2 2 0 2 
+1 1 2 2 2 
+1 0 2 2 1 
+2 1 2 1 2 
+
+Truck(3): load 14
+Truck(3): unload 7
+
+== Time: 62 ==
+failed_requests_count: 3
+distance: 236.6
+2 2 3 2 2 
+2 3 2 0 2 
+1 2 2 2 2 
+1 0 2 2 1 
+2 1 2 1 2 
+
+Truck(3): unload 6
+Truck(3): unload 6
+
+== Time: 63 ==
+failed_requests_count: 3
+distance: 240.6
+2 2 3 2 2 
+2 3 2 0 2 
+1 2 2 2 1 
+3 2 3 2 1 
+2 1 2 1 2 
+
+Truck(0): load 11
+Truck(4): load 14
+Truck(0): unload 15
+Truck(4): unload 18
+
+== Time: 64 ==
+failed_requests_count: 3
+distance: 244.4
+2 2 2 2 2 
+2 3 2 1 2 
+1 2 3 2 1 
+1 2 1 2 1 
+2 1 2 2 2 
+
+
+== Time: 65 ==
+failed_requests_count: 3
+distance: 248.0
+2 2 2 2 2 
+2 3 2 1 2 
+1 2 3 2 0 
+1 2 1 2 1 
+2 1 2 2 2 
+
+Truck(1): load 8
+Truck(1): load 12
+
+== Time: 66 ==
+failed_requests_count: 3
+distance: 251.3
+2 2 2 2 2 
+2 3 2 1 2 
+1 2 2 2 0 
+1 2 1 2 1 
+2 1 2 2 2 
+
+Truck(2): load 8
+Truck(1): unload 18
+Truck(1): unload 21
+
+== Time: 67 ==
+failed_requests_count: 3
+distance: 255.0
+3 1 1 2 2 
+2 2 2 2 2 
+1 2 1 2 0 
+1 2 1 2 2 
+2 1 2 2 2 
+
+Truck(2): load 4
+Truck(2): unload 2
+Truck(2): unload 12
+
+== Time: 68 ==
+failed_requests_count: 3
+distance: 259.2
+2 1 1 1 2 
+2 2 2 2 2 
+2 2 3 2 0 
+1 2 1 2 1 
+2 1 2 2 2 
+
+
+== Time: 69 ==
+failed_requests_count: 3
+distance: 263.0
+2 1 1 1 2 
+3 2 2 2 2 
+2 2 3 2 0 
+1 1 1 2 1 
+2 1 2 2 2 
+
+Truck(0): load 3
+Truck(0): unload 9
+Truck(2): load 12
+Truck(2): unload 11
+
+== Time: 70 ==
+failed_requests_count: 3
+distance: 266.7
+2 2 1 1 2 
+1 2 1 2 2 
+2 2 2 2 0 
+1 1 2 2 1 
+2 1 2 2 3 
+
+
+== Time: 71 ==
+failed_requests_count: 3
+distance: 270.9
+2 2 1 1 2 
+3 2 1 2 2 
+2 2 3 3 0 
+1 1 2 2 2 
+2 1 2 2 3 
+
+Truck(1): load 3
+Truck(2): load 12
+Truck(3): load 20
+Truck(2): load 17
+
+== Time: 72 ==
+failed_requests_count: 3
+distance: 275.0
+2 1 1 1 3 
+1 2 1 2 2 
+2 2 2 2 0 
+1 1 1 2 2 
+2 1 2 2 2 
+
+Truck(1): unload 3
+Truck(2): unload 22
+Truck(2): unload 22
+Truck(3): unload 11
+
+== Time: 73 ==
+failed_requests_count: 3
+distance: 278.6
+1 1 1 1 3 
+2 2 1 4 2 
+2 2 2 2 2 
+1 1 2 2 2 
+2 1 2 1 2 
+
+Truck(2): load 24
+Truck(2): unload 19
+
+== Time: 74 ==
+failed_requests_count: 3
+distance: 282.6
+1 1 1 2 2 
+2 2 1 4 1 
+2 2 2 2 2 
+1 1 2 2 2 
+2 1 2 1 2 
+
+
+== Time: 75 ==
+failed_requests_count: 3
+distance: 286.7
+1 1 1 2 1 
+2 2 1 4 1 
+2 2 2 2 3 
+1 1 2 2 2 
+2 1 1 1 3 
+
+
+== Time: 76 ==
+failed_requests_count: 3
+distance: 290.0
+1 0 1 2 1 
+2 2 1 6 1 
+2 2 2 2 3 
+1 1 2 2 2 
+2 1 1 1 3 
+
+Truck(2): load 18
+Truck(2): load 18
+Truck(2): load 18
+Truck(2): load 18
+Truck(2): unload 23
+Truck(3): load 20
+Truck(2): unload 13
+
+== Time: 77 ==
+failed_requests_count: 3
+distance: 293.4
+1 1 1 2 1 
+2 2 1 3 2 
+2 2 2 2 4 
+2 2 2 2 2 
+3 1 1 1 2 
+
+Truck(2): load 18
+Truck(3): load 22
+Truck(3): load 22
+Truck(2): unload 13
+Truck(2): unload 4
+Truck(4): load 0
+
+== Time: 78 ==
+failed_requests_count: 3
+distance: 296.9
+2 1 1 1 1 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 3 2 1 
+2 1 1 1 2 
+
+Truck(1): load 11
+Truck(3): unload 21
+Truck(4): unload 10
+
+== Time: 79 ==
+failed_requests_count: 3
+distance: 301.0
+2 1 1 1 1 
+2 2 2 1 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 1 1 1 2 
+
+Truck(3): unload 18
+Truck(2): unload 5
+
+== Time: 80 ==
+failed_requests_count: 3
+distance: 304.5
+2 1 1 1 0 
+2 2 3 2 2 
+2 2 2 3 2 
+2 2 2 2 2 
+1 2 2 1 2 
+
+Truck(0): load 13
+Truck(1): unload 9
+Truck(3): load 17
+Truck(0): unload 14
+
+== Time: 81 ==
+failed_requests_count: 3
+distance: 308.6
+2 2 2 1 0 
+2 2 2 2 2 
+1 2 3 2 2 
+2 2 2 2 2 
+1 2 3 1 2 
+
+Truck(2): load 10
+Truck(2): unload 15
+
+== Time: 82 ==
+failed_requests_count: 3
+distance: 312.2
+2 2 2 1 0 
+2 2 2 3 2 
+1 2 3 2 2 
+2 2 2 1 2 
+1 2 2 3 2 
+
+Truck(3): load 18
+Truck(1): load 12
+Truck(4): load 15
+Truck(3): unload 24
+Truck(4): unload 16
+Truck(3): unload 24
+
+== Time: 83 ==
+failed_requests_count: 3
+distance: 315.9
+2 1 2 1 2 
+2 2 2 2 1 
+1 2 2 2 3 
+2 2 3 2 2 
+1 2 2 2 2 
+
+Truck(0): load 11
+Truck(3): unload 23
+Truck(1): unload 19
+Truck(0): load 22
+
+== Time: 84 ==
+failed_requests_count: 3
+distance: 319.1
+2 1 2 2 2 
+2 2 2 2 1 
+1 2 2 2 2 
+3 2 2 2 2 
+2 2 2 2 2 
+
+Truck(2): load 1
+Truck(2): unload 2
+
+== Time: 85 ==
+failed_requests_count: 3
+distance: 323.0
+2 1 2 2 2 
+2 2 2 2 1 
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+
+
+== Time: 86 ==
+failed_requests_count: 3
+distance: 327.4
+2 0 2 2 2 
+2 2 2 2 1 
+2 1 2 2 2 
+2 2 3 2 2 
+2 2 2 2 2 
+
+Truck(2): load 11
+Truck(2): unload 23
+
+== Time: 87 ==
+failed_requests_count: 3
+distance: 331.3
+2 0 2 2 2 
+2 2 2 2 2 
+1 2 2 2 3 
+1 2 2 2 1 
+2 2 2 2 2 
+
+Truck(0): unload 2
+Truck(2): load 22
+Truck(2): unload 21
+
+== Time: 88 ==
+failed_requests_count: 3
+distance: 334.4
+2 0 2 2 2 
+2 3 2 1 2 
+2 1 2 2 2 
+2 2 2 2 2 
+1 3 1 2 2 
+
+Truck(0): load 8
+Truck(1): load 5
+Truck(1): unload 0
+Truck(0): unload 9
+Truck(0): unload 9
+
+== Time: 89 ==
+failed_requests_count: 3
+distance: 338.5
+2 2 2 2 2 
+1 1 2 1 2 
+2 1 2 2 2 
+2 3 2 2 2 
+2 2 1 2 2 
+
+Truck(2): load 6
+
+== Time: 90 ==
+failed_requests_count: 3
+distance: 342.5
+2 2 2 3 2 
+1 1 2 1 2 
+2 2 3 2 2 
+2 2 2 2 2 
+3 2 1 2 2 
+
+Truck(2): load 0
+Truck(0): load 12
+Truck(0): unload 10
+
+== Time: 91 ==
+failed_requests_count: 3
+distance: 346.3
+2 2 2 3 2 
+1 1 2 1 2 
+2 2 2 2 2 
+2 2 1 2 2 
+2 1 2 2 2 
+
+Truck(2): unload 11
+Truck(2): unload 5
+
+== Time: 92 ==
+failed_requests_count: 3
+distance: 350.5
+2 2 2 3 2 
+1 1 2 0 2 
+2 2 2 2 2 
+2 2 1 2 1 
+2 2 2 2 2 
+
+
+== Time: 93 ==
+failed_requests_count: 3
+distance: 354.4
+2 3 2 3 2 
+1 1 2 0 2 
+2 1 3 2 2 
+3 2 1 2 1 
+2 2 2 2 2 
+
+Truck(4): load 12
+Truck(1): load 1
+Truck(4): unload 8
+
+== Time: 94 ==
+failed_requests_count: 3
+distance: 357.8
+2 3 2 3 2 
+1 2 2 0 2 
+2 1 2 2 2 
+2 2 1 2 1 
+2 2 2 2 2 
+
+Truck(1): unload 7
+Truck(2): load 19
+Truck(2): unload 18
+Truck(1): load 9
+
+== Time: 95 ==
+failed_requests_count: 3
+distance: 361.5
+2 2 2 2 2 
+1 2 2 1 2 
+2 2 2 2 2 
+2 2 1 2 1 
+3 1 2 2 2 
+
+Truck(3): load 0
+Truck(3): unload 5
+
+== Time: 96 ==
+failed_requests_count: 3
+distance: 365.0
+2 2 2 2 1 
+1 2 1 1 2 
+1 2 2 2 2 
+2 2 2 2 1 
+3 2 2 1 1 
+
+Truck(1): unload 24
+Truck(0): load 0
+
+== Time: 97 ==
+failed_requests_count: 3
+distance: 368.6
+2 1 2 2 2 
+1 2 1 2 2 
+1 2 2 3 2 
+2 1 2 2 1 
+2 2 2 1 1 
+
+Truck(2): load 17
+Truck(0): unload 6
+Truck(2): unload 21
+
+== Time: 98 ==
+failed_requests_count: 3
+distance: 372.6
+2 2 2 3 2 
+0 2 1 2 2 
+1 2 2 2 2 
+3 2 2 2 2 
+2 2 2 1 2 
+
+Truck(4): load 19
+
+== Time: 99 ==
+failed_requests_count: 3
+distance: 376.6
+2 2 2 2 2 
+0 2 1 2 2 
+1 2 2 2 2 
+3 2 2 2 2 
+2 2 2 1 2 
+
+Truck(3): load 1
+Truck(3): unload 2
+
+== Time: 100 ==
+failed_requests_count: 3
+distance: 380.7
+2 2 2 2 2 
+0 2 1 2 2 
+2 3 2 3 2 
+2 2 2 2 2 
+2 2 2 1 2 
+
+Truck(0): load 7
+Truck(0): unload 3
+
+== Time: 101 ==
+failed_requests_count: 3
+distance: 384.5
+2 2 2 2 3 
+3 2 1 2 2 
+2 2 2 3 2 
+2 3 2 2 2 
+2 2 3 2 2 
+
+Truck(0): load 3
+Truck(4): load 24
+Truck(4): load 17
+Truck(3): load 6
+
+== Time: 102 ==
+failed_requests_count: 3
+distance: 387.7
+2 2 2 2 2 
+2 3 1 2 2 
+2 2 2 2 2 
+2 2 1 2 2 
+2 2 3 2 2 
+
+Truck(3): unload 11
+Truck(1): load 8
+Truck(0): load 10
+
+== Time: 103 ==
+failed_requests_count: 3
+distance: 391.7
+2 2 2 2 2 
+2 2 1 2 2 
+2 3 2 2 3 
+2 2 2 2 2 
+2 2 2 2 2 
+
+Truck(2): load 7
+
+== Time: 104 ==
+failed_requests_count: 3
+distance: 395.8
+2 2 1 2 2 
+1 2 1 2 2 
+2 2 2 2 2 
+2 2 0 2 2 
+2 1 2 2 2 
+
+Truck(2): unload 13
+Truck(0): unload 5
+Truck(1): unload 14
+Truck(0): unload 11
+
+== Time: 105 ==
+failed_requests_count: 3
+distance: 399.2
+2 2 2 3 2 
+1 2 2 2 2 
+1 2 2 2 2 
+2 1 1 2 2 
+2 2 2 2 2 
+
+Truck(1): load 19
+Truck(4): unload 3
+Truck(1): unload 2
+
+== Time: 106 ==
+failed_requests_count: 3
+distance: 402.9
+2 2 2 2 2 
+2 2 3 2 2 
+2 1 2 1 2 
+2 1 1 2 2 
+2 2 2 2 2 
+
+Truck(0): load 13
+Truck(4): unload 7
+
+== Time: 107 ==
+failed_requests_count: 3
+distance: 406.6
+2 2 2 2 2 
+2 2 2 1 2 
+2 2 2 1 2 
+3 1 1 2 2 
+2 2 1 2 2 
+
+Truck(0): unload 18
+
+== Time: 108 ==
+failed_requests_count: 3
+distance: 411.2
+2 3 2 2 2 
+2 2 2 2 2 
+2 2 3 1 2 
+3 1 1 2 2 
+2 2 0 1 2 
+
+Truck(3): load 9
+Truck(4): load 1
+Truck(4): unload 6
+
+== Time: 109 ==
+failed_requests_count: 3
+distance: 414.5
+2 2 2 2 2 
+2 2 2 2 2 
+1 2 3 1 2 
+2 2 1 2 2 
+2 2 0 0 2 
+
+Truck(3): unload 2
+Truck(4): unload 11
+Truck(1): load 12
+
+== Time: 110 ==
+failed_requests_count: 4
+distance: 418.1
+3 2 2 2 2 
+2 2 2 2 2 
+2 2 2 0 2 
+2 2 2 2 1 
+2 2 0 0 2 
+
+Truck(0): load 4
+
+== Time: 111 ==
+failed_requests_count: 5
+distance: 421.8
+2 2 1 1 2 
+2 2 2 2 2 
+2 2 0 0 2 
+2 2 2 2 1 
+2 2 0 0 2 
+
+Truck(0): unload 14
+
+== Time: 112 ==
+failed_requests_count: 5
+distance: 425.6
+2 2 2 2 2 
+2 2 3 2 2 
+2 2 0 0 2 
+2 2 2 2 1 
+2 2 0 0 1 
+
+Truck(0): load 13
+
+== Time: 113 ==
+failed_requests_count: 5
+distance: 429.8
+2 2 2 2 2 
+2 2 3 2 2 
+2 2 0 0 2 
+2 2 2 2 1 
+3 2 0 1 1 
+
+Truck(0): load 13
+
+== Time: 114 ==
+failed_requests_count: 5
+distance: 433.6
+2 2 2 2 2 
+2 2 2 3 2 
+2 2 0 0 2 
+2 2 2 2 1 
+3 2 0 1 1 
+
+Truck(0): unload 17
+Truck(0): unload 17
+Truck(1): load 0
+
+== Time: 115 ==
+failed_requests_count: 5
+distance: 437.2
+2 2 2 2 2 
+2 2 2 3 2 
+2 2 0 2 2 
+2 1 2 2 1 
+2 2 0 1 1 
+
+Truck(1): unload 6
+Truck(1): unload 15
+
+== Time: 116 ==
+failed_requests_count: 5
+distance: 441.4
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 0 1 2 
+2 2 2 2 1 
+2 2 0 2 1 
+
+
+== Time: 117 ==
+failed_requests_count: 5
+distance: 445.7
+2 2 2 2 2 
+2 2 2 2 1 
+2 2 1 0 2 
+2 2 2 2 1 
+2 2 0 2 1 
+
+
+== Time: 118 ==
+failed_requests_count: 5
+distance: 450.2
+2 2 2 2 2 
+2 2 2 1 1 
+3 2 1 0 3 
+2 2 1 2 1 
+3 2 0 3 1 
+
+Truck(3): load 2
+Truck(1): load 15
+Truck(2): load 22
+Truck(2): unload 23
+Truck(3): load 0
+
+== Time: 119 ==
+failed_requests_count: 5
+distance: 453.2
+2 2 2 2 2 
+2 2 2 1 2 
+2 2 0 0 2 
+2 2 1 2 1 
+2 2 0 2 1 
+
+Truck(1): unload 20
+Truck(3): unload 10
+Truck(3): unload 10
+
+== Time: 120 ==
+failed_requests_count: 5
+distance: 457.0
+2 2 2 2 2 
+2 2 2 1 2 
+2 2 0 0 2 
+2 2 0 2 0 
+3 2 2 3 2 
+
+Truck(1): load 15
+Truck(1): unload 21
+
+== Time: 121 ==
+failed_requests_count: 5
+distance: 460.8
+1 2 2 2 2 
+2 2 2 1 2 
+2 2 0 0 2 
+2 2 0 2 1 
+3 3 1 2 2 
+
+Truck(3): load 5
+Truck(3): unload 10
+Truck(0): load 0
+
+== Time: 122 ==
+failed_requests_count: 6
+distance: 464.7
+1 2 1 2 2 
+2 1 2 1 2 
+2 4 0 0 2 
+2 2 0 2 1 
+2 2 2 2 2 
+
+Truck(0): load 7
+
+== Time: 123 ==
+failed_requests_count: 6
+distance: 468.6
+0 2 1 2 2 
+2 1 2 1 2 
+2 3 0 0 1 
+2 1 0 2 1 
+2 2 0 2 2 
+
+Truck(0): load 7
+Truck(0): unload 6
+
+== Time: 124 ==
+failed_requests_count: 7
+distance: 472.6
+0 2 2 2 2 
+2 1 2 1 2 
+2 1 0 0 0 
+2 2 0 2 1 
+2 2 0 2 1 
+
+Truck(0): unload 8
+
+== Time: 125 ==
+failed_requests_count: 7
+distance: 476.6
+0 2 2 2 2 
+2 2 2 2 2 
+2 1 0 0 0 
+1 3 0 2 1 
+2 3 0 2 1 
+
+Truck(0): unload 22
+
+== Time: 126 ==
+failed_requests_count: 9
+distance: 480.4
+0 2 4 2 2 
+2 2 2 2 2 
+2 1 0 0 1 
+0 3 0 3 1 
+1 3 0 2 1 
+
+Truck(1): load 5
+Truck(3): load 14
+Truck(2): load 14
+Truck(0): load 16
+Truck(1): load 6
+Truck(0): unload 17
+Truck(1): unload 11
+Truck(1): unload 11
+
+== Time: 127 ==
+failed_requests_count: 9
+distance: 484.2
+0 2 2 2 2 
+2 3 2 2 2 
+2 1 0 1 1 
+0 2 2 2 1 
+1 1 0 2 1 
+
+Truck(2): load 8
+
+== Time: 128 ==
+failed_requests_count: 9
+distance: 487.9
+1 1 2 2 2 
+2 2 2 2 2 
+3 1 0 1 1 
+0 3 2 2 1 
+1 1 0 2 1 
+
+Truck(2): unload 7
+Truck(2): load 2
+Truck(3): unload 12
+Truck(2): unload 12
+
+== Time: 129 ==
+failed_requests_count: 9
+distance: 491.7
+1 1 2 2 2 
+1 2 2 2 2 
+2 3 2 1 1 
+0 2 2 2 0 
+0 1 0 2 1 
+
+Truck(2): load 7
+
+== Time: 130 ==
+failed_requests_count: 9
+distance: 495.5
+1 0 2 2 3 
+1 2 3 2 2 
+2 2 2 1 1 
+0 2 2 2 0 
+0 1 1 1 1 
+
+Truck(4): load 24
+Truck(2): load 13
+Truck(2): unload 17
+Truck(4): unload 22
+Truck(2): unload 9
+
+== Time: 131 ==
+failed_requests_count: 9
+distance: 499.3
+2 1 2 2 2 
+1 2 2 1 2 
+2 2 2 2 3 
+0 2 1 2 0 
+0 1 0 1 1 
+
+Truck(2): unload 9
+Truck(4): load 22
+Truck(4): unload 21
+
+== Time: 132 ==
+failed_requests_count: 9
+distance: 502.6
+2 2 2 2 2 
+2 3 1 1 2 
+2 2 2 1 2 
+0 2 1 2 1 
+1 0 0 1 1 
+
+Truck(2): load 8
+
+== Time: 133 ==
+failed_requests_count: 9
+distance: 506.6
+2 2 2 2 2 
+2 2 1 1 2 
+3 2 2 1 2 
+0 3 0 2 1 
+1 0 0 1 1 
+
+Truck(1): load 6
+Truck(1): unload 5
+Truck(2): unload 13
+
+== Time: 134 ==
+failed_requests_count: 9
+distance: 510.5
+2 2 2 2 2 
+2 2 1 0 2 
+3 2 3 1 2 
+0 2 0 2 1 
+1 1 0 1 1 
+
+Truck(4): load 12
+Truck(4): unload 17
+
+== Time: 135 ==
+failed_requests_count: 9
+distance: 514.3
+3 2 2 2 2 
+2 2 1 0 2 
+3 2 2 2 3 
+0 0 0 2 1 
+1 0 0 1 1 
+
+Truck(1): load 22
+Truck(1): unload 18
+Truck(2): load 4
+
+== Time: 136 ==
+failed_requests_count: 9
+distance: 518.5
+2 1 1 2 2 
+2 1 1 1 2 
+4 2 2 2 2 
+0 0 0 2 1 
+1 0 0 1 1 
+
+Truck(2): load 2
+Truck(2): load 2
+
+== Time: 137 ==
+failed_requests_count: 9
+distance: 522.4
+3 1 1 3 2 
+2 1 1 2 2 
+2 2 2 2 2 
+0 0 0 3 1 
+1 1 0 1 0 
+
+Truck(2): load 4
+Truck(1): load 16
+Truck(1): unload 15
+Truck(2): unload 8
+Truck(2): unload 13
+
+== Time: 138 ==
+failed_requests_count: 10
+distance: 525.8
+2 1 1 3 2 
+2 2 3 2 2 
+2 2 2 2 3 
+0 0 0 2 1 
+1 2 0 3 0 
+
+Truck(2): load 13
+Truck(3): load 15
+Truck(4): load 19
+Truck(2): unload 14
+Truck(3): unload 20
+Truck(0): load 22
+
+== Time: 139 ==
+failed_requests_count: 10
+distance: 529.1
+2 1 3 2 3 
+2 2 2 2 2 
+2 2 2 2 2 
+0 0 0 2 1 
+1 2 0 2 1 
+
+Truck(0): unload 21
+Truck(4): load 24
+Truck(2): unload 6
+Truck(2): unload 6
+
+== Time: 140 ==
+failed_requests_count: 10
+distance: 532.3
+2 2 3 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+0 2 0 2 2 
+2 2 0 2 0 
+
+Truck(4): load 14
+Truck(4): unload 11
+Truck(4): unload 11
+
+== Time: 141 ==
+failed_requests_count: 10
+distance: 535.8
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+0 2 2 2 2 
+2 2 0 2 0 
+
+Truck(4): unload 1
+
+== Time: 142 ==
+failed_requests_count: 10
+distance: 539.4
+2 2 3 1 2 
+2 2 2 2 2 
+1 2 2 2 2 
+1 2 2 3 3 
+2 2 0 2 0 
+
+Truck(1): load 21
+Truck(0): load 14
+Truck(0): unload 19
+
+== Time: 143 ==
+failed_requests_count: 10
+distance: 543.2
+2 2 2 2 3 
+2 2 2 1 2 
+1 2 2 2 2 
+1 2 2 3 2 
+2 2 0 1 0 
+
+Truck(1): load 24
+Truck(1): unload 18
+
+== Time: 144 ==
+failed_requests_count: 10
+distance: 546.9
+2 3 2 2 2 
+2 2 2 2 2 
+1 2 2 2 3 
+1 2 2 3 2 
+2 2 0 2 0 
+
+Truck(3): load 22
+
+== Time: 145 ==
+failed_requests_count: 10
+distance: 550.3
+2 3 2 2 2 
+2 2 2 2 2 
+1 2 2 2 2 
+1 2 2 3 2 
+1 2 0 2 0 
+
+Truck(4): load 16
+
+== Time: 146 ==
+failed_requests_count: 10
+distance: 554.3
+2 3 2 2 1 
+2 2 2 2 2 
+1 2 2 2 1 
+1 2 2 2 0 
+1 2 0 2 0 
+
+Truck(3): unload 22
+Truck(4): unload 24
+
+== Time: 147 ==
+failed_requests_count: 10
+distance: 557.8
+2 3 2 3 2 
+3 2 2 2 2 
+1 2 2 2 2 
+1 1 2 2 0 
+1 2 0 2 0 
+
+Truck(4): load 19
+Truck(1): unload 21
+Truck(4): unload 21
+
+== Time: 148 ==
+failed_requests_count: 10
+distance: 561.5
+2 3 2 2 2 
+2 2 3 2 2 
+1 3 2 2 2 
+1 1 3 1 3 
+1 1 0 2 0 
+
+Truck(4): load 21
+Truck(2): load 11
+Truck(4): unload 20
+Truck(2): unload 16
+Truck(0): load 7
+Truck(0): unload 6
+Truck(2): load 13
+
+== Time: 149 ==
+failed_requests_count: 10
+distance: 564.4
+2 3 2 2 2 
+2 2 1 2 2 
+1 2 1 2 2 
+1 2 2 2 2 
+0 1 0 2 1 
+
+Truck(2): unload 13
+
+== Time: 150 ==
+failed_requests_count: 10
+distance: 568.5
+2 3 2 1 2 
+2 2 2 2 2 
+1 3 1 2 2 
+1 2 2 2 2 
+0 1 0 2 1 
+
+Truck(2): load 9
+
+== Time: 151 ==
+failed_requests_count: 10
+distance: 572.1
+2 3 2 1 2 
+2 2 2 2 2 
+1 3 1 2 2 
+1 1 2 2 2 
+0 0 0 2 1 
+
+Truck(1): load 7
+Truck(2): load 9
+
+== Time: 152 ==
+failed_requests_count: 11
+distance: 575.5
+2 2 2 1 2 
+2 2 2 2 2 
+0 2 1 2 2 
+1 1 2 2 2 
+0 0 0 2 1 
+
+Truck(1): unload 6
+
+== Time: 153 ==
+failed_requests_count: 11
+distance: 579.6
+2 3 2 1 1 
+2 2 2 3 2 
+0 2 1 2 2 
+1 2 2 2 2 
+0 0 0 3 1 
+
+Truck(0): load 9
+Truck(2): load 18
+Truck(2): load 15
+Truck(0): unload 2
+
+== Time: 154 ==
+failed_requests_count: 11
+distance: 583.5
+1 2 2 1 1 
+2 2 2 2 2 
+1 3 1 2 2 
+1 2 2 2 2 
+0 0 0 2 1 
+
+Truck(2): unload 19
+Truck(3): load 7
+Truck(2): unload 24
+Truck(3): unload 12
+
+== Time: 155 ==
+failed_requests_count: 11
+distance: 587.8
+1 2 2 2 2 
+2 3 2 4 2 
+1 1 3 2 2 
+1 2 2 2 2 
+0 0 0 2 1 
+
+Truck(2): load 18
+Truck(2): load 18
+Truck(1): load 12
+
+== Time: 156 ==
+failed_requests_count: 11
+distance: 591.3
+1 2 1 2 2 
+2 3 2 2 2 
+1 1 2 2 2 
+1 2 2 2 2 
+0 0 0 2 1 
+
+Truck(1): unload 20
+Truck(2): unload 14
+
+== Time: 157 ==
+failed_requests_count: 11
+distance: 595.1
+1 2 2 3 2 
+2 4 2 1 2 
+1 1 2 2 2 
+1 2 2 2 2 
+0 0 1 2 2 
+
+Truck(2): unload 18
+Truck(2): load 8
+Truck(2): load 8
+Truck(3): load 19
+
+== Time: 158 ==
+failed_requests_count: 11
+distance: 598.7
+1 2 2 2 2 
+2 2 2 2 2 
+1 1 2 2 3 
+1 2 2 2 2 
+0 1 0 3 2 
+
+Truck(0): load 22
+Truck(0): load 15
+
+== Time: 159 ==
+failed_requests_count: 11
+distance: 602.3
+0 2 1 2 2 
+3 3 2 3 2 
+2 1 2 2 2 
+1 2 3 2 1 
+0 1 0 2 2 
+
+Truck(3): unload 4
+Truck(1): load 18
+Truck(0): unload 21
+Truck(3): load 3
+
+== Time: 160 ==
+failed_requests_count: 11
+distance: 605.2
+1 1 1 2 2 
+2 3 2 2 3 
+1 1 2 3 2 
+1 3 3 2 2 
+0 1 0 1 2 
+
+Truck(1): load 23
+Truck(2): load 17
+Truck(3): load 8
+Truck(0): unload 15
+Truck(0): load 11
+Truck(2): unload 10
+Truck(3): unload 7
+Truck(2): unload 10
+Truck(3): unload 2
+
+== Time: 161 ==
+failed_requests_count: 11
+distance: 608.1
+1 1 1 2 2 
+2 2 2 1 2 
+2 2 2 2 2 
+0 3 2 2 2 
+0 1 2 2 2 
+
+Truck(3): load 6
+Truck(0): unload 18
+
+== Time: 162 ==
+failed_requests_count: 11
+distance: 612.4
+1 1 1 1 2 
+2 2 3 2 2 
+2 3 2 2 2 
+0 2 2 3 2 
+0 1 1 2 2 
+
+Truck(3): load 7
+Truck(0): load 16
+Truck(1): unload 10
+Truck(2): unload 5
+
+== Time: 163 ==
+failed_requests_count: 11
+distance: 616.3
+1 1 1 1 0 
+2 2 3 2 2 
+2 2 2 1 2 
+0 2 2 2 2 
+0 3 3 2 2 
+
+Truck(3): unload 0
+Truck(4): load 10
+Truck(3): unload 0
+Truck(0): load 13
+Truck(3): load 5
+Truck(0): unload 14
+
+== Time: 164 ==
+failed_requests_count: 11
+distance: 619.9
+1 1 2 1 0 
+2 2 2 2 2 
+2 2 2 1 0 
+0 2 2 2 1 
+2 2 2 2 2 
+
+Truck(1): unload 21
+Truck(4): unload 1
+Truck(0): unload 17
+Truck(3): unload 1
+
+== Time: 165 ==
+failed_requests_count: 11
+distance: 623.8
+1 1 2 2 0 
+3 2 2 2 2 
+1 2 2 2 0 
+2 2 2 2 2 
+0 2 2 2 2 
+
+
+== Time: 166 ==
+failed_requests_count: 12
+distance: 628.5
+1 1 2 2 0 
+2 2 2 2 2 
+1 2 1 2 0 
+1 2 2 2 2 
+0 2 2 2 2 
+
+Truck(2): unload 22
+Truck(2): unload 22
+
+== Time: 167 ==
+failed_requests_count: 12
+distance: 632.5
+0 2 1 2 0 
+2 2 2 2 2 
+1 3 1 3 2 
+1 2 2 2 2 
+0 2 2 3 2 
+
+Truck(0): load 7
+Truck(4): load 17
+Truck(4): unload 12
+Truck(0): unload 1
+Truck(3): load 15
+
+== Time: 168 ==
+failed_requests_count: 12
+distance: 636.4
+0 2 1 2 0 
+2 2 2 2 2 
+1 2 2 2 2 
+2 2 2 2 2 
+0 2 2 2 2 
+
+Truck(3): unload 2
+
+== Time: 169 ==
+failed_requests_count: 12
+distance: 640.4
+0 2 1 2 0 
+1 2 2 2 2 
+2 1 2 2 2 
+2 3 2 1 2 
+0 2 2 2 1 
+
+Truck(1): load 6
+
+== Time: 170 ==
+failed_requests_count: 12
+distance: 644.0
+0 2 1 2 0 
+1 2 2 2 2 
+2 1 4 2 2 
+3 2 2 1 2 
+0 2 2 2 1 
+
+Truck(1): load 1
+Truck(3): load 12
+Truck(3): load 12
+Truck(1): unload 0
+Truck(1): unload 0
+
+== Time: 171 ==
+failed_requests_count: 12
+distance: 647.7
+0 2 1 3 0 
+1 3 3 2 2 
+1 2 2 2 2 
+2 2 1 1 2 
+3 1 1 2 1 
+
+Truck(3): unload 20
+Truck(4): load 13
+Truck(0): load 0
+Truck(4): load 19
+Truck(0): unload 5
+Truck(4): unload 24
+
+== Time: 172 ==
+failed_requests_count: 12
+distance: 650.7
+0 2 1 2 1 
+1 2 0 2 2 
+1 2 2 1 2 
+2 2 1 1 2 
+2 2 1 2 2 
+
+Truck(4): unload 24
+Truck(3): unload 10
+
+== Time: 173 ==
+failed_requests_count: 12
+distance: 654.2
+0 3 1 2 2 
+1 2 0 2 2 
+1 2 1 1 2 
+2 2 1 1 2 
+2 2 2 2 2 
+
+
+== Time: 174 ==
+failed_requests_count: 13
+distance: 658.8
+0 3 1 2 2 
+1 2 0 3 2 
+1 1 1 1 2 
+2 2 1 1 2 
+2 2 2 2 2 
+
+Truck(0): load 18
+Truck(0): unload 17
+
+== Time: 175 ==
+failed_requests_count: 14
+distance: 663.1
+0 3 1 2 2 
+2 1 0 2 2 
+1 1 1 2 2 
+2 2 0 1 2 
+2 2 2 3 2 
+
+Truck(4): load 15
+Truck(0): load 9
+Truck(0): unload 14
+
+== Time: 176 ==
+failed_requests_count: 14
+distance: 666.5
+0 2 2 2 2 
+1 1 0 2 2 
+1 1 1 2 2 
+2 2 0 1 2 
+2 3 2 2 2 
+
+Truck(4): unload 11
+Truck(1): load 5
+Truck(1): unload 7
+
+== Time: 177 ==
+failed_requests_count: 14
+distance: 670.8
+0 2 2 2 2 
+1 1 0 2 2 
+1 2 1 2 3 
+2 2 1 1 2 
+2 2 2 2 2 
+
+Truck(0): load 22
+Truck(0): unload 16
+
+== Time: 178 ==
+failed_requests_count: 14
+distance: 675.2
+0 2 1 2 2 
+1 1 1 2 2 
+1 2 1 2 2 
+2 2 1 3 2 
+1 2 2 2 2 
+
+Truck(0): load 16
+Truck(0): unload 11
+
+== Time: 179 ==
+failed_requests_count: 14
+distance: 678.9
+0 2 1 2 2 
+2 2 1 2 3 
+1 2 1 2 2 
+2 2 2 2 2 
+1 2 2 2 2 
+
+
+== Time: 180 ==
+failed_requests_count: 14
+distance: 683.6
+0 1 1 2 2 
+2 2 1 2 3 
+0 2 1 2 2 
+1 2 2 2 2 
+1 2 2 2 2 
+
+
+== Time: 181 ==
+failed_requests_count: 14
+distance: 688.2
+1 1 1 1 2 
+1 3 0 2 3 
+0 2 1 2 2 
+1 2 2 2 2 
+1 3 2 3 2 
+
+Truck(0): load 23
+Truck(2): load 5
+Truck(3): load 8
+Truck(0): unload 19
+Truck(2): unload 0
+Truck(3): unload 3
+
+== Time: 182 ==
+failed_requests_count: 14
+distance: 691.7
+1 1 1 2 2 
+2 2 0 2 2 
+0 3 1 3 2 
+1 2 1 2 2 
+3 2 2 3 2 
+
+Truck(1): load 0
+Truck(4): load 17
+Truck(1): unload 1
+Truck(4): load 15
+
+== Time: 183 ==
+failed_requests_count: 14
+distance: 694.8
+1 1 1 2 2 
+2 2 1 2 2 
+0 3 1 3 2 
+2 2 0 2 2 
+2 2 2 2 2 
+
+Truck(2): load 7
+Truck(4): load 17
+Truck(2): unload 11
+Truck(4): unload 13
+
+== Time: 184 ==
+failed_requests_count: 14
+distance: 699.0
+1 1 1 1 2 
+2 2 2 2 2 
+0 2 1 2 2 
+2 2 1 2 3 
+2 2 2 2 2 
+
+Truck(4): unload 11
+
+== Time: 185 ==
+failed_requests_count: 14
+distance: 703.1
+2 1 2 1 2 
+2 2 2 2 2 
+0 2 1 2 2 
+2 2 2 2 3 
+2 2 2 2 2 
+
+Truck(4): unload 12
+
+== Time: 186 ==
+failed_requests_count: 14
+distance: 707.7
+2 1 2 1 2 
+2 2 2 2 2 
+0 2 2 2 2 
+2 2 2 2 3 
+2 2 2 2 2 
+
+
+== Time: 187 ==
+failed_requests_count: 14
+distance: 712.1
+3 2 2 1 2 
+2 2 2 2 2 
+0 3 3 2 2 
+2 2 2 2 3 
+2 2 2 2 2 
+
+Truck(0): load 21
+
+== Time: 188 ==
+failed_requests_count: 14
+distance: 716.6
+3 2 2 1 1 
+2 2 2 2 1 
+0 3 3 1 2 
+2 2 2 2 2 
+2 2 1 2 2 
+
+Truck(0): unload 23
+Truck(2): load 7
+Truck(2): unload 2
+Truck(3): load 12
+
+== Time: 189 ==
+failed_requests_count: 14
+distance: 720.1
+3 2 2 2 1 
+1 2 2 2 2 
+1 2 1 1 2 
+2 2 2 2 2 
+2 2 1 2 2 
+
+Truck(3): unload 12
+Truck(1): load 4
+Truck(1): unload 3
+
+== Time: 190 ==
+failed_requests_count: 14
+distance: 723.8
+1 2 2 2 1 
+1 1 3 1 1 
+1 2 2 1 2 
+2 2 1 2 2 
+2 2 2 1 2 
+
+Truck(1): load 13
+Truck(1): unload 8
+
+== Time: 191 ==
+failed_requests_count: 14
+distance: 727.6
+0 2 2 2 2 
+1 2 2 1 1 
+1 2 2 1 2 
+2 2 1 2 2 
+2 1 2 1 2 
+
+
+== Time: 192 ==
+failed_requests_count: 14
+distance: 730.8
+0 2 2 2 2 
+1 2 2 2 1 
+1 2 2 1 2 
+3 2 1 2 2 
+2 1 2 3 2 
+
+
+== Time: 193 ==
+failed_requests_count: 14
+distance: 735.4
+0 2 2 2 3 
+1 2 2 2 1 
+1 2 2 0 3 
+4 2 1 2 2 
+1 2 2 3 2 
+
+Truck(0): load 24
+Truck(4): load 22
+Truck(3): load 1
+Truck(2): load 15
+Truck(3): load 1
+Truck(3): unload 11
+Truck(4): unload 23
+Truck(3): unload 2
+
+== Time: 194 ==
+failed_requests_count: 15
+distance: 738.5
+0 2 2 2 2 
+1 2 2 3 3 
+2 2 2 0 2 
+2 2 2 3 1 
+1 3 2 2 2 
+
+Truck(2): load 5
+Truck(0): load 23
+Truck(2): load 16
+Truck(3): load 18
+
+== Time: 195 ==
+failed_requests_count: 15
+distance: 742.4
+0 2 2 2 2 
+1 2 2 2 2 
+2 2 2 0 2 
+2 2 3 2 0 
+0 2 2 2 2 
+
+Truck(2): unload 17
+Truck(1): load 11
+Truck(2): unload 17
+
+== Time: 196 ==
+failed_requests_count: 15
+distance: 746.2
+0 2 2 2 2 
+1 2 3 2 2 
+2 2 1 2 2 
+2 2 1 2 0 
+0 2 2 2 2 
+
+Truck(2): unload 3
+Truck(0): unload 21
+Truck(1): unload 21
+Truck(4): load 13
+Truck(4): unload 12
+
+== Time: 197 ==
+failed_requests_count: 15
+distance: 750.0
+0 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+3 2 1 2 2 
+0 2 2 2 2 
+
+Truck(3): load 1
+
+== Time: 198 ==
+failed_requests_count: 15
+distance: 754.2
+0 2 2 2 2 
+2 2 2 2 2 
+1 2 2 2 2 
+2 2 1 2 1 
+0 2 2 1 1 
+
+Truck(0): unload 21
+Truck(3): unload 0
+Truck(3): unload 0
+
+== Time: 199 ==
+failed_requests_count: 15
+distance: 756.8
+0 2 2 2 2 
+2 2 2 2 2 
+1 2 2 2 2 
+2 2 1 2 2 
+2 2 2 1 0 
+
+
+== Time: 200 ==
+failed_requests_count: 15
+distance: 760.6
+0 2 2 2 3 
+2 2 2 2 3 
+1 2 1 3 2 
+2 2 2 1 2 
+2 2 2 1 0 
+
+Truck(0): load 24
+Truck(1): load 23
+Truck(0): load 17
+Truck(0): unload 12
+
+== Time: 201 ==
+failed_requests_count: 15
+distance: 764.1
+0 2 1 2 2 
+2 2 2 2 2 
+1 2 2 2 2 
+2 2 2 1 1 
+2 2 2 1 0 
+
+Truck(0): unload 2
+
+== Time: 202 ==
+failed_requests_count: 16
+distance: 768.2
+1 2 1 2 2 
+2 2 2 3 2 
+2 2 1 2 2 
+2 2 2 1 1 
+2 2 2 0 0 
+
+Truck(1): unload 16
+Truck(1): load 18
+Truck(1): unload 12
+
+== Time: 203 ==
+failed_requests_count: 16
+distance: 771.3
+1 2 1 3 1 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 1 
+2 2 1 0 0 
+
+Truck(4): load 19
+Truck(4): unload 14
+
+== Time: 204 ==
+failed_requests_count: 17
+distance: 775.1
+1 1 2 2 1 
+3 2 2 2 2 
+2 3 3 2 3 
+2 3 2 1 1 
+2 1 1 0 0 
+
+Truck(4): load 3
+Truck(0): load 22
+Truck(4): load 7
+Truck(3): load 6
+Truck(0): unload 21
+
+== Time: 205 ==
+failed_requests_count: 17
+distance: 778.5
+1 1 2 2 1 
+2 1 2 1 2 
+2 4 2 2 2 
+2 2 2 1 2 
+2 1 1 0 0 
+
+Truck(2): load 7
+Truck(2): load 7
+Truck(3): unload 5
+Truck(4): unload 18
+Truck(4): unload 24
+Truck(2): unload 10
+
+== Time: 206 ==
+failed_requests_count: 17
+distance: 782.4
+1 1 2 2 2 
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 3 1 2 
+2 2 2 0 0 
+
+Truck(0): load 11
+Truck(0): unload 16
+
+== Time: 207 ==
+failed_requests_count: 18
+distance: 786.8
+1 1 3 2 2 
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 0 0 
+
+Truck(2): load 14
+Truck(2): unload 9
+Truck(2): unload 8
+
+== Time: 208 ==
+failed_requests_count: 19
+distance: 790.7
+1 2 2 2 2 
+2 1 2 2 2 
+2 2 2 2 2 
+3 3 2 2 2 
+2 2 2 0 0 
+
+Truck(3): load 1
+Truck(3): load 6
+
+== Time: 209 ==
+failed_requests_count: 19
+distance: 794.7
+1 2 2 2 2 
+2 1 2 2 2 
+1 2 2 2 2 
+2 2 2 2 2 
+2 2 2 0 1 
+
+Truck(3): unload 15
+Truck(3): unload 15
+
+== Time: 210 ==
+failed_requests_count: 19
+distance: 798.9
+1 2 1 2 2 
+2 1 2 2 2 
+1 2 2 2 2 
+2 2 2 2 2 
+2 3 2 2 1 
+
+
+== Time: 211 ==
+failed_requests_count: 19
+distance: 803.5
+1 2 1 2 2 
+3 1 2 2 2 
+1 2 2 2 2 
+2 2 2 2 2 
+2 3 2 2 1 
+
+Truck(0): load 5
+
+== Time: 212 ==
+failed_requests_count: 19
+distance: 807.9
+1 2 1 2 2 
+3 1 2 2 2 
+1 2 2 2 2 
+3 2 2 1 2 
+2 2 2 2 0 
+
+Truck(0): unload 20
+Truck(2): load 1
+
+== Time: 213 ==
+failed_requests_count: 19
+distance: 810.9
+1 2 1 2 2 
+3 1 2 2 2 
+1 3 3 2 1 
+2 2 2 2 2 
+2 3 2 2 1 
+
+Truck(2): unload 14
+Truck(0): load 12
+Truck(4): load 7
+Truck(0): load 5
+Truck(4): unload 2
+
+== Time: 214 ==
+failed_requests_count: 19
+distance: 814.3
+1 2 2 2 2 
+3 1 2 1 2 
+3 2 1 2 1 
+2 1 2 2 2 
+2 2 2 2 1 
+
+Truck(4): load 3
+Truck(0): load 2
+Truck(4): unload 8
+
+== Time: 215 ==
+failed_requests_count: 19
+distance: 817.8
+1 2 2 1 2 
+2 2 3 1 2 
+2 2 1 2 1 
+2 2 2 2 2 
+2 1 2 2 1 
+
+Truck(4): load 13
+Truck(0): unload 4
+Truck(4): unload 19
+
+== Time: 216 ==
+failed_requests_count: 19
+distance: 821.4
+2 2 2 2 2 
+2 2 3 1 2 
+2 2 1 2 2 
+2 2 2 5 2 
+3 1 2 2 1 
+
+Truck(1): load 16
+Truck(0): unload 12
+Truck(1): load 16
+Truck(1): load 16
+Truck(4): load 13
+Truck(0): unload 18
+Truck(1): unload 20
+
+== Time: 217 ==
+failed_requests_count: 19
+distance: 824.7
+2 2 2 3 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+3 1 1 2 3 
+
+Truck(2): load 19
+
+== Time: 218 ==
+failed_requests_count: 19
+distance: 829.2
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+3 2 2 2 2 
+2 1 1 2 3 
+
+Truck(2): load 1
+Truck(2): unload 5
+Truck(1): load 20
+Truck(2): unload 10
+
+== Time: 219 ==
+failed_requests_count: 19
+distance: 832.8
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 1 2 
+1 2 1 2 2 
+2 2 2 2 2 
+
+Truck(1): unload 11
+
+== Time: 220 ==
+failed_requests_count: 19
+distance: 836.7
+2 1 2 2 2 
+2 2 2 2 1 
+2 2 2 1 3 
+2 2 2 2 2 
+2 2 2 2 4 
+
+
+== Time: 221 ==
+failed_requests_count: 19
+distance: 840.3
+1 1 2 2 2 
+2 2 2 2 1 
+1 2 2 1 3 
+1 2 2 2 1 
+1 2 2 2 4 
+
+Truck(4): unload 2
+Truck(2): load 20
+Truck(2): load 20
+Truck(1): unload 17
+
+== Time: 222 ==
+failed_requests_count: 19
+distance: 844.4
+1 1 2 2 2 
+2 2 2 2 1 
+2 2 2 2 3 
+1 2 2 2 1 
+1 1 2 2 2 
+
+Truck(1): unload 21
+Truck(4): load 22
+Truck(4): unload 23
+
+== Time: 223 ==
+failed_requests_count: 19
+distance: 847.5
+1 1 2 2 2 
+2 2 2 2 2 
+1 2 3 2 2 
+1 2 2 2 2 
+0 1 2 2 2 
+
+Truck(4): load 12
+Truck(4): unload 5
+
+== Time: 224 ==
+failed_requests_count: 19
+distance: 851.5
+1 1 2 2 2 
+2 3 2 2 3 
+1 2 2 1 2 
+1 2 2 2 2 
+0 2 2 1 2 
+
+Truck(2): unload 15
+Truck(0): load 8
+Truck(0): unload 9
+
+== Time: 225 ==
+failed_requests_count: 20
+distance: 855.2
+1 2 2 2 3 
+2 2 2 2 3 
+1 2 3 1 2 
+1 2 2 2 2 
+0 3 2 1 2 
+
+Truck(1): load 12
+Truck(2): unload 15
+Truck(3): load 23
+Truck(4): load 5
+Truck(3): load 24
+Truck(4): unload 1
+
+== Time: 226 ==
+failed_requests_count: 20
+distance: 858.8
+0 1 2 2 2 
+1 2 1 1 1 
+1 1 2 1 2 
+2 2 2 2 2 
+0 2 2 2 2 
+
+Truck(3): unload 17
+Truck(3): unload 23
+
+== Time: 227 ==
+failed_requests_count: 20
+distance: 862.6
+0 1 2 2 1 
+1 2 1 1 2 
+1 0 2 2 2 
+1 2 2 2 2 
+0 2 2 3 2 
+
+Truck(0): load 15
+
+== Time: 228 ==
+failed_requests_count: 20
+distance: 865.2
+0 1 2 1 1 
+1 2 2 1 2 
+1 0 2 2 2 
+1 2 2 2 2 
+0 2 1 2 2 
+
+Truck(0): unload 10
+Truck(1): unload 24
+
+== Time: 229 ==
+failed_requests_count: 21
+distance: 868.6
+0 1 2 1 2 
+1 2 2 1 2 
+1 0 2 2 2 
+2 2 2 2 2 
+0 2 1 0 2 
+
+
+== Time: 230 ==
+failed_requests_count: 21
+distance: 872.7
+0 1 1 1 2 
+1 2 3 2 2 
+1 0 2 2 2 
+2 2 2 2 2 
+0 2 1 0 3 
+
+Truck(3): load 20
+Truck(0): load 13
+Truck(3): unload 19
+
+== Time: 231 ==
+failed_requests_count: 24
+distance: 876.8
+0 1 1 1 2 
+1 2 2 2 2 
+1 0 3 3 1 
+2 2 2 2 2 
+0 2 1 0 2 
+
+Truck(0): load 17
+Truck(0): unload 0
+Truck(3): load 12
+Truck(0): unload 0
+
+== Time: 232 ==
+failed_requests_count: 24
+distance: 880.4
+0 1 1 1 2 
+1 2 1 3 2 
+1 0 4 2 1 
+2 1 2 2 2 
+2 2 1 0 2 
+
+Truck(3): unload 7
+
+== Time: 233 ==
+failed_requests_count: 24
+distance: 884.1
+0 3 1 1 2 
+1 2 1 2 2 
+1 1 4 2 1 
+2 1 2 2 2 
+1 1 0 0 2 
+
+Truck(4): load 12
+Truck(4): load 12
+Truck(4): unload 6
+
+== Time: 234 ==
+failed_requests_count: 24
+distance: 888.3
+0 3 1 1 1 
+1 2 1 2 3 
+1 1 2 2 1 
+2 1 2 2 2 
+2 1 0 0 2 
+
+Truck(4): unload 6
+Truck(0): load 23
+Truck(0): unload 24
+
+== Time: 235 ==
+failed_requests_count: 24
+distance: 891.6
+0 3 1 1 2 
+1 2 1 2 2 
+1 1 2 2 1 
+2 2 2 2 2 
+2 1 0 0 2 
+
+
+== Time: 236 ==
+failed_requests_count: 24
+distance: 895.4
+0 2 1 1 2 
+1 2 0 2 2 
+1 1 2 3 1 
+2 2 2 2 2 
+3 1 0 0 1 
+
+Truck(4): load 0
+Truck(4): unload 2
+Truck(1): load 17
+
+== Time: 237 ==
+failed_requests_count: 24
+distance: 899.3
+0 2 1 1 2 
+1 1 0 2 2 
+2 1 2 2 1 
+2 2 2 2 3 
+2 1 0 0 1 
+
+Truck(1): unload 22
+Truck(4): load 21
+Truck(4): unload 7
+
+== Time: 238 ==
+failed_requests_count: 24
+distance: 903.5
+1 2 1 1 2 
+1 2 0 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 1 0 0 0 
+
+
+== Time: 239 ==
+failed_requests_count: 25
+distance: 907.8
+1 2 1 1 2 
+2 2 0 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 1 0 0 0 
+
+
+== Time: 240 ==
+failed_requests_count: 25
+distance: 911.2
+1 2 1 2 2 
+2 2 0 3 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 0 0 0 
+
+Truck(0): load 18
+
+== Time: 241 ==
+failed_requests_count: 25
+distance: 915.3
+1 2 0 2 2 
+2 1 0 2 2 
+2 2 2 2 2 
+2 2 2 2 3 
+2 2 0 0 1 
+
+Truck(0): unload 8
+
+== Time: 242 ==
+failed_requests_count: 25
+distance: 918.9
+1 2 0 2 2 
+2 1 0 2 1 
+2 3 2 2 1 
+2 2 2 2 3 
+2 2 0 0 0 
+
+Truck(1): load 7
+
+== Time: 243 ==
+failed_requests_count: 25
+distance: 922.2
+1 2 1 2 2 
+2 2 1 3 1 
+2 2 2 2 1 
+2 2 1 2 4 
+1 3 1 0 0 
+
+Truck(2): load 5
+Truck(2): unload 10
+Truck(1): unload 13
+
+== Time: 244 ==
+failed_requests_count: 25
+distance: 926.0
+1 2 1 2 2 
+2 1 2 4 1 
+2 2 2 2 1 
+2 2 1 2 4 
+1 1 2 0 0 
+
+Truck(0): load 21
+Truck(0): load 21
+Truck(0): unload 20
+Truck(0): unload 20
+
+== Time: 245 ==
+failed_requests_count: 25
+distance: 930.2
+1 2 1 1 2 
+2 0 3 4 1 
+2 2 2 2 1 
+2 2 1 2 2 
+1 2 2 0 2 
+
+Truck(1): load 18
+Truck(1): load 18
+
+== Time: 246 ==
+failed_requests_count: 25
+distance: 934.1
+1 2 1 1 2 
+2 1 3 2 1 
+2 2 2 2 1 
+2 1 1 1 2 
+1 2 3 0 1 
+
+Truck(1): unload 23
+Truck(2): load 10
+Truck(0): load 13
+Truck(0): unload 8
+Truck(1): unload 22
+Truck(2): unload 11
+
+== Time: 247 ==
+failed_requests_count: 25
+distance: 938.0
+1 2 1 0 2 
+2 2 2 2 1 
+2 2 2 2 2 
+2 1 2 1 2 
+1 3 2 0 1 
+
+
+== Time: 248 ==
+failed_requests_count: 25
+distance: 941.6
+1 2 1 1 2 
+2 2 2 2 1 
+2 2 1 2 2 
+2 1 2 1 2 
+1 3 2 0 1 
+
+
+== Time: 249 ==
+failed_requests_count: 25
+distance: 945.8
+1 2 1 1 2 
+2 2 2 2 1 
+2 2 0 2 2 
+2 0 2 1 2 
+1 3 2 0 1 
+
+Truck(4): load 5
+Truck(4): unload 15
+
+== Time: 250 ==
+failed_requests_count: 26
+distance: 949.5
+1 2 1 1 2 
+2 4 2 2 1 
+2 2 0 1 2 
+2 0 2 1 2 
+1 2 2 1 1 
+
+Truck(0): load 8
+Truck(0): load 8
+Truck(0): unload 17
+Truck(0): unload 12
+
+== Time: 251 ==
+failed_requests_count: 27
+distance: 954.1
+1 3 1 1 1 
+2 2 2 2 1 
+2 2 1 2 2 
+2 0 2 1 2 
+1 2 2 1 1 
+
+Truck(0): load 9
+Truck(0): unload 14
+
+== Time: 252 ==
+failed_requests_count: 27
+distance: 958.3
+1 2 2 1 1 
+2 2 1 1 1 
+2 2 1 2 2 
+2 0 1 1 2 
+1 2 2 1 1 
+
+
+== Time: 253 ==
+failed_requests_count: 27
+distance: 962.8
+1 2 2 1 1 
+2 2 1 1 0 
+2 2 1 2 3 
+2 0 2 1 2 
+2 2 2 1 0 
+
+Truck(1): load 22
+Truck(1): unload 16
+
+== Time: 254 ==
+failed_requests_count: 27
+distance: 966.3
+2 2 2 1 0 
+2 2 1 1 0 
+2 2 1 2 2 
+3 0 3 2 2 
+2 2 2 1 0 
+
+
+== Time: 255 ==
+failed_requests_count: 27
+distance: 970.3
+2 2 3 1 0 
+2 2 1 1 0 
+2 2 1 2 2 
+3 0 3 2 2 
+1 2 2 1 0 
+
+Truck(2): load 14
+Truck(1): load 11
+Truck(1): unload 6
+Truck(1): load 1
+
+== Time: 256 ==
+failed_requests_count: 28
+distance: 974.2
+2 2 2 1 0 
+2 2 1 1 1 
+3 2 1 2 2 
+2 1 2 2 2 
+1 2 2 1 1 
+
+Truck(1): unload 6
+Truck(2): load 2
+Truck(2): unload 12
+
+== Time: 257 ==
+failed_requests_count: 28
+distance: 978.4
+3 2 2 1 0 
+2 3 1 1 1 
+2 2 2 2 2 
+2 2 2 2 2 
+1 2 2 1 0 
+
+Truck(0): load 4
+Truck(2): load 8
+Truck(2): unload 13
+Truck(2): unload 18
+
+== Time: 258 ==
+failed_requests_count: 28
+distance: 982.0
+2 2 2 1 0 
+2 2 2 2 1 
+2 2 2 2 2 
+1 2 2 2 2 
+1 2 2 1 0 
+
+
+== Time: 259 ==
+failed_requests_count: 29
+distance: 986.0
+2 2 2 1 0 
+2 2 2 2 1 
+2 2 2 2 2 
+1 2 2 2 2 
+1 2 1 1 0 
+
+Truck(0): unload 19
+
+== Time: 260 ==
+failed_requests_count: 29
+distance: 990.2
+2 2 2 1 0 
+2 2 2 2 2 
+2 2 2 2 2 
+1 2 2 2 2 
+1 2 1 1 0 
+
+
+== Time: 261 ==
+failed_requests_count: 29
+distance: 994.7
+2 2 2 0 0 
+2 2 2 2 2 
+2 2 2 2 2 
+1 2 2 2 2 
+1 2 1 1 0 
+
+
+== Time: 262 ==
+failed_requests_count: 29
+distance: 999.1
+2 3 2 0 0 
+2 2 2 2 2 
+2 2 2 2 2 
+1 2 2 3 1 
+2 2 1 1 0 
+
+Truck(3): load 16
+Truck(3): unload 24
+Truck(2): load 9
+
+== Time: 263 ==
+failed_requests_count: 29
+distance: 1003.0
+2 2 2 0 1 
+2 2 1 2 2 
+3 4 2 2 2 
+0 3 2 2 1 
+2 2 1 1 0 
+
+Truck(2): load 7
+Truck(2): load 7
+Truck(2): unload 13
+
+== Time: 264 ==
+failed_requests_count: 29
+distance: 1006.1
+2 2 2 0 1 
+2 3 2 2 2 
+3 2 2 2 2 
+0 3 2 2 2 
+2 3 1 1 0 
+
+Truck(4): load 8
+Truck(2): unload 19
+Truck(2): unload 19
+Truck(3): load 2
+
+== Time: 265 ==
+failed_requests_count: 30
+distance: 1009.7
+2 2 2 2 1 
+2 2 1 2 2 
+2 2 2 2 2 
+0 2 2 2 2 
+2 3 1 1 0 
+
+Truck(4): unload 15
+Truck(1): load 5
+
+== Time: 266 ==
+failed_requests_count: 30
+distance: 1013.4
+2 2 3 2 1 
+2 2 1 2 2 
+2 2 2 2 3 
+0 2 2 2 2 
+2 2 1 2 0 
+
+Truck(1): unload 10
+
+== Time: 267 ==
+failed_requests_count: 30
+distance: 1017.0
+2 2 3 2 1 
+3 2 1 1 2 
+2 2 2 2 3 
+0 2 2 2 1 
+2 2 2 2 0 
+
+Truck(3): unload 1
+Truck(1): load 22
+Truck(1): unload 21
+
+== Time: 268 ==
+failed_requests_count: 30
+distance: 1020.5
+2 2 3 2 1 
+3 2 1 1 2 
+2 2 2 2 2 
+1 2 2 2 2 
+1 2 2 2 0 
+
+
+== Time: 269 ==
+failed_requests_count: 30
+distance: 1024.6
+2 2 3 2 1 
+3 2 1 1 2 
+2 1 2 2 2 
+1 2 2 2 2 
+1 2 2 2 0 
+
+Truck(1): load 14
+Truck(4): load 3
+
+== Time: 270 ==
+failed_requests_count: 30
+distance: 1028.8
+2 2 3 2 0 
+2 1 2 1 2 
+1 1 2 2 2 
+1 2 1 4 2 
+1 2 2 3 0 
+
+Truck(0): load 16
+Truck(0): load 16
+Truck(1): unload 8
+Truck(0): load 15
+Truck(0): unload 20
+Truck(0): unload 20
+
+== Time: 271 ==
+failed_requests_count: 31
+distance: 1032.3
+2 2 3 2 0 
+2 2 1 1 2 
+1 1 2 2 2 
+2 1 1 2 2 
+1 2 2 2 2 
+
+Truck(4): load 14
+Truck(4): unload 18
+Truck(0): unload 11
+
+== Time: 272 ==
+failed_requests_count: 31
+distance: 1035.7
+2 1 2 2 0 
+2 2 1 2 2 
+0 1 2 2 2 
+2 1 1 2 2 
+1 2 2 2 2 
+
+Truck(4): unload 11
+
+== Time: 273 ==
+failed_requests_count: 31
+distance: 1039.0
+2 1 2 3 0 
+2 2 1 2 2 
+0 2 2 2 2 
+2 1 2 2 3 
+1 2 2 2 2 
+
+Truck(4): load 21
+Truck(2): load 19
+Truck(2): unload 13
+
+== Time: 274 ==
+failed_requests_count: 31
+distance: 1043.2
+3 1 2 2 0 
+2 2 2 2 2 
+0 2 2 2 2 
+2 1 2 2 2 
+1 2 2 2 2 
+
+Truck(1): load 4
+Truck(1): unload 9
+Truck(4): unload 24
+
+== Time: 275 ==
+failed_requests_count: 31
+distance: 1046.4
+2 2 1 2 1 
+2 1 2 2 2 
+0 2 2 2 2 
+2 1 2 2 2 
+1 2 2 2 2 
+
+
+== Time: 276 ==
+failed_requests_count: 31
+distance: 1050.3
+2 4 1 2 1 
+2 1 2 2 2 
+0 1 2 3 2 
+2 1 2 3 2 
+1 1 2 2 2 
+
+Truck(3): load 17
+Truck(0): load 16
+Truck(3): unload 24
+
+== Time: 277 ==
+failed_requests_count: 31
+distance: 1053.7
+2 5 1 2 2 
+2 1 2 2 1 
+1 1 2 2 2 
+1 1 2 2 2 
+1 1 2 2 2 
+
+Truck(0): unload 6
+Truck(3): load 9
+Truck(3): load 9
+Truck(2): load 9
+
+== Time: 278 ==
+failed_requests_count: 31
+distance: 1057.4
+2 0 1 2 2 
+2 1 2 2 1 
+1 1 2 2 2 
+2 2 2 2 3 
+1 1 2 2 2 
+
+Truck(2): unload 8
+Truck(3): unload 9
+Truck(3): unload 9
+
+== Time: 279 ==
+failed_requests_count: 31
+distance: 1061.5
+2 2 1 2 2 
+3 2 2 2 1 
+1 1 2 2 2 
+2 2 1 3 3 
+1 1 2 2 2 
+
+Truck(3): load 16
+
+== Time: 280 ==
+failed_requests_count: 31
+distance: 1065.9
+2 2 2 2 2 
+3 2 2 2 1 
+1 1 2 1 1 
+3 2 1 1 3 
+1 2 2 3 2 
+
+Truck(0): load 3
+Truck(3): unload 16
+Truck(3): load 21
+Truck(3): load 15
+
+== Time: 281 ==
+failed_requests_count: 31
+distance: 1069.3
+2 2 2 2 2 
+2 2 2 2 1 
+2 1 2 1 1 
+3 2 1 2 2 
+2 2 2 2 2 
+
+Truck(3): unload 22
+Truck(3): unload 23
+
+== Time: 282 ==
+failed_requests_count: 31
+distance: 1073.3
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 1 2 
+3 2 1 2 2 
+3 2 2 2 2 
+
+
+== Time: 283 ==
+failed_requests_count: 31
+distance: 1076.8
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 1 2 
+3 3 1 2 3 
+3 2 1 1 3 
+
+Truck(0): unload 11
+Truck(3): load 0
+Truck(4): load 6
+Truck(1): load 21
+Truck(3): unload 10
+Truck(4): load 1
+Truck(1): load 20
+
+== Time: 284 ==
+failed_requests_count: 31
+distance: 1080.5
+2 2 2 2 2 
+2 2 2 2 2 
+3 2 2 1 3 
+2 2 2 2 2 
+2 2 2 1 2 
+
+Truck(1): unload 15
+Truck(2): load 2
+
+== Time: 285 ==
+failed_requests_count: 31
+distance: 1084.2
+2 2 2 2 2 
+2 2 2 2 2 
+2 3 2 1 4 
+2 2 1 2 2 
+3 2 2 2 2 
+
+Truck(1): unload 11
+Truck(4): load 0
+Truck(4): load 7
+
+== Time: 286 ==
+failed_requests_count: 31
+distance: 1088.4
+2 2 1 2 2 
+2 2 2 2 2 
+1 2 2 2 4 
+2 2 3 2 2 
+2 2 2 2 2 
+
+Truck(2): unload 2
+Truck(4): load 11
+Truck(3): load 22
+Truck(3): load 22
+
+== Time: 287 ==
+failed_requests_count: 31
+distance: 1092.3
+0 2 1 2 2 
+1 1 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 0 2 2 2 
+
+Truck(3): unload 14
+Truck(3): unload 4
+
+== Time: 288 ==
+failed_requests_count: 31
+distance: 1096.5
+2 2 2 2 2 
+1 1 3 2 2 
+2 2 1 2 2 
+3 2 2 2 2 
+1 0 2 2 2 
+
+Truck(3): load 13
+
+== Time: 289 ==
+failed_requests_count: 31
+distance: 1099.6
+2 2 2 2 2 
+1 1 2 2 2 
+2 2 1 2 2 
+3 2 2 2 2 
+1 1 2 2 2 
+
+Truck(3): unload 8
+
+== Time: 290 ==
+failed_requests_count: 31
+distance: 1103.9
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 1 2 2 
+2 2 2 2 2 
+1 1 2 2 2 
+
+
+== Time: 291 ==
+failed_requests_count: 31
+distance: 1108.3
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 1 2 2 
+2 2 2 2 2 
+2 1 2 2 2 
+
+
+== Time: 292 ==
+failed_requests_count: 31
+distance: 1112.2
+1 2 2 2 2 
+2 2 2 2 2 
+2 2 1 2 2 
+2 2 2 2 2 
+2 1 2 2 2 
+
+Truck(4): unload 5
+
+== Time: 293 ==
+failed_requests_count: 31
+distance: 1116.3
+1 2 2 2 2 
+2 2 2 2 2 
+2 2 0 1 2 
+2 2 2 2 2 
+2 3 2 2 3 
+
+Truck(0): load 5
+Truck(4): unload 12
+Truck(4): unload 12
+
+== Time: 294 ==
+failed_requests_count: 31
+distance: 1120.0
+0 2 2 2 2 
+2 2 2 2 2 
+2 2 2 1 2 
+2 2 2 2 2 
+2 2 2 2 3 
+
+Truck(0): unload 4
+Truck(4): unload 4
+
+== Time: 295 ==
+failed_requests_count: 31
+distance: 1124.2
+2 2 1 2 2 
+2 2 3 2 2 
+2 2 2 1 2 
+2 2 2 3 2 
+2 2 2 2 3 
+
+Truck(4): unload 14
+Truck(0): load 16
+Truck(4): load 13
+Truck(0): unload 17
+
+== Time: 296 ==
+failed_requests_count: 31
+distance: 1128.2
+3 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 3 
+
+Truck(3): load 20
+
+== Time: 297 ==
+failed_requests_count: 31
+distance: 1132.0
+3 2 1 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+
+
+== Time: 298 ==
+failed_requests_count: 31
+distance: 1135.4
+3 2 1 2 3 
+2 2 1 2 2 
+2 2 2 2 2 
+2 0 2 2 1 
+2 2 2 2 2 
+
+Truck(0): load 24
+Truck(4): unload 13
+Truck(3): unload 14
+
+== Time: 299 ==
+failed_requests_count: 31
+distance: 1138.4
+3 2 2 2 1 
+2 2 2 2 2 
+2 2 2 3 2 
+2 0 2 3 1 
+2 1 2 2 2 
+
+Truck(0): load 17
+Truck(2): load 16
+Truck(2): unload 21
+
+== Time: 300 ==
+failed_requests_count: 31
+distance: 1142.4
+3 2 2 2 0 
+1 2 2 2 2 
+2 1 2 2 2 
+2 0 2 3 2 
+2 1 1 1 2 
+
+Truck(4): load 4
+Truck(0): unload 6
+Truck(0): unload 6
+Truck(4): unload 3
+
+== Time: 301 ==
+failed_requests_count: 31
+distance: 1146.0
+3 2 2 2 0 
+2 2 3 2 2 
+2 1 1 3 2 
+2 2 2 3 2 
+2 1 1 1 2 
+
+Truck(1): load 17
+Truck(3): load 13
+Truck(2): load 16
+Truck(2): unload 15
+
+== Time: 302 ==
+failed_requests_count: 31
+distance: 1150.2
+3 2 2 2 0 
+2 2 2 2 3 
+2 1 1 2 2 
+2 2 2 1 1 
+2 1 1 2 2 
+
+Truck(1): unload 24
+Truck(3): load 4
+Truck(1): load 23
+Truck(1): unload 16
+
+== Time: 303 ==
+failed_requests_count: 31
+distance: 1154.0
+2 2 2 2 1 
+2 1 2 0 2 
+3 2 1 2 1 
+2 2 3 2 0 
+2 1 1 2 3 
+
+Truck(1): load 20
+Truck(3): load 2
+Truck(2): load 11
+Truck(1): unload 10
+
+== Time: 304 ==
+failed_requests_count: 31
+distance: 1157.3
+2 2 2 2 1 
+2 1 2 0 1 
+2 2 1 2 1 
+2 2 2 2 0 
+2 2 2 2 2 
+
+Truck(3): unload 12
+Truck(2): unload 8
+
+== Time: 305 ==
+failed_requests_count: 31
+distance: 1161.7
+2 2 2 2 1 
+2 1 2 0 1 
+2 2 2 2 1 
+1 2 2 2 0 
+1 2 2 2 2 
+
+Truck(3): unload 22
+Truck(3): unload 18
+
+== Time: 306 ==
+failed_requests_count: 31
+distance: 1164.9
+3 2 2 2 2 
+2 1 2 1 1 
+2 2 2 2 3 
+1 2 3 1 0 
+1 2 2 2 2 
+
+Truck(1): load 4
+Truck(4): load 11
+Truck(1): unload 8
+Truck(4): unload 16
+
+== Time: 307 ==
+failed_requests_count: 31
+distance: 1168.6
+2 2 2 2 2 
+2 2 2 0 1 
+2 2 2 2 3 
+1 2 2 2 0 
+1 3 2 2 2 
+
+Truck(1): load 22
+
+== Time: 308 ==
+failed_requests_count: 31
+distance: 1172.4
+2 3 2 2 2 
+2 3 1 0 1 
+1 1 2 2 2 
+1 0 2 2 0 
+1 3 2 2 2 
+
+Truck(1): unload 7
+Truck(1): load 8
+Truck(1): load 9
+
+== Time: 309 ==
+failed_requests_count: 31
+distance: 1176.4
+2 2 1 2 2 
+2 2 1 0 1 
+1 2 2 2 1 
+1 0 2 2 0 
+1 3 2 2 2 
+
+Truck(1): unload 14
+Truck(1): unload 2
+
+== Time: 310 ==
+failed_requests_count: 31
+distance: 1180.7
+3 3 2 2 2 
+2 2 1 0 1 
+2 2 1 2 1 
+1 0 1 2 0 
+1 3 2 2 1 
+
+Truck(1): load 5
+Truck(2): load 9
+Truck(1): unload 0
+
+== Time: 311 ==
+failed_requests_count: 31
+distance: 1184.0
+3 2 2 2 2 
+3 2 0 0 1 
+3 2 0 2 1 
+1 0 1 2 0 
+2 2 2 2 1 
+
+Truck(2): load 4
+Truck(1): load 2
+
+== Time: 312 ==
+failed_requests_count: 33
+distance: 1187.4
+2 2 2 3 2 
+3 2 0 0 1 
+2 2 0 2 1 
+1 0 1 2 0 
+2 2 2 2 1 
+
+Truck(4): load 19
+Truck(2): unload 13
+Truck(2): unload 13
+Truck(1): unload 1
+Truck(4): unload 23
+
+== Time: 313 ==
+failed_requests_count: 33
+distance: 1190.6
+3 2 2 1 1 
+3 2 2 0 2 
+2 2 0 3 1 
+1 0 1 2 0 
+2 2 2 2 1 
+
+Truck(2): load 4
+Truck(1): load 3
+Truck(2): unload 12
+
+== Time: 314 ==
+failed_requests_count: 33
+distance: 1193.6
+1 2 3 0 1 
+2 2 3 0 1 
+2 2 1 3 1 
+1 1 0 2 0 
+2 2 2 2 1 
+
+Truck(2): load 17
+Truck(3): load 14
+Truck(2): unload 21
+Truck(3): unload 19
+Truck(1): load 13
+Truck(1): unload 19
+
+== Time: 315 ==
+failed_requests_count: 33
+distance: 1197.1
+0 2 1 2 1 
+2 1 2 0 1 
+2 2 1 1 1 
+2 1 0 2 2 
+2 2 2 2 1 
+
+Truck(1): unload 14
+
+== Time: 316 ==
+failed_requests_count: 33
+distance: 1201.3
+0 3 2 2 1 
+2 1 2 0 1 
+2 2 1 1 1 
+2 1 0 2 2 
+2 2 2 2 1 
+
+Truck(1): load 9
+Truck(1): unload 4
+
+== Time: 317 ==
+failed_requests_count: 33
+distance: 1205.3
+1 3 2 2 1 
+3 1 3 0 1 
+3 2 1 1 1 
+2 1 0 1 3 
+2 2 2 2 1 
+
+Truck(2): load 2
+Truck(0): load 21
+Truck(1): load 13
+Truck(4): load 9
+Truck(2): unload 6
+Truck(1): unload 18
+Truck(0): unload 20
+Truck(4): unload 8
+
+== Time: 318 ==
+failed_requests_count: 34
+distance: 1208.8
+1 2 2 2 1 
+3 2 2 1 1 
+2 2 1 0 1 
+2 2 0 0 2 
+2 2 2 2 2 
+
+Truck(2): load 3
+
+== Time: 319 ==
+failed_requests_count: 34
+distance: 1212.7
+1 2 2 2 1 
+2 2 2 1 1 
+2 2 1 1 1 
+2 2 0 0 2 
+2 2 2 2 3 
+
+Truck(0): load 20
+Truck(2): unload 4
+Truck(0): unload 22
+
+== Time: 320 ==
+failed_requests_count: 34
+distance: 1215.9
+2 3 2 2 1 
+2 2 1 1 1 
+2 2 1 1 2 
+2 2 0 0 3 
+2 2 2 2 2 
+
+Truck(2): load 9
+Truck(3): load 21
+Truck(3): unload 16
+
+== Time: 321 ==
+failed_requests_count: 35
+distance: 1219.8
+2 2 2 2 1 
+2 2 2 1 1 
+2 2 1 1 2 
+3 2 0 1 2 
+2 1 2 2 2 
+
+
+== Time: 322 ==
+failed_requests_count: 35
+distance: 1223.6
+2 2 2 2 1 
+2 2 2 1 1 
+2 2 1 1 2 
+3 2 0 1 5 
+2 1 2 2 2 
+
+Truck(1): load 21
+Truck(1): load 21
+Truck(1): load 21
+Truck(1): unload 16
+
+== Time: 323 ==
+failed_requests_count: 35
+distance: 1227.4
+0 2 2 2 1 
+2 2 2 0 1 
+2 2 1 1 2 
+3 2 0 2 2 
+2 1 1 2 2 
+
+Truck(1): unload 17
+Truck(1): unload 18
+
+== Time: 324 ==
+failed_requests_count: 35
+distance: 1231.6
+0 2 1 2 1 
+2 2 2 1 1 
+2 2 0 2 2 
+3 2 0 2 2 
+1 1 1 2 1 
+
+Truck(2): unload 4
+
+== Time: 325 ==
+failed_requests_count: 36
+distance: 1235.2
+1 1 1 2 1 
+3 1 2 1 1 
+2 2 0 2 2 
+3 2 0 2 2 
+1 1 1 2 1 
+
+Truck(2): load 3
+Truck(2): unload 4
+
+== Time: 326 ==
+failed_requests_count: 36
+distance: 1238.7
+2 1 2 2 1 
+2 1 2 1 1 
+2 3 0 2 2 
+3 2 1 2 2 
+2 1 0 2 1 
+
+
+== Time: 327 ==
+failed_requests_count: 37
+distance: 1242.3
+2 1 2 2 1 
+2 1 2 1 1 
+2 4 0 2 2 
+3 2 1 2 2 
+2 1 0 1 2 
+
+Truck(0): load 7
+Truck(2): load 1
+Truck(0): load 7
+
+== Time: 328 ==
+failed_requests_count: 37
+distance: 1245.8
+1 2 2 2 1 
+2 1 2 1 1 
+2 2 0 2 2 
+2 3 0 2 2 
+2 1 0 1 2 
+
+Truck(2): unload 8
+Truck(3): load 6
+Truck(3): unload 11
+Truck(0): unload 5
+Truck(0): unload 10
+
+== Time: 329 ==
+failed_requests_count: 38
+distance: 1249.0
+1 2 2 2 0 
+2 2 2 1 1 
+2 2 0 2 2 
+2 2 1 1 2 
+1 2 2 1 2 
+
+
+== Time: 330 ==
+failed_requests_count: 38
+distance: 1252.6
+1 2 2 3 0 
+2 2 2 1 1 
+2 2 0 2 2 
+2 2 1 1 2 
+1 2 2 1 2 
+
+
+== Time: 331 ==
+failed_requests_count: 38
+distance: 1257.0
+1 2 2 3 0 
+2 2 2 2 1 
+2 2 0 2 2 
+2 2 0 1 2 
+1 2 1 1 3 
+
+Truck(0): load 19
+Truck(0): unload 23
+
+== Time: 332 ==
+failed_requests_count: 38
+distance: 1260.8
+1 3 2 2 0 
+2 2 2 2 2 
+2 2 0 2 2 
+2 2 0 2 3 
+1 2 1 1 3 
+
+Truck(4): load 9
+Truck(4): unload 4
+
+== Time: 333 ==
+failed_requests_count: 38
+distance: 1264.7
+2 2 2 2 0 
+2 2 2 2 2 
+2 2 0 3 2 
+3 2 0 2 3 
+1 1 1 1 3 
+
+Truck(1): load 17
+Truck(1): load 21
+
+== Time: 334 ==
+failed_requests_count: 38
+distance: 1268.2
+2 2 2 2 0 
+2 2 2 2 2 
+2 2 1 2 2 
+3 2 0 2 3 
+0 1 1 1 3 
+
+Truck(1): unload 11
+Truck(1): unload 11
+Truck(2): load 1
+Truck(0): load 21
+Truck(2): unload 5
+
+== Time: 335 ==
+failed_requests_count: 38
+distance: 1271.5
+2 2 2 1 0 
+2 2 2 3 2 
+2 2 1 2 2 
+2 2 2 2 2 
+0 2 1 1 3 
+
+Truck(3): load 18
+Truck(0): unload 12
+Truck(3): unload 19
+Truck(4): load 20
+
+== Time: 336 ==
+failed_requests_count: 38
+distance: 1275.8
+2 2 1 2 0 
+2 2 2 2 2 
+2 1 1 2 2 
+2 2 2 2 2 
+0 2 1 0 2 
+
+
+== Time: 337 ==
+failed_requests_count: 38
+distance: 1280.1
+2 2 1 2 0 
+3 2 2 2 2 
+2 1 2 2 2 
+2 2 2 2 2 
+0 2 1 0 2 
+
+Truck(4): unload 24
+
+== Time: 338 ==
+failed_requests_count: 39
+distance: 1283.9
+1 2 1 2 1 
+3 2 2 2 2 
+2 1 2 2 2 
+2 2 2 1 2 
+0 2 1 0 2 
+
+
+== Time: 339 ==
+failed_requests_count: 39
+distance: 1288.1
+1 2 1 2 0 
+3 2 2 2 2 
+3 1 2 2 2 
+2 2 2 1 2 
+0 2 2 0 2 
+
+Truck(4): load 3
+Truck(3): load 2
+Truck(4): unload 7
+
+== Time: 340 ==
+failed_requests_count: 39
+distance: 1291.5
+1 2 1 2 0 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 1 2 
+0 2 2 1 1 
+
+Truck(3): unload 15
+
+== Time: 341 ==
+failed_requests_count: 39
+distance: 1295.4
+2 2 1 2 0 
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 2 1 2 
+0 2 2 2 1 
+
+
+== Time: 342 ==
+failed_requests_count: 39
+distance: 1299.2
+2 2 1 2 1 
+2 1 3 2 1 
+2 2 2 2 2 
+3 1 1 1 2 
+0 2 2 2 0 
+
+
+== Time: 343 ==
+failed_requests_count: 40
+distance: 1303.3
+2 2 1 2 1 
+2 1 3 2 1 
+2 2 2 2 2 
+3 1 1 1 2 
+0 2 2 2 0 
+
+Truck(3): load 13
+Truck(1): load 1
+Truck(3): unload 23
+Truck(1): unload 0
+
+== Time: 344 ==
+failed_requests_count: 41
+distance: 1307.2
+2 2 1 2 1 
+2 1 3 2 1 
+2 2 2 1 2 
+3 2 1 1 2 
+1 2 2 1 0 
+
+Truck(1): load 1
+Truck(3): load 13
+Truck(1): unload 8
+
+== Time: 345 ==
+failed_requests_count: 41
+distance: 1311.2
+2 2 1 2 1 
+2 2 2 2 1 
+1 2 2 1 2 
+2 2 1 1 2 
+1 2 2 1 0 
+
+
+== Time: 346 ==
+failed_requests_count: 41
+distance: 1315.6
+2 2 1 2 1 
+2 2 2 2 1 
+1 2 2 1 2 
+2 2 1 1 2 
+1 3 3 1 0 
+
+Truck(3): unload 11
+Truck(4): load 5
+
+== Time: 347 ==
+failed_requests_count: 41
+distance: 1320.0
+2 2 1 2 1 
+2 2 2 1 1 
+1 2 2 1 2 
+3 2 2 1 2 
+1 2 3 1 0 
+
+Truck(4): load 1
+Truck(4): unload 2
+
+== Time: 348 ==
+failed_requests_count: 41
+distance: 1323.9
+2 2 1 2 1 
+2 2 2 1 0 
+2 2 3 1 2 
+1 2 2 1 1 
+1 2 3 1 0 
+
+Truck(1): load 10
+Truck(1): load 12
+Truck(4): unload 1
+
+== Time: 349 ==
+failed_requests_count: 41
+distance: 1328.3
+2 1 1 2 1 
+1 2 2 1 0 
+2 2 2 1 2 
+3 2 2 1 1 
+1 2 2 0 0 
+
+Truck(1): unload 0
+Truck(1): load 1
+
+== Time: 350 ==
+failed_requests_count: 41
+distance: 1332.0
+2 1 1 2 1 
+2 2 2 1 0 
+1 2 2 1 2 
+2 2 2 1 1 
+2 2 2 0 0 
+
+Truck(1): unload 2
+
+== Time: 351 ==
+failed_requests_count: 41
+distance: 1335.4
+2 1 1 2 1 
+2 2 2 1 0 
+3 2 2 1 2 
+2 2 2 1 1 
+2 2 2 0 0 
+
+Truck(1): unload 9
+Truck(4): load 2
+
+== Time: 352 ==
+failed_requests_count: 41
+distance: 1338.9
+2 2 1 2 1 
+2 2 2 1 1 
+2 2 2 1 2 
+2 2 2 1 1 
+2 2 2 0 0 
+
+
+== Time: 353 ==
+failed_requests_count: 41
+distance: 1342.7
+3 2 1 2 1 
+3 1 2 1 1 
+2 2 2 1 2 
+3 2 1 1 1 
+1 2 2 0 0 
+
+Truck(0): load 4
+Truck(3): load 1
+Truck(4): load 3
+Truck(3): unload 0
+Truck(0): unload 8
+
+== Time: 354 ==
+failed_requests_count: 41
+distance: 1345.9
+2 2 1 1 1 
+2 2 3 2 1 
+2 2 2 1 2 
+2 2 1 1 1 
+2 2 2 0 0 
+
+Truck(1): load 13
+Truck(1): unload 23
+
+== Time: 355 ==
+failed_requests_count: 41
+distance: 1349.9
+2 2 1 0 1 
+2 2 2 2 2 
+2 3 2 1 2 
+3 2 1 1 2 
+2 2 2 0 0 
+
+Truck(4): load 7
+Truck(0): load 1
+
+== Time: 356 ==
+failed_requests_count: 42
+distance: 1353.8
+2 2 0 0 1 
+2 3 3 1 2 
+2 2 1 1 2 
+2 2 1 1 2 
+2 2 2 0 0 
+
+Truck(0): load 8
+Truck(0): load 13
+Truck(0): unload 18
+
+== Time: 357 ==
+failed_requests_count: 43
+distance: 1357.4
+2 2 0 0 2 
+2 2 2 2 2 
+2 2 1 1 2 
+2 1 1 0 2 
+2 2 2 0 0 
+
+Truck(0): unload 17
+Truck(4): unload 11
+Truck(0): unload 12
+
+== Time: 358 ==
+failed_requests_count: 43
+distance: 1361.8
+3 2 0 0 2 
+2 2 2 2 2 
+2 1 2 2 2 
+2 1 1 0 2 
+2 2 2 0 0 
+
+Truck(4): unload 6
+Truck(4): unload 7
+
+== Time: 359 ==
+failed_requests_count: 43
+distance: 1365.2
+3 3 0 0 2 
+2 2 2 2 2 
+2 3 2 2 2 
+2 2 1 0 2 
+1 1 3 0 0 
+
+Truck(4): load 4
+Truck(4): load 9
+
+== Time: 360 ==
+failed_requests_count: 44
+distance: 1368.5
+2 2 0 0 2 
+3 2 2 2 3 
+2 4 1 2 2 
+2 2 1 0 2 
+1 1 3 0 0 
+
+Truck(2): load 7
+Truck(2): load 7
+Truck(3): load 10
+Truck(2): load 3
+Truck(3): unload 11
+Truck(0): load 23
+
+== Time: 361 ==
+failed_requests_count: 44
+distance: 1371.4
+2 2 1 0 2 
+1 2 2 2 2 
+2 1 1 3 2 
+2 2 2 0 2 
+1 1 2 0 1 
+
+Truck(4): unload 3
+Truck(2): unload 0
+Truck(0): unload 19
+
+== Time: 362 ==
+failed_requests_count: 45
+distance: 1375.0
+2 1 1 1 2 
+2 2 2 1 2 
+2 1 1 4 2 
+2 2 2 0 2 
+2 1 2 0 0 
+
+Truck(2): unload 5
+
+== Time: 363 ==
+failed_requests_count: 45
+distance: 1377.6
+2 1 1 1 2 
+1 2 2 1 2 
+3 1 1 4 2 
+2 2 3 1 2 
+2 2 2 1 0 
+
+Truck(2): load 2
+Truck(2): unload 7
+Truck(3): load 11
+Truck(0): load 17
+Truck(0): load 17
+Truck(4): unload 20
+
+== Time: 364 ==
+failed_requests_count: 45
+distance: 1381.1
+2 1 2 1 2 
+1 2 2 0 2 
+2 2 1 2 2 
+1 2 2 1 2 
+1 2 2 1 1 
+
+Truck(0): unload 16
+Truck(3): unload 12
+Truck(0): unload 15
+Truck(2): unload 0
+
+== Time: 365 ==
+failed_requests_count: 45
+distance: 1384.7
+2 1 2 1 1 
+1 2 3 0 2 
+2 2 1 2 2 
+1 2 2 2 2 
+2 2 2 2 1 
+
+
+== Time: 366 ==
+failed_requests_count: 45
+distance: 1388.9
+3 1 2 1 1 
+1 2 3 0 2 
+2 2 1 2 2 
+1 2 2 2 2 
+2 2 2 3 1 
+
+Truck(3): load 15
+Truck(3): unload 12
+Truck(3): load 13
+
+== Time: 367 ==
+failed_requests_count: 45
+distance: 1392.6
+3 0 2 1 1 
+1 2 2 0 2 
+2 2 2 2 2 
+1 2 2 2 2 
+2 3 2 2 1 
+
+Truck(3): unload 18
+Truck(4): load 5
+Truck(4): unload 1
+
+== Time: 368 ==
+failed_requests_count: 45
+distance: 1395.9
+3 0 2 1 1 
+1 2 2 1 2 
+2 2 2 2 2 
+1 2 2 2 1 
+2 2 2 2 1 
+
+Truck(4): load 4
+
+== Time: 369 ==
+failed_requests_count: 45
+distance: 1399.9
+2 0 2 2 1 
+1 2 2 1 2 
+2 1 2 2 2 
+2 2 2 1 1 
+3 2 2 2 1 
+
+Truck(4): unload 9
+
+== Time: 370 ==
+failed_requests_count: 45
+distance: 1403.1
+2 1 2 2 2 
+1 2 2 1 2 
+2 1 2 2 2 
+2 2 2 1 1 
+2 2 2 2 1 
+
+
+== Time: 371 ==
+failed_requests_count: 45
+distance: 1406.9
+2 2 3 3 2 
+1 2 2 1 2 
+3 1 2 2 2 
+2 2 2 1 1 
+2 2 2 2 1 
+
+Truck(0): load 14
+Truck(3): load 2
+Truck(0): load 19
+Truck(3): unload 3
+Truck(0): unload 18
+
+== Time: 372 ==
+failed_requests_count: 45
+distance: 1410.7
+2 1 2 2 2 
+1 2 2 1 2 
+2 1 2 2 2 
+2 2 2 1 1 
+3 3 2 2 1 
+
+Truck(4): load 5
+Truck(0): unload 18
+Truck(4): load 0
+
+== Time: 373 ==
+failed_requests_count: 45
+distance: 1414.5
+2 1 2 2 2 
+1 2 3 2 2 
+2 0 3 2 2 
+2 2 2 1 1 
+2 1 2 2 1 
+
+Truck(4): unload 7
+Truck(1): load 13
+Truck(4): unload 7
+Truck(4): load 12
+
+== Time: 374 ==
+failed_requests_count: 45
+distance: 1418.5
+2 1 2 2 2 
+1 3 1 2 2 
+2 2 2 2 2 
+2 2 2 1 1 
+2 1 2 2 1 
+
+Truck(0): load 8
+Truck(0): unload 13
+Truck(1): unload 5
+
+== Time: 375 ==
+failed_requests_count: 45
+distance: 1422.7
+2 1 2 2 2 
+1 2 2 2 2 
+2 2 2 1 2 
+2 2 2 1 1 
+0 2 2 2 1 
+
+Truck(4): unload 3
+
+== Time: 376 ==
+failed_requests_count: 45
+distance: 1426.5
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 2 0 1 
+2 2 2 1 1 
+0 2 2 2 1 
+
+
+== Time: 377 ==
+failed_requests_count: 45
+distance: 1430.1
+2 1 2 2 2 
+2 2 2 2 2 
+3 2 2 0 1 
+2 2 3 1 1 
+0 2 1 3 1 
+
+Truck(3): load 11
+Truck(3): unload 16
+Truck(4): load 15
+Truck(0): load 2
+Truck(4): unload 20
+
+== Time: 378 ==
+failed_requests_count: 45
+distance: 1433.5
+3 1 2 2 2 
+2 2 2 2 2 
+2 2 1 0 1 
+2 1 2 2 1 
+0 2 1 2 2 
+
+Truck(0): unload 0
+
+== Time: 379 ==
+failed_requests_count: 45
+distance: 1437.3
+3 0 2 2 2 
+2 3 2 2 2 
+2 2 1 0 1 
+2 1 2 3 1 
+1 2 1 2 2 
+
+Truck(4): load 4
+Truck(4): load 8
+
+== Time: 380 ==
+failed_requests_count: 45
+distance: 1440.9
+2 0 2 2 2 
+2 2 2 2 1 
+2 2 1 0 1 
+2 1 3 3 1 
+2 2 1 2 2 
+
+Truck(2): load 11
+Truck(3): load 16
+Truck(2): unload 6
+Truck(4): unload 9
+Truck(3): unload 21
+Truck(4): unload 9
+
+== Time: 381 ==
+failed_requests_count: 45
+distance: 1444.3
+3 2 2 3 2 
+2 2 2 2 1 
+2 1 1 0 1 
+2 2 2 2 2 
+1 2 1 2 2 
+
+Truck(1): load 19
+Truck(1): unload 12
+
+== Time: 382 ==
+failed_requests_count: 45
+distance: 1448.5
+3 2 2 3 3 
+2 2 2 3 1 
+1 1 2 0 1 
+2 2 2 2 2 
+1 1 2 2 2 
+
+Truck(2): load 18
+Truck(2): unload 17
+
+== Time: 383 ==
+failed_requests_count: 45
+distance: 1453.1
+3 2 2 3 3 
+2 2 2 2 1 
+1 1 2 1 1 
+2 3 2 2 2 
+1 1 2 2 2 
+
+Truck(1): load 19
+Truck(1): load 4
+Truck(3): load 6
+
+== Time: 384 ==
+failed_requests_count: 45
+distance: 1457.4
+2 2 1 3 3 
+2 2 2 1 1 
+1 1 2 1 1 
+2 2 2 2 2 
+1 1 2 2 1 
+
+Truck(3): unload 7
+Truck(1): unload 18
+Truck(1): unload 23
+
+== Time: 385 ==
+failed_requests_count: 45
+distance: 1461.5
+2 2 2 3 3 
+2 2 3 2 2 
+1 2 2 1 1 
+2 2 2 2 2 
+1 2 2 2 1 
+
+
+== Time: 386 ==
+failed_requests_count: 45
+distance: 1465.9
+2 2 2 4 3 
+2 2 3 2 2 
+1 2 2 1 1 
+1 2 2 2 1 
+0 2 2 2 1 
+
+Truck(3): load 24
+Truck(3): load 19
+Truck(3): load 19
+
+== Time: 387 ==
+failed_requests_count: 45
+distance: 1469.5
+2 2 2 2 2 
+2 2 3 2 2 
+1 2 2 1 1 
+0 2 3 3 1 
+0 2 2 2 1 
+
+Truck(4): load 16
+Truck(4): unload 17
+Truck(1): load 11
+Truck(0): load 13
+Truck(1): unload 21
+
+== Time: 388 ==
+failed_requests_count: 45
+distance: 1472.9
+2 2 2 2 2 
+2 2 2 2 2 
+1 2 2 2 1 
+0 2 3 2 2 
+0 2 2 2 1 
+
+Truck(3): unload 22
+Truck(4): load 11
+Truck(4): unload 20
+
+== Time: 389 ==
+failed_requests_count: 45
+distance: 1476.9
+2 2 3 2 2 
+2 3 2 2 2 
+1 2 2 2 1 
+0 2 2 3 2 
+0 2 2 2 2 
+
+Truck(0): load 8
+Truck(4): load 16
+Truck(0): load 14
+Truck(3): unload 0
+Truck(3): unload 0
+
+== Time: 390 ==
+failed_requests_count: 45
+distance: 1480.8
+2 2 2 2 1 
+2 2 2 2 2 
+1 2 2 2 1 
+0 1 2 2 2 
+2 1 2 2 2 
+
+Truck(0): unload 2
+
+== Time: 391 ==
+failed_requests_count: 45
+distance: 1484.3
+2 2 2 2 1 
+2 2 2 2 2 
+2 2 2 2 1 
+0 1 2 2 2 
+2 1 2 2 2 
+
+Truck(0): unload 1
+Truck(0): unload 1
+
+== Time: 392 ==
+failed_requests_count: 45
+distance: 1488.5
+2 2 2 2 1 
+2 2 2 2 2 
+2 2 2 2 1 
+2 1 2 2 2 
+2 1 3 2 2 
+
+
+== Time: 393 ==
+failed_requests_count: 45
+distance: 1492.5
+3 2 2 2 1 
+2 2 2 2 2 
+2 2 2 2 1 
+2 1 2 2 3 
+2 1 3 2 2 
+
+Truck(4): load 10
+Truck(4): unload 6
+Truck(1): load 21
+
+== Time: 394 ==
+failed_requests_count: 45
+distance: 1496.3
+3 2 2 2 1 
+2 3 4 2 1 
+2 2 2 2 1 
+2 2 2 2 2 
+2 1 2 2 2 
+
+Truck(2): load 4
+Truck(1): unload 22
+Truck(3): load 13
+Truck(3): load 13
+Truck(3): load 8
+Truck(4): unload 5
+
+== Time: 395 ==
+failed_requests_count: 45
+distance: 1499.8
+2 2 2 2 1 
+2 2 2 1 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+
+
+== Time: 396 ==
+failed_requests_count: 45
+distance: 1503.8
+2 2 2 3 1 
+2 2 2 1 2 
+2 2 2 2 1 
+2 2 1 2 2 
+2 2 3 2 2 
+
+Truck(2): unload 11
+
+== Time: 397 ==
+failed_requests_count: 45
+distance: 1507.9
+2 2 2 3 1 
+2 2 2 1 2 
+2 1 2 2 1 
+2 1 2 2 2 
+2 2 3 2 3 
+
+Truck(3): unload 18
+Truck(2): load 19
+Truck(3): unload 24
+Truck(0): load 10
+
+== Time: 398 ==
+failed_requests_count: 45
+distance: 1511.8
+2 2 1 2 2 
+2 2 2 2 2 
+1 1 2 2 1 
+2 1 2 2 2 
+2 2 2 2 3 
+
+Truck(3): unload 14
+Truck(0): unload 6
+Truck(2): unload 2
+
+== Time: 399 ==
+failed_requests_count: 45
+distance: 1516.0
+2 2 2 2 3 
+2 3 2 2 2 
+2 1 1 2 1 
+2 2 2 2 2 
+2 2 2 2 3 
+
+Truck(3): load 20
+Truck(1): load 8
+Truck(3): unload 22
+
+== Time: 400 ==
+failed_requests_count: 45
+distance: 1520.1
+2 2 2 2 3 
+2 2 2 2 2 
+2 0 1 2 2 
+2 2 2 2 2 
+1 2 2 2 2 
+
+
+== Time: 401 ==
+failed_requests_count: 45
+distance: 1523.8
+1 2 2 2 3 
+2 3 2 2 2 
+2 0 1 2 2 
+1 2 2 2 2 
+1 2 2 2 2 
+
+Truck(1): load 8
+Truck(1): unload 12
+
+== Time: 402 ==
+failed_requests_count: 45
+distance: 1528.4
+0 2 2 2 3 
+2 2 2 2 2 
+3 1 2 2 2 
+2 2 2 3 2 
+1 2 2 2 2 
+
+Truck(0): load 24
+Truck(3): load 2
+Truck(2): load 16
+Truck(3): unload 7
+
+== Time: 403 ==
+failed_requests_count: 45
+distance: 1532.6
+0 2 2 2 2 
+3 2 2 2 2 
+2 3 2 2 2 
+2 2 2 2 2 
+1 2 2 1 1 
+
+Truck(2): unload 20
+Truck(1): unload 15
+Truck(3): load 3
+
+== Time: 404 ==
+failed_requests_count: 45
+distance: 1536.3
+0 2 2 1 3 
+2 2 3 2 3 
+2 3 2 2 2 
+2 1 2 2 2 
+1 2 3 2 2 
+
+Truck(0): unload 19
+Truck(3): unload 4
+Truck(4): load 23
+Truck(2): load 10
+Truck(2): unload 6
+Truck(0): load 13
+Truck(2): load 7
+
+== Time: 405 ==
+failed_requests_count: 45
+distance: 1539.6
+1 2 2 2 3 
+2 2 2 2 2 
+2 3 2 2 2 
+2 2 2 2 2 
+1 1 2 2 2 
+
+Truck(4): load 7
+Truck(2): unload 0
+Truck(4): unload 5
+
+== Time: 406 ==
+failed_requests_count: 45
+distance: 1543.5
+1 2 3 2 3 
+2 2 1 1 2 
+2 2 3 2 2 
+2 2 2 2 2 
+3 2 2 2 1 
+
+Truck(4): load 0
+Truck(3): load 12
+Truck(3): unload 13
+
+== Time: 407 ==
+failed_requests_count: 45
+distance: 1547.0
+1 2 3 3 3 
+2 2 2 1 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 1 
+
+Truck(3): load 14
+
+== Time: 408 ==
+failed_requests_count: 45
+distance: 1551.3
+0 2 3 3 3 
+1 2 1 1 2 
+1 2 2 2 3 
+3 2 2 2 2 
+2 2 2 2 1 
+
+Truck(2): load 14
+Truck(3): unload 3
+Truck(0): load 22
+Truck(2): load 19
+Truck(2): unload 18
+Truck(3): load 1
+Truck(4): unload 13
+
+== Time: 409 ==
+failed_requests_count: 45
+distance: 1554.8
+1 1 0 2 3 
+2 2 2 2 2 
+1 1 2 3 2 
+2 2 2 2 2 
+2 2 2 2 1 
+
+Truck(2): unload 7
+Truck(1): load 24
+
+== Time: 410 ==
+failed_requests_count: 46
+distance: 1558.8
+1 1 0 2 2 
+2 2 2 2 2 
+1 2 2 3 4 
+2 1 2 2 2 
+1 2 2 2 2 
+
+Truck(1): unload 14
+Truck(3): unload 0
+Truck(0): unload 6
+Truck(2): load 17
+
+== Time: 411 ==
+failed_requests_count: 46
+distance: 1561.8
+1 1 1 1 2 
+2 2 2 3 2 
+1 2 2 2 4 
+2 1 2 3 2 
+2 2 2 2 2 
+
+Truck(2): load 16
+Truck(0): unload 6
+
+== Time: 412 ==
+failed_requests_count: 46
+distance: 1565.9
+1 1 1 2 3 
+2 2 2 3 2 
+1 2 3 1 5 
+2 2 2 2 2 
+2 2 2 2 2 
+
+
+== Time: 413 ==
+failed_requests_count: 46
+distance: 1569.4
+1 1 1 2 3 
+2 2 2 3 2 
+1 2 3 2 5 
+2 2 2 2 2 
+2 2 2 2 2 
+
+Truck(4): unload 2
+Truck(3): load 12
+
+== Time: 414 ==
+failed_requests_count: 46
+distance: 1573.7
+1 1 1 3 3 
+2 2 2 3 2 
+2 2 2 2 5 
+2 2 2 2 2 
+2 2 2 2 2 
+
+Truck(1): load 18
+Truck(1): load 22
+Truck(1): load 22
+Truck(1): load 22
+
+== Time: 415 ==
+failed_requests_count: 46
+distance: 1577.3
+1 1 1 3 2 
+2 2 2 2 2 
+2 2 2 3 2 
+2 2 1 2 1 
+2 2 2 2 2 
+
+Truck(2): unload 11
+Truck(1): load 17
+Truck(1): load 19
+
+== Time: 416 ==
+failed_requests_count: 46
+distance: 1580.8
+1 1 1 2 2 
+2 2 2 2 2 
+2 2 2 1 2 
+1 2 2 2 0 
+2 2 2 2 1 
+
+Truck(1): unload 14
+Truck(3): unload 17
+Truck(1): unload 1
+
+== Time: 417 ==
+failed_requests_count: 46
+distance: 1584.1
+1 1 2 2 2 
+2 3 2 2 2 
+2 2 2 2 2 
+2 2 1 2 0 
+2 3 2 2 1 
+
+Truck(4): load 8
+Truck(1): unload 4
+Truck(4): unload 9
+Truck(0): load 5
+
+== Time: 418 ==
+failed_requests_count: 46
+distance: 1587.4
+2 2 3 2 2 
+2 2 2 2 2 
+3 2 2 2 2 
+2 1 1 2 0 
+2 2 2 2 1 
+
+Truck(1): load 2
+Truck(2): unload 6
+Truck(4): load 14
+
+== Time: 419 ==
+failed_requests_count: 46
+distance: 1591.0
+2 2 2 2 2 
+1 2 3 2 2 
+2 2 2 2 2 
+2 2 1 2 0 
+2 2 2 2 1 
+
+Truck(1): load 13
+
+== Time: 420 ==
+failed_requests_count: 46
+distance: 1594.9
+2 2 2 2 1 
+1 3 2 2 2 
+2 2 2 2 2 
+2 2 1 2 0 
+2 2 2 2 1 
+
+Truck(1): unload 24
+Truck(0): unload 11
+Truck(4): unload 21
+Truck(1): unload 21
+
+== Time: 421 ==
+failed_requests_count: 46
+distance: 1598.6
+2 2 2 2 2 
+1 3 2 2 2 
+2 2 2 2 2 
+2 2 2 3 2 
+2 2 2 2 1 
+
+Truck(1): load 16
+
+== Time: 422 ==
+failed_requests_count: 46
+distance: 1602.8
+2 2 2 3 2 
+1 3 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+1 2 2 2 1 
+
+Truck(1): load 8
+Truck(1): unload 3
+Truck(4): load 19
+
+== Time: 423 ==
+failed_requests_count: 46
+distance: 1606.8
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+3 2 3 2 2 
+1 2 1 2 1 
+
+Truck(0): load 1
+Truck(0): unload 0
+Truck(2): load 11
+
+== Time: 424 ==
+failed_requests_count: 46
+distance: 1610.2
+2 2 2 2 2 
+3 2 2 3 2 
+2 2 1 2 2 
+2 2 2 2 2 
+2 2 1 2 1 
+
+Truck(2): unload 10
+Truck(4): load 18
+Truck(0): load 3
+
+== Time: 425 ==
+failed_requests_count: 46
+distance: 1613.9
+1 2 1 2 2 
+2 1 2 2 2 
+2 2 1 2 2 
+2 2 2 2 2 
+1 2 2 2 1 
+
+Truck(4): unload 4
+
+== Time: 426 ==
+failed_requests_count: 46
+distance: 1617.7
+2 2 1 2 2 
+2 1 2 2 2 
+2 3 1 1 1 
+3 2 2 2 2 
+1 2 2 2 1 
+
+Truck(3): load 7
+Truck(3): unload 12
+Truck(4): unload 8
+
+== Time: 427 ==
+failed_requests_count: 46
+distance: 1621.3
+2 2 1 2 2 
+3 1 3 3 2 
+2 2 2 1 1 
+3 2 1 2 2 
+1 2 2 2 1 
+
+Truck(0): load 13
+Truck(2): load 18
+Truck(0): unload 14
+Truck(0): unload 8
+Truck(2): unload 17
+
+== Time: 428 ==
+failed_requests_count: 46
+distance: 1625.4
+2 2 2 2 2 
+3 2 2 2 2 
+2 2 2 3 1 
+3 2 1 2 2 
+1 2 2 2 0 
+
+Truck(3): load 17
+Truck(1): unload 22
+Truck(3): unload 20
+
+== Time: 429 ==
+failed_requests_count: 47
+distance: 1629.3
+2 2 2 2 2 
+3 2 2 2 2 
+2 2 2 1 2 
+3 2 1 2 2 
+1 2 3 2 1 
+
+Truck(4): load 1
+
+== Time: 430 ==
+failed_requests_count: 47
+distance: 1633.4
+1 2 3 2 2 
+3 2 1 1 2 
+2 2 2 1 2 
+2 2 1 2 1 
+1 2 3 2 1 
+
+Truck(1): load 14
+Truck(1): unload 4
+Truck(2): load 10
+
+== Time: 431 ==
+failed_requests_count: 47
+distance: 1637.2
+2 2 0 2 2 
+3 2 1 1 2 
+2 2 2 1 1 
+2 2 0 2 1 
+1 2 2 2 1 
+
+Truck(1): load 3
+Truck(4): unload 0
+Truck(2): unload 17
+
+== Time: 432 ==
+failed_requests_count: 47
+distance: 1640.6
+2 2 0 2 2 
+2 2 1 1 3 
+2 2 2 2 1 
+2 2 0 2 1 
+2 2 2 2 1 
+
+Truck(0): load 23
+
+== Time: 433 ==
+failed_requests_count: 47
+distance: 1644.2
+2 3 0 2 2 
+2 2 1 1 2 
+2 1 2 2 1 
+2 2 0 2 1 
+2 3 2 2 1 
+
+Truck(1): unload 11
+Truck(1): unload 11
+Truck(0): unload 14
+
+== Time: 434 ==
+failed_requests_count: 47
+distance: 1647.8
+2 3 1 2 2 
+2 3 0 1 2 
+2 1 2 2 1 
+2 2 2 2 1 
+2 3 1 3 1 
+
+Truck(4): load 5
+Truck(4): load 15
+
+== Time: 435 ==
+failed_requests_count: 47
+distance: 1650.9
+2 2 0 2 1 
+2 4 0 0 2 
+2 3 1 2 1 
+2 2 2 2 1 
+2 1 2 2 1 
+
+Truck(2): load 8
+Truck(1): load 7
+Truck(2): load 8
+Truck(1): unload 12
+Truck(1): unload 13
+Truck(1): unload 13
+
+== Time: 436 ==
+failed_requests_count: 47
+distance: 1654.7
+2 2 0 2 2 
+2 2 2 0 2 
+2 2 2 3 1 
+2 2 2 2 1 
+2 1 2 2 1 
+
+Truck(3): load 17
+Truck(3): unload 14
+Truck(4): unload 22
+
+== Time: 437 ==
+failed_requests_count: 47
+distance: 1658.9
+2 3 1 2 2 
+2 2 2 1 2 
+2 2 2 3 2 
+2 2 2 2 1 
+2 1 2 2 1 
+
+Truck(4): load 17
+Truck(1): load 9
+Truck(4): unload 14
+Truck(2): unload 5
+
+== Time: 438 ==
+failed_requests_count: 47
+distance: 1663.0
+2 2 1 2 2 
+2 2 2 1 2 
+2 2 2 2 2 
+2 2 2 2 1 
+2 2 2 2 1 
+
+Truck(2): unload 14
+
+== Time: 439 ==
+failed_requests_count: 47
+distance: 1667.2
+2 2 2 2 3 
+2 2 2 2 2 
+3 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 1 
+
+Truck(0): load 24
+Truck(1): load 2
+Truck(0): unload 20
+
+== Time: 440 ==
+failed_requests_count: 47
+distance: 1671.0
+2 2 2 2 2 
+2 1 1 3 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 1 2 2 2 
+
+Truck(4): unload 13
+
+== Time: 441 ==
+failed_requests_count: 47
+distance: 1675.2
+2 2 2 2 2 
+2 1 2 3 2 
+2 1 2 2 2 
+2 2 1 2 2 
+3 2 2 2 2 
+
+Truck(0): load 0
+Truck(1): unload 11
+Truck(4): load 18
+
+== Time: 442 ==
+failed_requests_count: 47
+distance: 1678.8
+2 2 2 2 2 
+2 1 1 2 2 
+2 1 2 2 2 
+2 2 2 2 2 
+2 2 1 1 2 
+
+Truck(0): unload 13
+
+== Time: 443 ==
+failed_requests_count: 47
+distance: 1682.6
+2 2 2 3 2 
+2 1 2 2 2 
+2 1 1 2 2 
+2 2 2 2 3 
+2 2 1 1 2 
+
+Truck(2): load 21
+Truck(4): unload 8
+
+== Time: 444 ==
+failed_requests_count: 47
+distance: 1686.3
+2 1 2 3 2 
+2 2 2 2 1 
+2 1 1 2 2 
+2 2 2 2 2 
+2 3 1 1 2 
+
+Truck(1): unload 15
+Truck(3): load 5
+Truck(2): unload 10
+Truck(4): load 19
+Truck(4): unload 23
+
+== Time: 445 ==
+failed_requests_count: 47
+distance: 1690.0
+2 2 2 2 1 
+2 2 2 2 3 
+1 1 0 3 2 
+2 2 2 2 2 
+2 2 2 1 2 
+
+Truck(1): load 17
+Truck(3): unload 15
+
+== Time: 446 ==
+failed_requests_count: 47
+distance: 1693.7
+3 2 2 2 1 
+2 2 2 2 3 
+1 2 0 2 1 
+1 2 2 2 2 
+2 2 2 2 3 
+
+Truck(1): unload 12
+Truck(4): load 23
+Truck(4): unload 22
+
+== Time: 447 ==
+failed_requests_count: 49
+distance: 1697.8
+3 2 1 2 0 
+2 2 2 2 2 
+1 2 1 1 1 
+1 2 2 2 2 
+2 2 2 2 3 
+
+Truck(0): load 20
+Truck(4): load 4
+Truck(4): unload 2
+
+== Time: 448 ==
+failed_requests_count: 49
+distance: 1701.3
+2 2 1 2 0 
+1 2 2 2 2 
+3 2 1 1 1 
+1 2 2 2 2 
+2 2 2 2 1 
+
+Truck(4): load 2
+Truck(4): unload 3
+
+== Time: 449 ==
+failed_requests_count: 49
+distance: 1704.7
+2 2 1 1 0 
+2 2 2 2 2 
+1 2 1 1 1 
+1 2 2 2 2 
+2 1 1 2 1 
+
+
+== Time: 450 ==
+failed_requests_count: 49
+distance: 1708.3
+2 2 1 1 0 
+2 2 2 2 2 
+1 2 1 1 0 
+1 3 2 2 2 
+2 1 1 2 1 
+
+Truck(0): unload 12
+Truck(1): load 6
+
+== Time: 451 ==
+failed_requests_count: 49
+distance: 1712.2
+2 2 1 1 0 
+2 2 2 2 2 
+1 2 2 2 0 
+0 2 2 2 2 
+2 1 1 2 1 
+
+Truck(1): unload 10
+
+== Time: 452 ==
+failed_requests_count: 49
+distance: 1715.6
+2 2 0 1 0 
+2 2 2 2 2 
+1 2 2 1 0 
+0 2 2 2 2 
+2 1 2 2 1 
+
+
+== Time: 453 ==
+failed_requests_count: 49
+distance: 1719.5
+2 1 2 1 0 
+2 2 2 2 2 
+1 2 2 2 0 
+0 2 2 2 2 
+2 1 2 2 1 
+
+
+== Time: 454 ==
+failed_requests_count: 50
+distance: 1723.3
+2 1 2 1 0 
+2 3 2 2 2 
+1 2 2 2 0 
+0 2 2 2 2 
+2 0 2 1 1 
+
+Truck(0): load 8
+
+== Time: 455 ==
+failed_requests_count: 51
+distance: 1727.2
+2 1 2 1 0 
+2 2 2 2 2 
+1 2 2 2 0 
+0 2 2 2 2 
+2 0 2 1 1 
+
+
+== Time: 456 ==
+failed_requests_count: 51
+distance: 1731.0
+2 1 2 1 0 
+3 2 2 1 2 
+1 2 2 3 0 
+0 1 2 2 2 
+2 0 1 1 1 
+
+Truck(0): unload 9
+Truck(4): load 3
+Truck(4): unload 2
+Truck(0): load 17
+Truck(0): unload 10
+
+== Time: 457 ==
+failed_requests_count: 53
+distance: 1734.7
+2 2 2 1 0 
+2 2 2 2 2 
+2 2 2 2 0 
+0 3 2 2 2 
+2 0 2 1 1 
+
+Truck(1): load 6
+Truck(1): unload 5
+
+== Time: 458 ==
+failed_requests_count: 53
+distance: 1738.9
+2 2 2 2 0 
+2 2 1 2 2 
+3 2 2 2 0 
+1 2 2 2 2 
+2 1 2 1 1 
+
+Truck(2): load 2
+Truck(2): unload 1
+
+== Time: 459 ==
+failed_requests_count: 53
+distance: 1742.8
+2 2 2 2 0 
+2 2 1 2 3 
+2 1 2 2 1 
+2 2 2 2 2 
+2 0 2 1 1 
+
+Truck(1): load 23
+Truck(1): unload 22
+
+== Time: 460 ==
+failed_requests_count: 53
+distance: 1746.8
+2 2 2 2 0 
+2 2 0 1 2 
+3 1 2 2 1 
+2 2 2 2 1 
+2 0 3 1 1 
+
+Truck(0): load 2
+Truck(0): unload 7
+Truck(2): load 10
+
+== Time: 461 ==
+failed_requests_count: 53
+distance: 1750.6
+2 1 2 2 0 
+2 2 0 2 1 
+2 2 2 2 2 
+3 2 2 2 1 
+2 0 2 1 1 
+
+Truck(0): load 1
+Truck(2): unload 15
+
+== Time: 462 ==
+failed_requests_count: 54
+distance: 1754.2
+2 1 2 2 0 
+2 1 0 0 1 
+2 3 2 1 2 
+2 2 2 2 0 
+1 0 2 2 1 
+
+Truck(4): load 7
+Truck(4): unload 8
+Truck(0): unload 0
+
+== Time: 463 ==
+failed_requests_count: 54
+distance: 1758.5
+2 1 2 2 0 
+2 2 0 0 1 
+2 2 2 1 2 
+2 2 3 2 0 
+2 0 2 2 1 
+
+Truck(2): load 11
+Truck(2): unload 13
+
+== Time: 464 ==
+failed_requests_count: 55
+distance: 1762.0
+2 1 2 2 0 
+2 2 1 0 1 
+2 2 2 1 2 
+2 2 2 2 0 
+2 1 2 2 1 
+
+
+== Time: 465 ==
+failed_requests_count: 56
+distance: 1766.5
+2 1 2 2 0 
+2 2 1 0 1 
+2 2 2 1 2 
+2 2 2 2 0 
+2 0 2 1 1 
+
+
+== Time: 466 ==
+failed_requests_count: 56
+distance: 1770.8
+2 1 2 2 0 
+2 2 1 0 1 
+2 2 3 1 2 
+2 2 2 2 1 
+1 0 2 1 1 
+
+
+== Time: 467 ==
+failed_requests_count: 56
+distance: 1774.3
+2 1 2 2 0 
+2 2 1 1 1 
+2 2 3 1 2 
+2 2 2 1 1 
+1 0 1 0 1 
+
+
+== Time: 468 ==
+failed_requests_count: 57
+distance: 1777.4
+2 1 2 2 0 
+3 2 1 1 1 
+2 2 3 1 2 
+2 2 2 2 1 
+0 0 1 0 1 
+
+
+== Time: 469 ==
+failed_requests_count: 57
+distance: 1781.6
+2 1 2 2 0 
+3 2 1 1 1 
+2 2 3 1 2 
+2 2 2 2 1 
+0 0 1 0 1 
+
+Truck(0): load 3
+
+== Time: 470 ==
+failed_requests_count: 57
+distance: 1785.0
+2 0 2 2 0 
+2 2 1 1 1 
+2 2 3 1 2 
+2 2 2 2 1 
+0 0 0 0 1 
+
+Truck(0): unload 9
+Truck(1): load 12
+Truck(1): unload 13
+
+== Time: 471 ==
+failed_requests_count: 59
+distance: 1788.1
+1 1 2 2 0 
+2 2 3 1 1 
+1 2 2 1 2 
+2 2 2 1 1 
+0 0 0 0 1 
+
+Truck(1): load 13
+Truck(1): unload 10
+
+== Time: 472 ==
+failed_requests_count: 59
+distance: 1792.2
+1 1 2 2 0 
+2 2 2 2 1 
+1 2 1 1 2 
+2 2 3 1 1 
+0 0 1 0 1 
+
+Truck(3): load 11
+Truck(3): unload 12
+
+== Time: 473 ==
+failed_requests_count: 60
+distance: 1796.5
+1 1 2 2 0 
+2 1 2 2 1 
+1 1 2 1 1 
+1 2 3 1 1 
+0 0 1 0 1 
+
+Truck(1): load 11
+
+== Time: 474 ==
+failed_requests_count: 60
+distance: 1800.0
+1 1 2 2 0 
+2 1 2 2 1 
+3 1 2 1 1 
+1 2 2 1 1 
+0 0 1 0 1 
+
+Truck(1): unload 17
+Truck(0): load 2
+Truck(0): unload 1
+
+== Time: 475 ==
+failed_requests_count: 60
+distance: 1803.9
+1 1 2 3 0 
+2 1 2 2 1 
+1 1 2 2 1 
+2 2 3 0 1 
+0 0 1 0 1 
+
+Truck(2): load 19
+Truck(4): load 11
+Truck(2): unload 23
+Truck(4): unload 5
+
+== Time: 476 ==
+failed_requests_count: 61
+distance: 1807.4
+1 2 2 2 0 
+2 1 2 2 2 
+0 1 2 2 2 
+3 2 2 0 0 
+0 1 0 0 2 
+
+
+== Time: 477 ==
+failed_requests_count: 63
+distance: 1811.6
+1 2 2 2 0 
+2 1 2 1 2 
+0 1 2 2 2 
+3 2 3 0 0 
+1 0 0 0 2 
+
+Truck(4): load 1
+Truck(0): load 11
+Truck(4): unload 7
+Truck(0): unload 16
+
+== Time: 478 ==
+failed_requests_count: 63
+distance: 1815.1
+1 3 2 3 1 
+2 1 3 0 2 
+0 2 2 2 2 
+2 2 2 2 0 
+1 0 0 0 2 
+
+Truck(0): load 19
+Truck(0): unload 24
+
+== Time: 479 ==
+failed_requests_count: 64
+distance: 1817.6
+1 3 2 2 2 
+2 0 3 0 2 
+0 2 2 1 1 
+2 1 2 2 0 
+1 0 0 0 2 
+
+Truck(1): load 9
+Truck(1): unload 4
+
+== Time: 480 ==
+failed_requests_count: 64
+distance: 1821.3
+2 2 2 2 2 
+2 0 3 0 2 
+0 2 2 1 1 
+2 2 2 3 0 
+1 0 0 1 2 
+
+Truck(2): load 16
+Truck(2): unload 17
+
+== Time: 481 ==
+failed_requests_count: 64
+distance: 1824.9
+2 2 3 2 2 
+2 0 3 0 2 
+0 2 2 2 1 
+4 2 2 2 0 
+1 0 0 1 2 
+
+Truck(3): load 13
+Truck(2): load 14
+Truck(3): unload 8
+
+== Time: 482 ==
+failed_requests_count: 65
+distance: 1828.5
+2 2 2 2 2 
+2 1 2 0 1 
+0 2 2 2 1 
+4 2 2 1 0 
+1 0 0 1 2 
+
+Truck(2): unload 18
+Truck(0): load 1
+Truck(4): load 1
+Truck(4): unload 2
+Truck(0): unload 10
+
+== Time: 483 ==
+failed_requests_count: 65
+distance: 1832.4
+2 2 2 2 2 
+2 1 3 1 1 
+1 2 2 2 1 
+2 2 2 1 0 
+1 0 1 1 2 
+
+Truck(3): load 13
+Truck(3): unload 8
+
+== Time: 484 ==
+failed_requests_count: 65
+distance: 1836.6
+2 2 2 2 1 
+2 2 2 1 2 
+1 2 2 1 2 
+2 2 2 0 0 
+1 0 1 2 2 
+
+
+== Time: 485 ==
+failed_requests_count: 65
+distance: 1840.2
+2 2 2 2 1 
+2 2 2 1 2 
+1 1 3 1 2 
+2 2 2 0 0 
+1 1 1 2 2 
+
+Truck(1): load 12
+
+== Time: 486 ==
+failed_requests_count: 65
+distance: 1844.6
+2 3 2 2 1 
+2 2 2 0 2 
+1 1 2 1 2 
+2 2 3 0 0 
+1 1 1 2 2 
+
+Truck(0): load 9
+Truck(1): unload 18
+Truck(0): unload 7
+Truck(4): load 11
+
+== Time: 487 ==
+failed_requests_count: 66
+distance: 1848.3
+2 2 3 2 1 
+2 2 2 1 2 
+1 2 3 2 3 
+2 2 2 0 0 
+1 0 1 2 0 
+
+Truck(1): load 22
+Truck(4): load 12
+Truck(0): load 14
+Truck(1): unload 24
+
+== Time: 488 ==
+failed_requests_count: 66
+distance: 1851.8
+2 2 2 2 2 
+3 2 2 1 2 
+1 2 2 2 2 
+2 2 2 0 0 
+1 0 1 2 0 
+
+Truck(3): load 3
+Truck(4): unload 18
+
+== Time: 489 ==
+failed_requests_count: 66
+distance: 1855.9
+3 2 1 2 3 
+2 2 3 2 2 
+1 2 2 2 2 
+2 1 2 0 0 
+1 0 1 2 0 
+
+Truck(0): load 4
+Truck(4): unload 14
+Truck(1): load 13
+
+== Time: 490 ==
+failed_requests_count: 66
+distance: 1859.3
+2 2 2 2 3 
+2 1 2 1 2 
+1 1 2 2 2 
+2 0 2 0 0 
+1 0 1 2 0 
+
+Truck(3): unload 18
+Truck(4): load 24
+Truck(0): unload 8
+Truck(1): unload 2
+
+== Time: 491 ==
+failed_requests_count: 67
+distance: 1863.0
+3 2 2 2 3 
+2 2 2 2 2 
+2 1 2 2 2 
+2 0 2 0 0 
+3 0 1 1 0 
+
+Truck(0): unload 7
+Truck(4): load 4
+
+== Time: 492 ==
+failed_requests_count: 67
+distance: 1867.2
+2 2 2 2 4 
+2 2 3 1 2 
+2 2 2 2 2 
+3 0 0 0 0 
+3 0 1 1 0 
+
+Truck(3): load 1
+Truck(0): load 13
+Truck(2): load 0
+Truck(0): unload 11
+
+== Time: 493 ==
+failed_requests_count: 68
+distance: 1870.5
+2 2 2 2 4 
+2 1 2 1 2 
+2 2 2 2 2 
+2 0 1 0 0 
+3 0 2 1 0 
+
+Truck(4): unload 6
+Truck(2): unload 6
+Truck(4): unload 11
+
+== Time: 494 ==
+failed_requests_count: 68
+distance: 1873.9
+2 2 2 1 4 
+2 1 1 1 4 
+2 3 2 2 2 
+2 2 2 0 0 
+3 0 2 1 0 
+
+Truck(0): load 0
+Truck(2): load 23
+Truck(3): unload 8
+Truck(0): unload 5
+Truck(2): load 23
+Truck(2): load 7
+
+== Time: 495 ==
+failed_requests_count: 69
+distance: 1877.3
+2 2 3 1 4 
+2 2 0 1 2 
+2 2 2 2 3 
+1 2 2 0 0 
+2 1 2 1 0 
+
+Truck(2): unload 13
+Truck(2): unload 13
+Truck(2): unload 18
+
+== Time: 496 ==
+failed_requests_count: 69
+distance: 1881.4
+2 2 4 1 4 
+2 2 2 3 2 
+1 2 2 2 3 
+0 2 2 0 0 
+2 1 2 1 0 
+
+Truck(2): load 24
+Truck(2): load 24
+Truck(2): load 22
+Truck(2): unload 21
+Truck(2): unload 21
+
+== Time: 497 ==
+failed_requests_count: 69
+distance: 1884.7
+2 2 4 1 3 
+1 2 2 3 2 
+1 2 2 2 2 
+0 2 2 0 3 
+2 1 2 0 0 
+
+Truck(1): load 14
+Truck(2): unload 16
+Truck(1): load 14
+
+== Time: 498 ==
+failed_requests_count: 69
+distance: 1888.5
+2 1 2 1 3 
+1 2 2 3 2 
+1 1 2 2 2 
+0 2 1 1 3 
+2 1 2 0 0 
+
+Truck(0): load 21
+Truck(2): load 18
+Truck(2): unload 19
+Truck(1): unload 3
+Truck(1): unload 9
+Truck(2): load 24
+
+== Time: 499 ==
+failed_requests_count: 69
+distance: 1891.1
+2 2 2 2 2 
+2 2 2 3 2 
+1 1 2 2 2 
+1 2 1 2 2 
+2 1 2 0 0 
+
+Truck(2): load 18
+Truck(0): unload 20
+
+== Time: 500 ==
+failed_requests_count: 69
+distance: 1894.7
+2 2 2 2 2 
+2 2 2 2 1 
+1 1 2 2 2 
+0 3 0 2 2 
+2 1 2 0 2 
+
+Truck(2): unload 11
+Truck(2): unload 11
+Truck(2): load 6
+
+== Time: 501 ==
+failed_requests_count: 69
+distance: 1899.0
+1 2 2 2 2 
+2 2 3 2 1 
+1 1 2 2 2 
+0 2 3 2 2 
+2 1 2 0 2 
+
+Truck(2): unload 7
+Truck(1): load 13
+Truck(2): load 11
+
+== Time: 502 ==
+failed_requests_count: 69
+distance: 1902.7
+1 2 2 2 1 
+2 2 2 2 1 
+1 2 2 2 2 
+0 2 2 3 2 
+2 1 3 0 2 
+
+Truck(1): unload 2
+Truck(0): load 10
+Truck(0): unload 5
+Truck(2): unload 23
+
+== Time: 503 ==
+failed_requests_count: 69
+distance: 1906.2
+1 2 2 1 0 
+2 2 2 1 2 
+2 2 2 2 2 
+0 2 3 2 2 
+1 2 2 0 2 
+
+Truck(0): load 11
+
+== Time: 504 ==
+failed_requests_count: 69
+distance: 1910.4
+1 3 2 1 0 
+2 2 3 1 2 
+2 3 1 2 2 
+0 2 2 2 2 
+1 2 2 0 2 
+
+Truck(0): load 7
+Truck(0): load 13
+Truck(0): unload 12
+
+== Time: 505 ==
+failed_requests_count: 69
+distance: 1913.7
+1 3 2 1 0 
+2 3 2 2 2 
+2 2 2 2 2 
+0 2 3 2 2 
+1 2 1 0 2 
+
+Truck(1): load 11
+Truck(1): unload 10
+Truck(2): load 8
+Truck(4): load 9
+
+== Time: 506 ==
+failed_requests_count: 69
+distance: 1917.8
+1 2 2 1 0 
+2 2 3 2 2 
+3 2 2 2 2 
+0 2 2 2 2 
+1 2 2 0 3 
+
+Truck(0): unload 4
+Truck(2): load 2
+Truck(1): load 13
+
+== Time: 507 ==
+failed_requests_count: 71
+distance: 1921.1
+2 2 2 1 0 
+2 2 2 2 2 
+2 2 2 2 2 
+0 2 2 2 2 
+1 2 2 0 3 
+
+Truck(1): unload 19
+Truck(0): unload 1
+Truck(2): unload 24
+Truck(2): unload 24
+
+== Time: 508 ==
+failed_requests_count: 71
+distance: 1924.8
+2 2 2 2 2 
+2 2 3 3 2 
+2 2 1 2 2 
+1 2 2 2 2 
+1 1 1 0 3 
+
+
+== Time: 509 ==
+failed_requests_count: 72
+distance: 1927.9
+3 2 2 2 2 
+2 2 3 3 2 
+2 2 0 2 2 
+1 2 2 2 2 
+1 1 1 0 3 
+
+Truck(1): load 20
+Truck(0): load 18
+Truck(1): unload 15
+Truck(4): load 13
+
+== Time: 510 ==
+failed_requests_count: 72
+distance: 1931.9
+3 3 2 2 2 
+2 2 1 2 2 
+2 2 0 2 2 
+1 2 2 2 2 
+1 1 1 1 2 
+
+Truck(0): unload 13
+Truck(4): unload 12
+Truck(4): unload 12
+
+== Time: 511 ==
+failed_requests_count: 72
+distance: 1935.9
+3 2 1 2 0 
+2 2 2 2 2 
+2 4 2 2 2 
+1 2 2 2 2 
+1 1 0 2 2 
+
+Truck(0): load 7
+Truck(0): load 7
+
+== Time: 512 ==
+failed_requests_count: 72
+distance: 1940.4
+3 2 1 2 0 
+2 2 2 1 2 
+2 2 2 2 2 
+1 2 1 3 2 
+1 1 0 3 2 
+
+Truck(2): load 16
+Truck(0): unload 1
+Truck(0): unload 5
+
+== Time: 513 ==
+failed_requests_count: 72
+distance: 1944.5
+3 2 1 2 0 
+2 2 2 1 2 
+2 2 3 1 2 
+2 2 1 2 2 
+1 2 0 3 2 
+
+Truck(2): unload 0
+Truck(3): load 15
+Truck(3): unload 10
+Truck(2): load 12
+Truck(2): unload 17
+
+== Time: 514 ==
+failed_requests_count: 72
+distance: 1947.6
+3 2 1 1 0 
+2 2 2 1 1 
+2 2 1 2 2 
+2 2 1 2 2 
+2 2 1 2 2 
+
+
+== Time: 515 ==
+failed_requests_count: 72
+distance: 1951.7
+4 2 1 1 0 
+1 2 2 1 1 
+2 2 1 2 2 
+2 2 1 2 2 
+2 2 1 2 2 
+
+Truck(2): load 4
+Truck(2): load 4
+Truck(2): unload 3
+
+== Time: 516 ==
+failed_requests_count: 72
+distance: 1955.4
+2 2 1 1 0 
+1 2 2 1 1 
+1 2 1 2 2 
+1 2 1 2 2 
+2 1 1 2 3 
+
+Truck(2): unload 3
+
+== Time: 517 ==
+failed_requests_count: 73
+distance: 1958.9
+2 2 1 1 0 
+1 2 2 1 1 
+1 2 1 2 2 
+1 2 1 2 2 
+2 1 1 2 3 
+
+
+== Time: 518 ==
+failed_requests_count: 73
+distance: 1962.7
+1 2 1 2 0 
+1 2 2 1 2 
+1 2 1 2 1 
+2 2 1 2 2 
+3 1 1 2 3 
+
+
+== Time: 519 ==
+failed_requests_count: 73
+distance: 1967.2
+1 2 1 2 1 
+1 3 2 1 2 
+1 2 1 2 1 
+2 2 1 2 2 
+3 1 1 1 3 
+
+Truck(2): load 0
+Truck(0): load 20
+Truck(3): load 8
+Truck(0): unload 15
+Truck(3): unload 3
+
+== Time: 520 ==
+failed_requests_count: 73
+distance: 1970.6
+1 0 1 2 1 
+3 1 2 1 2 
+1 2 1 3 1 
+2 3 1 2 2 
+2 1 1 2 2 
+
+Truck(2): unload 5
+Truck(4): load 6
+Truck(2): load 17
+
+== Time: 521 ==
+failed_requests_count: 73
+distance: 1973.2
+1 0 1 3 1 
+4 1 2 1 2 
+1 2 2 3 1 
+2 2 1 2 1 
+2 2 1 2 1 
+
+Truck(2): load 17
+Truck(3): load 3
+Truck(3): load 3
+Truck(2): unload 11
+Truck(4): unload 2
+Truck(3): unload 4
+
+== Time: 522 ==
+failed_requests_count: 73
+distance: 1976.8
+2 0 0 3 1 
+2 1 2 1 2 
+2 3 2 2 1 
+2 2 2 2 1 
+3 2 1 3 1 
+
+Truck(1): load 19
+Truck(2): load 7
+Truck(1): unload 18
+Truck(2): unload 8
+Truck(1): load 15
+
+== Time: 523 ==
+failed_requests_count: 73
+distance: 1980.9
+2 0 0 2 1 
+2 2 2 2 2 
+1 2 2 2 1 
+2 2 1 2 2 
+3 2 1 2 1 
+
+Truck(1): unload 20
+Truck(3): unload 22
+Truck(4): load 0
+
+== Time: 524 ==
+failed_requests_count: 73
+distance: 1983.4
+2 0 0 2 0 
+2 2 2 2 2 
+1 2 2 2 2 
+2 2 1 2 2 
+2 0 0 2 2 
+
+Truck(2): unload 10
+Truck(4): unload 11
+
+== Time: 525 ==
+failed_requests_count: 74
+distance: 1986.5
+2 0 0 2 0 
+2 3 2 2 2 
+1 2 2 1 2 
+2 2 2 2 2 
+2 0 1 2 1 
+
+Truck(0): load 8
+
+== Time: 526 ==
+failed_requests_count: 74
+distance: 1990.2
+1 0 0 3 0 
+2 3 2 2 2 
+1 1 2 2 2 
+3 2 3 2 2 
+2 0 1 2 0 
+
+Truck(0): unload 2
+Truck(3): load 8
+Truck(1): load 19
+Truck(1): unload 14
+Truck(3): unload 4
+
+== Time: 527 ==
+failed_requests_count: 74
+distance: 1993.7
+2 1 1 2 0 
+2 2 2 2 2 
+2 1 2 2 2 
+3 2 3 2 2 
+2 0 1 2 1 
+
+Truck(3): load 1
+Truck(3): unload 5
+
+== Time: 528 ==
+failed_requests_count: 74
+distance: 1997.0
+2 1 0 2 0 
+2 2 2 2 2 
+2 1 2 2 1 
+2 2 3 2 2 
+2 1 1 2 1 
+
+Truck(3): load 11
+
+== Time: 529 ==
+failed_requests_count: 74
+distance: 2000.9
+2 1 0 2 0 
+2 2 2 2 2 
+2 1 2 2 1 
+2 2 2 2 3 
+2 1 1 2 0 
+
+Truck(2): load 21
+Truck(2): unload 22
+Truck(3): unload 7
+
+== Time: 530 ==
+failed_requests_count: 76
+distance: 2004.4
+2 0 0 2 0 
+2 2 2 2 2 
+2 1 2 2 2 
+2 2 2 2 2 
+1 1 1 2 0 
+
+
+== Time: 531 ==
+failed_requests_count: 76
+distance: 2008.3
+2 0 0 2 0 
+2 2 2 2 2 
+2 1 2 1 2 
+2 2 2 2 2 
+1 1 1 3 0 
+
+
+== Time: 532 ==
+failed_requests_count: 77
+distance: 2012.9
+3 0 0 2 0 
+1 2 2 2 2 
+2 1 3 1 2 
+3 2 3 2 2 
+2 1 2 3 0 
+
+Truck(2): load 12
+Truck(2): load 11
+Truck(2): load 15
+
+== Time: 533 ==
+failed_requests_count: 77
+distance: 2016.9
+3 0 0 2 0 
+1 2 2 1 2 
+2 2 2 1 2 
+4 2 2 1 2 
+2 2 2 2 0 
+
+Truck(2): load 1
+Truck(2): load 1
+
+== Time: 534 ==
+failed_requests_count: 77
+distance: 2020.8
+3 0 0 2 0 
+1 2 2 1 2 
+2 2 2 1 2 
+2 2 2 1 2 
+2 2 2 2 0 
+
+
+== Time: 535 ==
+failed_requests_count: 77
+distance: 2025.4
+3 0 0 2 0 
+1 2 2 1 2 
+3 2 2 1 2 
+2 2 1 1 2 
+2 2 2 2 0 
+
+Truck(2): load 2
+
+== Time: 536 ==
+failed_requests_count: 78
+distance: 2029.8
+3 0 0 2 0 
+2 3 2 1 2 
+2 3 2 1 2 
+2 2 1 1 2 
+2 2 2 2 1 
+
+Truck(3): load 7
+Truck(2): unload 18
+Truck(3): unload 17
+Truck(2): unload 14
+Truck(2): unload 14
+
+== Time: 537 ==
+failed_requests_count: 78
+distance: 2033.8
+2 0 2 2 0 
+2 3 2 2 2 
+3 2 2 2 2 
+2 2 1 2 2 
+2 2 2 2 1 
+
+Truck(2): unload 9
+Truck(2): unload 9
+Truck(4): load 8
+Truck(0): load 2
+
+== Time: 538 ==
+failed_requests_count: 78
+distance: 2036.9
+2 2 2 2 0 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 1 2 2 
+2 3 2 2 1 
+
+Truck(2): unload 11
+Truck(1): load 5
+
+== Time: 539 ==
+failed_requests_count: 78
+distance: 2040.9
+1 2 1 2 0 
+2 2 2 2 2 
+3 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 0 
+
+Truck(0): unload 4
+Truck(1): unload 20
+
+== Time: 540 ==
+failed_requests_count: 78
+distance: 2044.2
+2 2 1 2 0 
+1 4 2 2 2 
+3 2 2 2 2 
+1 2 2 2 2 
+3 2 3 2 1 
+
+Truck(4): unload 3
+
+== Time: 541 ==
+failed_requests_count: 78
+distance: 2047.8
+2 2 1 2 0 
+2 4 2 2 2 
+3 2 2 2 2 
+1 2 2 2 2 
+3 2 3 2 1 
+
+Truck(0): load 8
+Truck(0): load 8
+Truck(3): load 2
+
+== Time: 542 ==
+failed_requests_count: 78
+distance: 2051.9
+2 2 1 2 0 
+2 2 2 2 2 
+2 2 2 2 2 
+1 2 1 2 2 
+3 2 3 2 1 
+
+Truck(0): unload 24
+Truck(0): unload 24
+Truck(4): load 10
+
+== Time: 543 ==
+failed_requests_count: 79
+distance: 2055.7
+2 1 1 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+1 2 1 2 2 
+3 2 2 2 1 
+
+Truck(4): load 0
+Truck(4): unload 11
+Truck(3): unload 14
+
+== Time: 544 ==
+failed_requests_count: 79
+distance: 2059.8
+2 1 1 2 2 
+2 2 2 2 2 
+2 2 2 2 1 
+0 3 2 3 2 
+2 2 2 1 1 
+
+Truck(4): load 16
+Truck(4): unload 22
+
+== Time: 545 ==
+failed_requests_count: 79
+distance: 2063.4
+2 1 1 3 2 
+2 2 2 2 2 
+2 2 3 2 2 
+0 3 2 2 1 
+2 2 2 1 1 
+
+Truck(0): load 12
+Truck(0): unload 1
+Truck(4): unload 21
+
+== Time: 546 ==
+failed_requests_count: 79
+distance: 2067.1
+2 1 1 2 2 
+2 2 2 2 2 
+2 2 2 3 3 
+1 3 2 2 2 
+3 2 2 0 1 
+
+Truck(2): load 22
+
+== Time: 547 ==
+failed_requests_count: 79
+distance: 2070.9
+2 1 1 2 2 
+2 2 2 2 2 
+2 2 2 3 2 
+2 3 2 2 1 
+3 2 2 0 1 
+
+Truck(2): unload 9
+Truck(1): load 6
+
+== Time: 548 ==
+failed_requests_count: 79
+distance: 2074.5
+2 1 1 2 2 
+2 2 2 2 2 
+2 1 2 3 2 
+1 2 2 2 1 
+3 2 2 0 1 
+
+
+== Time: 549 ==
+failed_requests_count: 80
+distance: 2078.6
+2 0 2 2 2 
+2 2 2 3 3 
+2 1 2 3 2 
+1 2 2 2 1 
+4 2 2 0 1 
+
+Truck(3): load 0
+Truck(3): load 0
+Truck(0): load 18
+Truck(1): load 23
+Truck(3): unload 1
+Truck(1): unload 21
+
+== Time: 550 ==
+failed_requests_count: 80
+distance: 2082.0
+2 0 2 2 2 
+2 2 2 1 2 
+2 1 2 3 2 
+2 2 2 2 2 
+2 2 2 0 1 
+
+Truck(1): unload 15
+Truck(3): unload 7
+Truck(1): load 17
+Truck(0): unload 18
+
+== Time: 551 ==
+failed_requests_count: 81
+distance: 2085.7
+1 0 2 1 2 
+2 2 2 1 2 
+2 2 2 2 2 
+3 2 3 2 2 
+2 2 2 1 1 
+
+Truck(1): unload 19
+Truck(2): load 11
+Truck(0): load 1
+
+== Time: 552 ==
+failed_requests_count: 81
+distance: 2088.6
+0 0 2 2 2 
+2 2 2 1 1 
+2 2 2 1 2 
+2 2 2 2 2 
+2 1 2 1 1 
+
+Truck(0): unload 5
+
+== Time: 553 ==
+failed_requests_count: 81
+distance: 2092.2
+0 0 2 2 2 
+2 2 1 1 1 
+3 2 2 1 2 
+2 3 2 2 2 
+2 2 2 1 0 
+
+Truck(4): load 2
+
+== Time: 554 ==
+failed_requests_count: 81
+distance: 2095.2
+0 0 2 2 2 
+2 2 1 1 1 
+2 2 1 1 1 
+2 3 2 2 2 
+1 2 2 0 0 
+
+Truck(2): unload 0
+Truck(3): load 6
+Truck(3): unload 15
+
+== Time: 555 ==
+failed_requests_count: 82
+distance: 2098.4
+0 0 1 2 1 
+2 1 1 1 1 
+2 2 1 1 1 
+2 2 2 2 2 
+2 2 2 1 0 
+
+
+== Time: 556 ==
+failed_requests_count: 82
+distance: 2102.7
+0 0 0 2 0 
+2 1 0 1 1 
+2 1 1 1 1 
+2 3 3 2 2 
+2 2 2 1 0 
+
+Truck(4): unload 7
+Truck(3): load 11
+
+== Time: 557 ==
+failed_requests_count: 82
+distance: 2106.5
+0 0 0 2 0 
+2 1 0 1 1 
+2 2 1 1 1 
+2 3 2 2 2 
+3 2 3 1 0 
+
+Truck(3): unload 12
+
+== Time: 558 ==
+failed_requests_count: 83
+distance: 2110.1
+0 0 0 2 0 
+2 1 0 1 1 
+2 2 1 1 0 
+2 3 2 3 2 
+3 2 3 1 0 
+
+Truck(0): load 16
+Truck(0): load 6
+Truck(2): load 0
+
+== Time: 559 ==
+failed_requests_count: 83
+distance: 2113.6
+1 0 0 2 0 
+2 1 1 0 1 
+2 2 1 1 0 
+2 2 2 2 2 
+1 2 3 0 1 
+
+Truck(0): load 10
+Truck(0): unload 0
+Truck(2): unload 12
+
+== Time: 560 ==
+failed_requests_count: 83
+distance: 2117.3
+1 0 0 1 0 
+2 1 1 0 1 
+2 2 2 1 0 
+2 3 2 2 2 
+2 2 2 0 1 
+
+Truck(0): load 6
+
+== Time: 561 ==
+failed_requests_count: 83
+distance: 2120.9
+1 0 0 1 0 
+2 1 1 0 1 
+2 2 3 1 0 
+2 2 2 2 2 
+2 2 2 1 1 
+
+
+== Time: 562 ==
+failed_requests_count: 83
+distance: 2125.0
+1 0 0 1 0 
+2 1 1 0 1 
+2 3 3 1 0 
+2 2 2 2 1 
+2 3 2 1 1 
+
+Truck(3): load 12
+Truck(0): load 5
+Truck(3): unload 17
+Truck(1): load 7
+
+== Time: 563 ==
+failed_requests_count: 83
+distance: 2128.4
+0 0 0 1 0 
+2 0 1 0 1 
+2 1 2 1 0 
+2 3 2 1 1 
+2 2 2 1 1 
+
+Truck(1): unload 7
+Truck(0): load 6
+Truck(0): unload 13
+
+== Time: 564 ==
+failed_requests_count: 83
+distance: 2132.7
+0 0 0 1 0 
+2 0 3 0 1 
+2 2 2 1 2 
+2 2 1 1 1 
+2 2 2 1 1 
+
+Truck(4): load 13
+Truck(4): unload 18
+
+== Time: 565 ==
+failed_requests_count: 83
+distance: 2136.2
+0 0 0 1 0 
+2 0 2 1 1 
+1 2 3 1 2 
+2 3 1 1 1 
+2 2 2 1 1 
+
+Truck(0): unload 2
+Truck(0): load 6
+Truck(2): load 12
+
+== Time: 566 ==
+failed_requests_count: 83
+distance: 2140.0
+1 0 0 1 0 
+2 0 2 1 2 
+2 2 2 0 2 
+2 2 1 1 3 
+2 2 2 1 1 
+
+Truck(2): unload 4
+Truck(4): load 21
+
+== Time: 567 ==
+failed_requests_count: 83
+distance: 2144.1
+2 1 0 1 1 
+2 0 2 0 2 
+2 2 2 0 2 
+2 2 1 1 2 
+2 2 3 2 1 
+
+Truck(1): load 10
+Truck(4): unload 17
+Truck(0): unload 11
+Truck(0): unload 16
+Truck(0): unload 20
+
+== Time: 568 ==
+failed_requests_count: 83
+distance: 2148.2
+2 1 0 1 1 
+2 0 2 0 2 
+3 2 2 1 1 
+2 2 2 3 2 
+3 2 1 2 2 
+
+Truck(2): load 2
+Truck(4): load 16
+Truck(2): unload 8
+Truck(0): unload 10
+
+== Time: 569 ==
+failed_requests_count: 84
+distance: 2151.5
+2 1 0 2 0 
+3 1 2 0 1 
+2 2 2 1 2 
+2 2 2 1 2 
+3 2 2 2 2 
+
+Truck(0): load 0
+Truck(4): unload 23
+Truck(1): unload 16
+Truck(2): load 3
+
+== Time: 570 ==
+failed_requests_count: 84
+distance: 2155.1
+2 1 0 2 0 
+2 0 2 1 2 
+2 2 2 1 2 
+2 1 2 2 2 
+2 2 2 2 2 
+
+Truck(0): unload 17
+Truck(2): unload 9
+
+== Time: 571 ==
+failed_requests_count: 84
+distance: 2158.9
+2 2 0 2 0 
+3 0 2 1 1 
+2 2 2 2 2 
+2 1 2 2 2 
+2 2 2 2 2 
+
+Truck(3): load 3
+Truck(3): unload 8
+
+== Time: 572 ==
+failed_requests_count: 84
+distance: 2162.9
+3 2 0 2 0 
+2 1 2 1 1 
+2 2 2 2 2 
+2 1 2 2 2 
+2 1 2 2 2 
+
+
+== Time: 573 ==
+failed_requests_count: 84
+distance: 2167.1
+3 2 0 3 0 
+2 1 2 1 1 
+2 2 2 2 2 
+2 1 3 2 2 
+2 1 2 2 2 
+
+Truck(1): load 11
+Truck(1): unload 18
+Truck(1): load 19
+Truck(1): unload 24
+
+== Time: 574 ==
+failed_requests_count: 84
+distance: 2171.1
+3 2 1 2 1 
+2 1 2 2 1 
+2 2 1 2 2 
+2 1 2 2 2 
+2 1 2 3 1 
+
+Truck(2): load 15
+Truck(2): unload 12
+
+== Time: 575 ==
+failed_requests_count: 84
+distance: 2175.1
+3 2 1 2 1 
+2 1 2 2 1 
+3 2 2 2 2 
+2 1 2 2 2 
+2 1 2 2 1 
+
+Truck(0): load 4
+Truck(0): unload 8
+Truck(4): load 2
+
+== Time: 576 ==
+failed_requests_count: 84
+distance: 2178.4
+2 2 1 2 0 
+2 2 1 2 1 
+2 2 2 2 2 
+2 1 2 2 3 
+2 1 2 2 1 
+
+Truck(4): unload 5
+
+== Time: 577 ==
+failed_requests_count: 84
+distance: 2182.0
+2 2 1 2 0 
+2 2 0 2 1 
+2 2 2 2 2 
+2 1 3 2 3 
+2 2 2 2 1 
+
+Truck(1): load 11
+Truck(1): unload 6
+
+== Time: 578 ==
+failed_requests_count: 85
+distance: 2186.1
+2 2 0 2 0 
+1 2 0 2 1 
+2 2 2 2 4 
+2 2 2 2 4 
+2 2 2 3 1 
+
+Truck(3): load 15
+
+== Time: 579 ==
+failed_requests_count: 85
+distance: 2189.7
+2 2 0 2 0 
+1 2 0 2 1 
+1 2 2 2 4 
+2 2 2 2 4 
+2 2 2 2 1 
+
+Truck(3): unload 13
+Truck(2): load 22
+Truck(2): load 22
+Truck(2): load 21
+Truck(2): load 21
+
+== Time: 580 ==
+failed_requests_count: 85
+distance: 2193.3
+2 2 0 2 0 
+1 2 1 2 1 
+1 2 3 2 3 
+2 2 2 2 2 
+2 2 2 2 1 
+
+Truck(1): load 22
+Truck(1): load 12
+
+== Time: 581 ==
+failed_requests_count: 86
+distance: 2197.4
+2 1 0 2 0 
+1 2 1 2 1 
+0 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 1 
+
+Truck(2): unload 20
+
+== Time: 582 ==
+failed_requests_count: 86
+distance: 2201.6
+2 0 0 2 0 
+1 2 1 2 1 
+0 2 2 2 2 
+1 2 1 2 1 
+2 2 2 1 3 
+
+Truck(1): unload 1
+Truck(4): load 20
+Truck(1): unload 2
+Truck(4): unload 15
+Truck(2): unload 13
+
+== Time: 583 ==
+failed_requests_count: 86
+distance: 2205.0
+2 0 0 1 0 
+1 2 2 2 2 
+1 2 2 2 2 
+2 2 1 2 1 
+2 2 3 2 2 
+
+Truck(4): load 10
+
+== Time: 584 ==
+failed_requests_count: 87
+distance: 2208.3
+3 0 0 1 0 
+1 3 1 2 2 
+1 2 2 2 2 
+3 1 1 2 1 
+2 2 2 2 2 
+
+Truck(1): load 8
+Truck(2): unload 21
+Truck(4): unload 6
+Truck(2): unload 11
+Truck(1): unload 13
+Truck(4): load 1
+
+== Time: 585 ==
+failed_requests_count: 88
+distance: 2212.2
+3 1 0 1 0 
+0 0 2 2 2 
+1 3 2 3 2 
+2 2 2 2 2 
+2 2 2 2 2 
+
+Truck(3): load 17
+Truck(1): load 7
+Truck(1): unload 2
+Truck(3): unload 24
+
+== Time: 586 ==
+failed_requests_count: 88
+distance: 2215.7
+3 1 1 1 2 
+0 0 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 3 2 
+
+Truck(1): load 4
+Truck(1): unload 9
+Truck(2): load 15
+
+== Time: 587 ==
+failed_requests_count: 88
+distance: 2218.9
+2 2 1 1 2 
+0 0 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 3 2 
+
+Truck(2): unload 19
+Truck(4): unload 3
+
+== Time: 588 ==
+failed_requests_count: 88
+distance: 2222.8
+2 2 1 2 2 
+1 0 2 2 2 
+3 2 1 2 2 
+2 2 2 2 2 
+2 2 2 4 2 
+
+Truck(2): load 15
+Truck(2): load 15
+Truck(0): load 2
+
+== Time: 589 ==
+failed_requests_count: 88
+distance: 2226.4
+2 2 1 2 2 
+1 0 2 2 2 
+2 2 1 2 1 
+3 2 2 2 2 
+2 2 2 2 2 
+
+Truck(0): unload 12
+Truck(4): load 1
+
+== Time: 590 ==
+failed_requests_count: 88
+distance: 2230.5
+2 2 1 2 2 
+0 0 2 2 1 
+2 2 2 2 2 
+2 3 2 2 3 
+2 2 2 2 2 
+
+Truck(2): load 21
+Truck(4): unload 8
+
+== Time: 591 ==
+failed_requests_count: 88
+distance: 2234.1
+3 2 1 2 2 
+0 1 2 2 1 
+2 2 2 2 2 
+2 3 2 2 2 
+3 1 2 2 3 
+
+Truck(0): load 6
+Truck(1): load 4
+Truck(2): load 20
+Truck(1): unload 8
+
+== Time: 592 ==
+failed_requests_count: 88
+distance: 2238.3
+2 2 1 2 2 
+0 2 2 2 1 
+2 2 2 2 3 
+2 2 2 1 2 
+3 1 2 2 2 
+
+Truck(0): load 0
+Truck(3): load 22
+Truck(0): unload 5
+Truck(3): unload 23
+
+== Time: 593 ==
+failed_requests_count: 88
+distance: 2242.5
+1 2 1 2 2 
+0 2 2 3 2 
+2 3 2 2 2 
+2 2 2 1 2 
+2 2 2 3 3 
+
+Truck(1): load 18
+Truck(1): unload 14
+Truck(4): load 15
+
+== Time: 594 ==
+failed_requests_count: 88
+distance: 2246.4
+1 2 2 2 2 
+0 2 3 2 2 
+2 3 2 2 2 
+2 2 1 1 2 
+1 2 3 1 3 
+
+Truck(0): unload 0
+Truck(2): load 7
+Truck(3): load 20
+Truck(2): unload 4
+Truck(3): unload 15
+Truck(0): load 10
+Truck(2): unload 3
+Truck(2): unload 3
+
+== Time: 595 ==
+failed_requests_count: 89
+distance: 2249.6
+2 2 2 2 2 
+2 2 3 2 2 
+2 2 2 3 2 
+2 2 1 1 2 
+2 2 2 2 2 
+
+Truck(0): unload 11
+Truck(3): load 13
+
+== Time: 596 ==
+failed_requests_count: 89
+distance: 2252.6
+2 2 2 2 2 
+2 2 1 2 2 
+2 2 2 3 2 
+2 1 1 1 2 
+2 3 3 2 2 
+
+Truck(3): unload 13
+Truck(4): unload 6
+Truck(0): load 5
+Truck(4): load 10
+Truck(4): unload 11
+
+== Time: 597 ==
+failed_requests_count: 89
+distance: 2256.1
+2 2 1 2 2 
+2 2 2 2 2 
+1 2 2 4 2 
+1 2 2 1 2 
+2 2 2 2 2 
+
+Truck(3): load 17
+Truck(3): load 17
+Truck(2): unload 2
+Truck(0): unload 16
+Truck(2): unload 1
+Truck(3): unload 14
+
+== Time: 598 ==
+failed_requests_count: 89
+distance: 2259.7
+2 2 1 2 1 
+3 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 3 
+2 1 2 2 3 
+
+Truck(3): unload 14
+Truck(2): load 3
+
+== Time: 599 ==
+failed_requests_count: 89
+distance: 2263.8
+1 2 2 1 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 3 
+3 1 1 2 3 
+
+Truck(2): load 21
+Truck(2): unload 10
+Truck(3): load 20
+
+== Time: 600 ==
+failed_requests_count: 89
+distance: 2267.7
+1 2 2 1 2 
+2 3 2 2 2 
+2 2 2 1 2 
+2 2 2 2 2 
+3 1 2 2 2 
+
+Truck(0): load 8
+Truck(0): unload 4
+Truck(2): unload 17
+
+== Time: 601 ==
+failed_requests_count: 89
+distance: 2271.3
+1 2 2 0 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 3 2 2 
+3 1 2 2 2 
+
+Truck(1): load 11
+
+== Time: 602 ==
+failed_requests_count: 89
+distance: 2275.3
+0 2 2 0 1 
+2 2 2 2 3 
+2 0 2 2 2 
+2 2 2 2 2 
+3 1 2 2 2 
+
+Truck(0): load 23
+Truck(1): unload 5
+Truck(0): unload 24
+
+== Time: 603 ==
+failed_requests_count: 89
+distance: 2278.9
+0 2 2 1 2 
+2 2 2 2 2 
+2 1 2 2 2 
+2 2 2 2 2 
+3 2 2 2 2 
+
+Truck(3): unload 7
+Truck(4): load 0
+
+== Time: 604 ==
+failed_requests_count: 89
+distance: 2282.9
+0 3 2 1 2 
+2 2 2 2 2 
+1 1 2 2 1 
+2 2 2 2 2 
+2 2 2 2 2 
+
+Truck(0): load 9
+Truck(4): unload 2
+
+== Time: 605 ==
+failed_requests_count: 89
+distance: 2286.4
+0 2 2 1 2 
+2 2 2 1 2 
+2 1 2 2 1 
+2 2 2 2 2 
+2 3 2 2 2 
+
+Truck(0): unload 22
+
+== Time: 606 ==
+failed_requests_count: 89
+distance: 2290.7
+0 2 2 1 2 
+2 2 2 1 2 
+2 1 2 1 2 
+2 2 2 2 2 
+3 3 2 2 2 
+
+
+== Time: 607 ==
+failed_requests_count: 89
+distance: 2295.0
+0 2 2 1 2 
+2 2 2 1 3 
+2 0 2 1 2 
+1 2 2 2 2 
+3 3 2 2 2 
+
+Truck(0): load 23
+Truck(4): load 5
+Truck(0): unload 18
+Truck(4): unload 1
+Truck(4): load 0
+
+== Time: 608 ==
+failed_requests_count: 89
+distance: 2298.6
+0 2 2 2 2 
+1 2 1 2 2 
+1 0 2 1 2 
+2 2 2 2 1 
+2 2 2 2 2 
+
+Truck(4): unload 2
+
+== Time: 609 ==
+failed_requests_count: 89
+distance: 2302.4
+0 2 2 2 2 
+1 1 1 2 1 
+2 0 2 1 2 
+2 2 2 3 1 
+2 2 2 2 2 
+
+Truck(2): load 16
+
+== Time: 610 ==
+failed_requests_count: 89
+distance: 2306.5
+0 1 2 3 1 
+1 2 1 2 1 
+2 0 2 1 2 
+2 2 2 2 1 
+2 2 2 2 1 
+
+Truck(0): load 19
+Truck(0): unload 24
+Truck(2): unload 13
+
+== Time: 611 ==
+failed_requests_count: 89
+distance: 2310.2
+0 1 2 2 2 
+1 2 2 2 1 
+2 0 2 1 2 
+2 3 2 2 1 
+3 2 2 1 1 
+
+Truck(1): load 6
+Truck(1): unload 7
+
+== Time: 612 ==
+failed_requests_count: 89
+distance: 2314.6
+0 2 2 2 2 
+1 1 2 2 1 
+3 1 2 1 2 
+2 2 2 2 0 
+3 2 2 1 1 
+
+Truck(2): load 0
+
+== Time: 613 ==
+failed_requests_count: 89
+distance: 2318.0
+0 1 2 2 1 
+1 1 2 2 1 
+4 1 3 1 2 
+2 2 2 2 0 
+2 1 1 1 1 
+
+Truck(3): load 2
+Truck(3): load 2
+Truck(2): unload 5
+
+== Time: 614 ==
+failed_requests_count: 89
+distance: 2321.8
+0 0 2 2 1 
+1 1 2 2 1 
+2 1 3 1 2 
+2 2 2 1 1 
+2 2 1 1 0 
+
+Truck(2): load 12
+
+== Time: 615 ==
+failed_requests_count: 89
+distance: 2326.0
+0 0 2 2 1 
+1 1 3 2 1 
+2 2 2 1 2 
+2 3 1 0 1 
+2 2 2 1 0 
+
+Truck(4): load 13
+Truck(2): unload 11
+Truck(3): unload 15
+Truck(3): unload 20
+Truck(2): load 6
+Truck(4): unload 9
+
+== Time: 616 ==
+failed_requests_count: 89
+distance: 2329.8
+0 1 2 3 0 
+1 2 2 3 1 
+2 2 2 0 2 
+2 2 2 0 1 
+3 1 2 1 1 
+
+Truck(0): load 18
+Truck(0): unload 17
+Truck(2): unload 3
+Truck(3): load 19
+
+== Time: 617 ==
+failed_requests_count: 89
+distance: 2333.3
+0 1 2 2 0 
+2 2 2 2 2 
+3 2 1 1 2 
+2 2 3 0 1 
+3 1 2 1 1 
+
+Truck(3): unload 17
+Truck(4): load 2
+
+== Time: 618 ==
+failed_requests_count: 89
+distance: 2337.5
+0 1 1 2 0 
+2 2 2 2 2 
+2 2 0 2 2 
+2 2 3 0 1 
+3 2 2 1 1 
+
+Truck(4): load 0
+
+== Time: 619 ==
+failed_requests_count: 91
+distance: 2341.4
+1 1 1 3 0 
+2 2 2 2 2 
+1 2 0 2 1 
+2 2 3 0 1 
+2 2 2 1 1 
+
+Truck(3): load 11
+Truck(0): load 19
+Truck(0): unload 24
+Truck(3): unload 12
+
+== Time: 620 ==
+failed_requests_count: 91
+distance: 2345.0
+1 1 1 1 1 
+1 2 2 2 2 
+1 2 1 1 0 
+2 2 2 1 1 
+2 2 2 1 1 
+
+Truck(4): unload 12
+Truck(4): unload 17
+
+== Time: 621 ==
+failed_requests_count: 92
+distance: 2348.4
+1 2 1 1 1 
+1 2 2 2 2 
+1 2 2 2 0 
+2 2 2 1 1 
+1 2 1 1 1 
+
+
+== Time: 622 ==
+failed_requests_count: 92
+distance: 2352.6
+1 2 1 1 1 
+1 2 2 2 2 
+1 1 2 2 0 
+2 2 2 1 1 
+1 2 1 1 1 
+
+
+== Time: 623 ==
+failed_requests_count: 93
+distance: 2357.3
+1 2 2 1 1 
+1 2 2 2 2 
+1 1 2 2 0 
+2 2 2 0 1 
+1 2 1 1 1 
+
+
+== Time: 624 ==
+failed_requests_count: 93
+distance: 2361.5
+1 2 2 1 1 
+1 2 2 2 2 
+0 1 2 2 0 
+2 4 2 0 1 
+1 2 1 1 1 
+
+Truck(1): load 6
+Truck(1): load 6
+Truck(1): unload 7
+Truck(1): unload 2
+
+== Time: 625 ==
+failed_requests_count: 93
+distance: 2364.7
+1 3 2 1 2 
+1 2 2 2 2 
+1 2 2 2 1 
+1 2 2 1 2 
+1 2 1 1 1 
+
+
+== Time: 626 ==
+failed_requests_count: 93
+distance: 2369.2
+1 4 2 1 2 
+1 1 2 2 2 
+1 2 2 2 1 
+1 2 3 1 2 
+1 2 1 1 1 
+
+Truck(3): load 11
+
+== Time: 627 ==
+failed_requests_count: 93
+distance: 2372.9
+1 4 2 1 2 
+1 1 2 2 2 
+0 4 1 1 1 
+1 3 2 1 2 
+1 2 1 3 1 
+
+Truck(0): load 7
+Truck(3): load 6
+Truck(0): load 7
+Truck(1): load 15
+Truck(0): unload 2
+Truck(1): unload 10
+Truck(0): unload 2
+
+== Time: 628 ==
+failed_requests_count: 93
+distance: 2375.9
+1 4 2 1 2 
+1 2 2 2 2 
+2 2 1 2 1 
+1 2 2 1 2 
+1 2 2 2 0 
+
+Truck(3): unload 16
+Truck(3): unload 22
+
+== Time: 629 ==
+failed_requests_count: 93
+distance: 2379.8
+1 4 2 1 1 
+1 0 2 2 2 
+2 2 1 2 2 
+1 2 2 2 2 
+1 2 2 2 0 
+
+
+== Time: 630 ==
+failed_requests_count: 93
+distance: 2383.3
+1 4 2 0 1 
+1 0 2 2 2 
+1 1 1 2 2 
+1 1 2 2 2 
+1 2 2 2 0 
+
+
+== Time: 631 ==
+failed_requests_count: 93
+distance: 2387.3
+1 4 2 0 2 
+1 0 2 2 2 
+1 1 1 2 2 
+1 1 3 2 2 
+1 2 2 2 0 
+
+Truck(4): load 11
+Truck(4): unload 12
+
+== Time: 632 ==
+failed_requests_count: 94
+distance: 2391.8
+2 3 2 0 2 
+0 0 2 2 2 
+1 1 2 2 2 
+1 1 2 2 2 
+1 1 2 2 0 
+
+
+== Time: 633 ==
+failed_requests_count: 95
+distance: 2395.8
+2 3 2 0 2 
+0 0 2 2 2 
+1 0 2 2 2 
+1 1 3 2 2 
+1 1 2 2 0 
+
+Truck(4): load 11
+Truck(4): unload 6
+Truck(2): load 9
+Truck(2): unload 8
+
+== Time: 634 ==
+failed_requests_count: 95
+distance: 2400.2
+2 2 2 0 2 
+0 1 2 2 2 
+1 0 3 2 3 
+1 2 2 2 3 
+1 1 3 2 0 
+
+Truck(1): load 12
+Truck(1): unload 7
+Truck(0): load 22
+
+== Time: 635 ==
+failed_requests_count: 96
+distance: 2404.2
+2 2 2 0 3 
+0 1 2 2 2 
+1 2 1 2 2 
+1 2 2 2 3 
+1 1 3 1 0 
+
+Truck(0): load 21
+Truck(2): load 24
+Truck(0): unload 12
+Truck(3): load 10
+
+== Time: 636 ==
+failed_requests_count: 96
+distance: 2408.0
+1 1 2 0 2 
+0 1 2 2 2 
+1 2 2 2 2 
+0 2 2 2 2 
+1 1 2 1 0 
+
+Truck(2): unload 20
+Truck(0): unload 15
+Truck(3): unload 5
+
+== Time: 637 ==
+failed_requests_count: 96
+distance: 2411.7
+1 1 2 0 2 
+0 1 2 2 2 
+1 3 2 2 2 
+0 2 2 2 3 
+0 2 2 1 1 
+
+Truck(4): load 21
+Truck(4): unload 20
+
+== Time: 638 ==
+failed_requests_count: 96
+distance: 2415.7
+1 1 3 0 2 
+0 1 2 3 2 
+1 3 2 2 2 
+0 2 2 2 3 
+0 2 2 1 2 
+
+Truck(0): load 21
+Truck(0): unload 1
+
+== Time: 639 ==
+failed_requests_count: 96
+distance: 2419.2
+1 1 3 0 2 
+0 1 2 3 2 
+1 3 2 2 2 
+1 2 2 3 3 
+0 2 2 1 1 
+
+Truck(1): load 21
+Truck(4): load 16
+Truck(1): unload 15
+Truck(4): unload 20
+
+== Time: 640 ==
+failed_requests_count: 96
+distance: 2422.5
+1 1 3 0 2 
+0 1 2 2 2 
+1 2 2 2 2 
+1 1 2 2 2 
+0 2 2 2 2 
+
+
+== Time: 641 ==
+failed_requests_count: 96
+distance: 2426.3
+1 1 3 0 0 
+0 1 2 2 2 
+1 2 2 2 2 
+1 1 2 2 2 
+0 2 2 2 2 
+
+Truck(3): load 14
+
+== Time: 642 ==
+failed_requests_count: 96
+distance: 2429.8
+1 2 2 0 0 
+0 1 2 2 2 
+1 2 2 2 2 
+1 1 1 2 1 
+0 2 2 2 2 
+
+Truck(3): unload 2
+
+== Time: 643 ==
+failed_requests_count: 97
+distance: 2434.5
+1 2 2 0 0 
+0 2 2 2 2 
+2 2 2 2 2 
+1 0 1 2 1 
+2 2 2 2 1 
+
+
+== Time: 644 ==
+failed_requests_count: 97
+distance: 2438.8
+1 2 3 0 0 
+0 2 1 2 3 
+3 2 2 2 2 
+0 0 1 2 1 
+2 2 2 2 2 
+
+Truck(0): load 2
+Truck(0): unload 3
+
+== Time: 645 ==
+failed_requests_count: 98
+distance: 2443.0
+1 2 3 0 0 
+1 2 2 2 4 
+1 2 2 2 2 
+0 0 1 2 1 
+2 1 2 2 2 
+
+Truck(1): load 23
+Truck(1): load 23
+
+== Time: 646 ==
+failed_requests_count: 98
+distance: 2447.2
+1 2 3 0 0 
+1 2 2 2 2 
+1 2 2 2 2 
+0 1 1 2 0 
+2 1 2 2 2 
+
+Truck(1): unload 11
+Truck(1): unload 21
+
+== Time: 647 ==
+failed_requests_count: 98
+distance: 2451.3
+1 2 2 0 0 
+1 2 2 2 2 
+1 2 2 2 2 
+0 2 2 2 1 
+2 0 2 2 2 
+
+
+== Time: 648 ==
+failed_requests_count: 98
+distance: 2455.5
+1 2 3 1 0 
+1 3 2 2 2 
+1 4 2 1 3 
+0 2 2 2 1 
+2 0 2 2 2 
+
+Truck(2): load 7
+Truck(3): load 7
+Truck(2): load 8
+Truck(3): unload 17
+Truck(1): load 14
+
+== Time: 649 ==
+failed_requests_count: 98
+distance: 2459.6
+2 2 3 1 0 
+1 2 2 3 2 
+1 2 2 2 4 
+0 2 2 3 1 
+2 0 2 2 2 
+
+Truck(1): load 18
+Truck(2): load 16
+Truck(1): unload 24
+Truck(1): unload 24
+Truck(3): load 22
+Truck(3): load 22
+
+== Time: 650 ==
+failed_requests_count: 98
+distance: 2463.7
+2 2 3 1 2 
+0 2 2 2 2 
+1 2 2 2 2 
+0 2 2 2 1 
+2 0 2 2 2 
+
+Truck(3): load 14
+
+== Time: 651 ==
+failed_requests_count: 98
+distance: 2468.0
+2 2 2 1 2 
+0 2 2 2 1 
+1 2 2 3 1 
+1 2 2 2 1 
+2 0 2 2 2 
+
+Truck(3): load 17
+Truck(3): unload 22
+Truck(2): unload 5
+Truck(3): unload 21
+Truck(2): unload 5
+
+== Time: 652 ==
+failed_requests_count: 98
+distance: 2471.6
+3 2 2 1 2 
+0 2 2 2 1 
+1 2 2 3 2 
+1 2 2 2 2 
+2 2 2 2 2 
+
+Truck(0): load 17
+Truck(3): unload 23
+
+== Time: 653 ==
+failed_requests_count: 99
+distance: 2475.9
+4 2 2 2 2 
+0 2 2 2 2 
+1 2 2 2 2 
+1 2 2 2 2 
+2 3 2 2 2 
+
+Truck(2): unload 1
+Truck(2): load 4
+Truck(2): load 4
+
+== Time: 654 ==
+failed_requests_count: 99
+distance: 2479.6
+2 2 2 2 2 
+0 2 2 2 2 
+1 2 2 2 2 
+2 2 2 2 2 
+2 3 2 2 3 
+
+Truck(0): unload 2
+
+== Time: 655 ==
+failed_requests_count: 99
+distance: 2483.1
+2 2 1 2 2 
+0 2 2 2 2 
+2 1 2 3 2 
+2 2 2 1 2 
+2 3 2 2 3 
+
+Truck(3): unload 7
+Truck(1): load 17
+Truck(2): unload 14
+Truck(1): load 20
+Truck(2): unload 16
+
+== Time: 656 ==
+failed_requests_count: 99
+distance: 2487.0
+2 2 2 2 2 
+0 1 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 3 1 2 2 
+
+Truck(2): load 5
+
+== Time: 657 ==
+failed_requests_count: 99
+distance: 2491.0
+2 2 2 1 1 
+0 1 2 2 2 
+2 2 3 2 2 
+2 2 2 2 2 
+2 1 1 2 2 
+
+Truck(2): unload 5
+Truck(1): unload 10
+Truck(4): load 12
+
+== Time: 658 ==
+failed_requests_count: 99
+distance: 2495.2
+2 2 2 2 1 
+0 0 2 2 2 
+1 2 2 2 2 
+2 2 2 3 2 
+2 2 2 2 2 
+
+Truck(2): load 16
+Truck(2): unload 8
+
+== Time: 659 ==
+failed_requests_count: 99
+distance: 2499.2
+2 2 2 2 1 
+0 1 2 2 2 
+1 2 2 2 2 
+2 2 2 3 2 
+2 2 2 2 2 
+
+Truck(0): load 16
+
+== Time: 660 ==
+failed_requests_count: 99
+distance: 2502.7
+2 2 2 2 2 
+0 1 2 2 2 
+0 2 2 2 2 
+2 1 2 1 1 
+2 2 2 2 2 
+
+Truck(0): unload 16
+Truck(1): unload 6
+
+== Time: 661 ==
+failed_requests_count: 99
+distance: 2506.8
+2 2 2 2 2 
+0 2 2 2 2 
+0 2 2 2 2 
+2 2 2 2 1 
+2 2 2 2 2 
+
+Truck(4): unload 2
+
+== Time: 662 ==
+failed_requests_count: 99
+distance: 2511.0
+2 2 1 2 2 
+0 3 2 2 2 
+1 2 2 2 2 
+2 2 2 2 1 
+3 1 1 2 1 
+
+Truck(1): load 0
+Truck(4): load 8
+Truck(4): unload 2
+Truck(1): unload 5
+
+== Time: 663 ==
+failed_requests_count: 99
+distance: 2514.0
+2 2 1 2 2 
+0 3 2 2 1 
+2 2 2 2 2 
+3 2 2 2 1 
+2 2 0 2 1 
+
+Truck(4): load 8
+Truck(4): unload 10
+Truck(1): load 1
+
+== Time: 664 ==
+failed_requests_count: 99
+distance: 2517.8
+2 2 1 2 2 
+0 2 1 2 1 
+3 2 2 2 2 
+2 2 2 2 1 
+2 2 1 3 1 
+
+Truck(2): load 2
+
+== Time: 665 ==
+failed_requests_count: 99
+distance: 2521.6
+2 2 1 2 2 
+0 2 1 2 1 
+2 2 2 2 2 
+2 2 2 2 1 
+2 2 1 3 1 
+
+Truck(1): unload 10
+
+== Time: 666 ==
+failed_requests_count: 99
+distance: 2525.3
+2 2 1 2 2 
+0 1 1 2 1 
+3 2 2 2 2 
+2 2 2 1 1 
+2 2 1 3 1 
+
+Truck(2): load 2
+Truck(2): unload 3
+Truck(2): unload 3
+Truck(4): load 15
+
+== Time: 667 ==
+failed_requests_count: 100
+distance: 2528.6
+2 2 1 2 2 
+2 1 1 2 1 
+2 2 2 2 2 
+2 2 2 1 1 
+2 2 1 2 1 
+
+Truck(4): unload 20
+
+== Time: 668 ==
+failed_requests_count: 100
+distance: 2532.6
+2 1 1 2 2 
+2 1 1 2 1 
+2 1 1 2 2 
+2 2 2 1 1 
+2 2 1 2 2 
+
+
+== Time: 669 ==
+failed_requests_count: 100
+distance: 2536.6
+2 1 1 2 2 
+2 1 1 2 1 
+2 1 1 2 3 
+2 2 2 1 1 
+2 2 1 2 2 
+
+Truck(3): load 22
+Truck(3): unload 21
+
+== Time: 670 ==
+failed_requests_count: 100
+distance: 2540.2
+2 1 1 2 2 
+2 1 1 2 1 
+3 1 1 2 3 
+1 2 2 1 2 
+2 2 1 2 2 
+
+Truck(2): load 22
+Truck(2): unload 23
+
+== Time: 671 ==
+failed_requests_count: 100
+distance: 2543.2
+2 1 1 2 2 
+2 1 1 2 2 
+3 1 1 2 2 
+1 2 2 1 2 
+2 2 1 2 2 
+
+Truck(1): load 2
+Truck(1): unload 9
+
+== Time: 672 ==
+failed_requests_count: 100
+distance: 2547.1
+2 2 1 2 2 
+2 1 1 2 2 
+2 1 1 2 2 
+1 2 2 2 2 
+2 3 1 2 2 
+
+Truck(3): load 5
+Truck(3): unload 1
+
+== Time: 673 ==
+failed_requests_count: 100
+distance: 2550.7
+2 2 1 2 2 
+2 2 1 2 2 
+2 1 1 2 2 
+2 2 2 3 2 
+2 2 1 2 2 
+
+
+== Time: 674 ==
+failed_requests_count: 100
+distance: 2554.2
+2 1 1 2 3 
+3 2 1 4 2 
+2 1 1 2 2 
+2 2 2 3 2 
+2 2 1 2 2 
+
+Truck(3): load 16
+
+== Time: 675 ==
+failed_requests_count: 100
+distance: 2558.1
+3 1 1 2 3 
+3 2 1 4 2 
+2 1 1 2 2 
+2 2 2 2 2 
+2 3 1 2 2 
+
+Truck(1): load 5
+Truck(3): unload 12
+Truck(1): unload 7
+Truck(4): load 4
+Truck(4): load 3
+
+== Time: 676 ==
+failed_requests_count: 100
+distance: 2562.2
+1 1 1 2 3 
+1 1 1 4 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 3 1 2 3 
+
+Truck(3): load 5
+Truck(2): load 20
+Truck(3): unload 13
+
+== Time: 677 ==
+failed_requests_count: 100
+distance: 2565.7
+1 1 1 2 3 
+1 1 2 4 2 
+2 2 2 3 2 
+2 3 2 2 2 
+2 3 1 2 2 
+
+Truck(0): load 18
+Truck(0): load 18
+Truck(1): load 5
+Truck(2): load 17
+Truck(4): unload 10
+Truck(1): load 6
+Truck(0): load 24
+
+== Time: 678 ==
+failed_requests_count: 100
+distance: 2569.6
+1 1 1 2 2 
+1 1 2 2 2 
+2 2 1 2 2 
+2 2 2 2 2 
+2 2 2 3 2 
+
+Truck(4): unload 12
+Truck(1): unload 8
+Truck(1): unload 3
+
+== Time: 679 ==
+failed_requests_count: 100
+distance: 2573.2
+1 1 1 3 2 
+2 2 2 2 2 
+3 2 2 2 2 
+3 2 2 2 4 
+2 1 1 3 2 
+
+Truck(2): load 19
+Truck(3): load 1
+Truck(2): unload 14
+Truck(3): load 2
+Truck(4): load 21
+Truck(4): load 21
+Truck(4): load 15
+
+== Time: 680 ==
+failed_requests_count: 100
+distance: 2576.8
+0 1 2 2 2 
+2 2 2 2 2 
+1 2 2 2 2 
+2 2 3 2 2 
+2 2 1 2 2 
+
+Truck(2): load 11
+Truck(3): unload 4
+Truck(3): unload 4
+Truck(4): unload 10
+
+== Time: 681 ==
+failed_requests_count: 100
+distance: 2580.3
+2 1 2 2 2 
+2 2 2 2 2 
+1 2 3 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+
+Truck(0): load 12
+
+== Time: 682 ==
+failed_requests_count: 100
+distance: 2584.1
+2 1 2 2 2 
+2 2 2 2 2 
+1 2 2 2 2 
+2 2 2 2 2 
+2 2 2 1 1 
+
+Truck(2): unload 9
+
+== Time: 683 ==
+failed_requests_count: 100
+distance: 2588.5
+2 2 2 2 2 
+3 2 2 2 2 
+1 2 2 2 2 
+2 2 3 3 2 
+2 2 2 2 1 
+
+Truck(2): load 3
+Truck(4): load 11
+Truck(0): load 16
+Truck(0): unload 2
+
+== Time: 684 ==
+failed_requests_count: 100
+distance: 2593.1
+2 2 2 2 2 
+1 3 2 2 2 
+2 2 2 2 1 
+1 2 2 2 1 
+2 2 2 1 1 
+
+Truck(0): load 8
+Truck(2): unload 22
+Truck(4): unload 15
+Truck(2): unload 21
+Truck(2): unload 20
+Truck(0): unload 1
+
+== Time: 685 ==
+failed_requests_count: 100
+distance: 2596.7
+2 2 2 1 3 
+1 2 2 3 2 
+2 2 1 2 3 
+2 2 2 2 2 
+2 2 2 2 2 
+
+Truck(3): load 18
+Truck(4): load 22
+Truck(3): unload 19
+Truck(3): load 24
+Truck(0): unload 12
+
+== Time: 686 ==
+failed_requests_count: 100
+distance: 2600.2
+2 3 2 2 2 
+0 2 2 2 2 
+2 2 2 3 2 
+2 1 2 2 2 
+2 2 2 3 0 
+
+Truck(4): load 17
+Truck(0): unload 6
+Truck(2): load 9
+Truck(3): unload 3
+
+== Time: 687 ==
+failed_requests_count: 100
+distance: 2604.0
+2 3 2 2 2 
+1 2 2 2 2 
+2 2 2 2 2 
+3 2 2 2 2 
+2 2 2 4 0 
+
+Truck(0): load 15
+Truck(2): load 9
+Truck(0): load 15
+
+== Time: 688 ==
+failed_requests_count: 100
+distance: 2608.1
+2 2 2 1 2 
+1 2 3 2 2 
+0 2 2 2 2 
+3 2 2 2 2 
+4 2 2 2 0 
+
+Truck(1): load 0
+Truck(1): load 0
+Truck(4): unload 3
+Truck(1): load 1
+Truck(2): load 13
+Truck(0): unload 20
+Truck(1): unload 2
+Truck(0): unload 20
+Truck(1): unload 2
+Truck(2): unload 19
+
+== Time: 689 ==
+failed_requests_count: 100
+distance: 2611.3
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+
+
+== Time: 690 ==
+failed_requests_count: 100
+distance: 2615.4
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 3 2 
+2 2 2 2 2 
+2 2 2 2 2 
+
+Truck(4): load 17
+
+== Time: 691 ==
+failed_requests_count: 100
+distance: 2619.7
+2 3 2 2 2 
+2 2 2 2 2 
+2 2 3 2 1 
+2 1 2 2 2 
+2 2 2 2 3 
+
+Truck(0): load 12
+Truck(4): unload 6
+Truck(0): unload 22
+Truck(2): load 20
+
+== Time: 692 ==
+failed_requests_count: 100
+distance: 2624.1
+2 3 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+1 2 3 2 2 
+2 2 2 2 2 
+
+Truck(3): load 11
+Truck(4): load 9
+Truck(1): unload 1
+
+== Time: 693 ==
+failed_requests_count: 100
+distance: 2628.2
+2 2 2 2 3 
+3 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 0 
+2 2 2 2 2 
+
+Truck(3): unload 21
+Truck(4): load 3
+Truck(2): unload 21
+
+== Time: 694 ==
+failed_requests_count: 100
+distance: 2632.1
+1 2 2 2 2 
+2 2 2 2 2 
+2 2 4 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+
+Truck(4): unload 4
+
+== Time: 695 ==
+failed_requests_count: 100
+distance: 2636.0
+2 2 2 2 3 
+2 2 2 2 1 
+2 2 4 2 2 
+2 2 2 2 3 
+2 3 2 2 2 
+
+Truck(4): load 5
+Truck(0): load 12
+Truck(3): load 12
+Truck(1): load 21
+Truck(1): unload 23
+
+== Time: 696 ==
+failed_requests_count: 100
+distance: 2639.6
+2 2 2 2 3 
+2 2 2 2 2 
+2 3 2 1 2 
+2 2 2 2 2 
+2 2 2 1 2 
+
+Truck(2): load 7
+
+== Time: 697 ==
+failed_requests_count: 100
+distance: 2643.4
+2 2 2 2 3 
+2 2 2 2 2 
+1 2 2 1 3 
+2 2 1 2 2 
+2 2 2 1 2 
+
+Truck(0): unload 2
+Truck(4): load 24
+
+== Time: 698 ==
+failed_requests_count: 100
+distance: 2647.3
+2 2 2 1 2 
+1 2 2 2 2 
+2 2 2 1 3 
+2 2 1 2 3 
+2 2 2 1 2 
+
+Truck(4): unload 19
+Truck(3): unload 11
+Truck(2): unload 17
+Truck(2): unload 15
+
+== Time: 699 ==
+failed_requests_count: 100
+distance: 2650.7
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 3 
+2 2 2 2 3 
+2 2 2 2 2 
+
+Truck(2): load 21
+
+== Time: 700 ==
+failed_requests_count: 100
+distance: 2654.0
+3 2 2 2 1 
+2 2 2 2 2 
+2 2 2 2 3 
+2 2 2 2 2 
+2 1 3 2 2 
+
+Truck(3): load 22
+Truck(2): load 10
+Truck(0): load 4
+Truck(3): unload 24
+
+== Time: 701 ==
+failed_requests_count: 100
+distance: 2658.1
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 1 
+2 2 2 2 2 
+2 1 2 2 2 
+
+Truck(4): unload 5
+
+== Time: 702 ==
+failed_requests_count: 100
+distance: 2661.7
+2 2 2 3 2 
+3 1 2 2 2 
+1 3 2 2 1 
+2 2 2 2 2 
+2 2 2 3 2 
+
+Truck(2): load 15
+Truck(1): load 7
+Truck(0): unload 8
+Truck(1): unload 2
+
+== Time: 703 ==
+failed_requests_count: 100
+distance: 2665.4
+2 1 2 2 2 
+3 1 2 2 2 
+2 2 2 2 1 
+2 2 2 2 1 
+2 2 1 2 2 
+
+Truck(4): unload 9
+Truck(4): load 3
+Truck(0): unload 22
+
+== Time: 704 ==
+failed_requests_count: 100
+distance: 2669.3
+1 2 2 2 2 
+2 1 2 3 2 
+2 2 2 2 2 
+2 2 1 4 0 
+2 2 1 2 2 
+
+Truck(0): load 18
+Truck(4): unload 8
+Truck(4): unload 4
+
+== Time: 705 ==
+failed_requests_count: 100
+distance: 2673.1
+2 2 2 2 2 
+2 2 2 2 2 
+1 2 2 2 2 
+2 2 1 4 0 
+2 3 1 2 2 
+
+
+== Time: 706 ==
+failed_requests_count: 100
+distance: 2677.4
+2 1 2 2 2 
+2 2 2 2 2 
+1 2 2 2 2 
+2 1 1 4 0 
+2 3 1 2 1 
+
+Truck(0): unload 11
+Truck(4): unload 9
+Truck(0): unload 6
+Truck(1): load 5
+
+== Time: 707 ==
+failed_requests_count: 100
+distance: 2681.0
+2 2 2 2 3 
+2 2 2 2 2 
+1 2 2 2 2 
+2 1 2 4 0 
+2 2 1 2 1 
+
+Truck(4): unload 21
+Truck(1): unload 6
+Truck(4): load 16
+Truck(4): load 16
+Truck(4): unload 21
+Truck(4): unload 20
+
+== Time: 708 ==
+failed_requests_count: 100
+distance: 2684.6
+2 2 2 2 3 
+2 2 2 2 2 
+1 2 2 2 2 
+2 2 2 1 2 
+2 2 1 1 1 
+
+Truck(2): unload 2
+
+== Time: 709 ==
+failed_requests_count: 100
+distance: 2688.5
+2 2 2 2 3 
+2 2 2 2 2 
+2 2 2 2 3 
+2 2 2 1 2 
+1 2 1 1 1 
+
+Truck(0): load 22
+
+== Time: 710 ==
+failed_requests_count: 100
+distance: 2691.9
+2 2 2 2 3 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 1 2 
+1 2 0 1 1 
+
+Truck(2): unload 10
+Truck(0): unload 16
+Truck(2): unload 10
+Truck(2): unload 15
+
+== Time: 711 ==
+failed_requests_count: 100
+distance: 2695.4
+1 2 2 2 3 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 3 2 2 
+1 2 2 2 1 
+
+Truck(1): load 11
+
+== Time: 712 ==
+failed_requests_count: 100
+distance: 2699.1
+1 3 2 2 3 
+2 2 2 2 2 
+2 2 1 2 2 
+2 2 2 2 2 
+1 2 2 2 1 
+
+Truck(1): unload 0
+
+== Time: 713 ==
+failed_requests_count: 100
+distance: 2703.0
+1 3 2 2 3 
+2 2 2 2 2 
+2 2 1 2 2 
+2 2 2 1 2 
+2 3 1 2 1 
+
+Truck(1): load 5
+Truck(1): unload 10
+Truck(3): load 9
+
+== Time: 714 ==
+failed_requests_count: 100
+distance: 2706.9
+0 2 2 2 3 
+2 2 2 3 1 
+1 3 1 2 2 
+2 2 2 1 2 
+2 2 2 2 1 
+
+Truck(3): unload 2
+Truck(0): load 24
+Truck(1): load 7
+
+== Time: 715 ==
+failed_requests_count: 100
+distance: 2710.4
+0 2 2 2 2 
+2 2 2 3 1 
+2 2 1 2 2 
+2 2 2 1 2 
+3 2 2 1 1 
+
+Truck(3): load 0
+Truck(0): unload 23
+Truck(1): unload 12
+Truck(3): unload 15
+Truck(4): load 18
+
+== Time: 716 ==
+failed_requests_count: 100
+distance: 2713.8
+0 2 2 2 2 
+2 1 1 2 1 
+2 3 2 3 3 
+2 2 2 1 2 
+2 2 1 2 1 
+
+Truck(0): load 17
+Truck(3): load 22
+Truck(4): unload 23
+
+== Time: 717 ==
+failed_requests_count: 100
+distance: 2717.6
+0 2 2 2 2 
+2 1 0 2 2 
+2 3 2 2 2 
+2 2 2 1 2 
+2 2 1 2 1 
+
+Truck(3): unload 16
+Truck(0): unload 20
+
+== Time: 718 ==
+failed_requests_count: 100
+distance: 2721.1
+1 2 2 2 2 
+2 1 0 2 2 
+1 3 2 2 2 
+2 2 2 2 2 
+3 2 1 2 2 
+
+
+== Time: 719 ==
+failed_requests_count: 101
+distance: 2724.3
+1 2 2 1 2 
+2 2 0 1 3 
+1 3 2 2 3 
+2 2 2 2 2 
+3 2 1 2 2 
+
+Truck(1): load 23
+Truck(2): load 22
+Truck(1): unload 18
+Truck(2): unload 13
+Truck(3): load 7
+Truck(3): unload 2
+
+== End ==
+failed_requests_count: 101
+distance: 2728.2
+SCORE: 268.4749369747899
+========
+

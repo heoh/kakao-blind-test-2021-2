@@ -2,14 +2,14 @@ import textwrap
 from common.constant import BASE_URL, X_AUTH_TOKEN, LOG_DIR
 from common.api import Session, Status
 from common.log import set_log_filename_auto, override_print_globally
-from solution.do_nothing_solution import DoNothingSolution
+from solution.random_solution import RandomSolution
 
 
 def main():
     set_log_filename_auto(LOG_DIR)
     override_print_globally()
 
-    solution = DoNothingSolution(problem=1)
+    solution = RandomSolution(problem=1)
     session = Session(BASE_URL, X_AUTH_TOKEN).start(problem=solution.problem)
 
     print(solution.NAME)

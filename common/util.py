@@ -30,7 +30,7 @@ def print_matrix(mat):
     n = len(mat)
     for y in range(n):
         for x in range(n):
-            log += f"{mat[x][-y-1]} "
+            log += f"{mat[x][-y-1]:3d} "
         log += "\n"
     print(log)
 

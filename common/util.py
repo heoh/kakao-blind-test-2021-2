@@ -26,11 +26,13 @@ def array_to_matrix(arr):
 
 
 def print_matrix(mat):
+    log = ""
     n = len(mat)
     for y in range(n):
         for x in range(n):
-            print(mat[x][-y-1], end=' ')
-        print()
+            log += f"{mat[x][-y-1]} "
+        log += "\n"
+    print(log)
 
 
 def parse_locations(locations):

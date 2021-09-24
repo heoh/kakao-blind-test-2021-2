@@ -17,7 +17,7 @@ def main():
     print(textwrap.dedent(solution.DESCRIPTION))
 
     print("== Start ==")
-    print(f"problem: {session.problem}")
+    solution.start()
     print()
 
     while session.status == Status.READY:

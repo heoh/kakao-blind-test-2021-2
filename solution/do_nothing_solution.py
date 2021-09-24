@@ -7,13 +7,19 @@ from .solution import Solution
 
 
 class DoNothingSolution(Solution):
-    NAME = "아무 것도 안하는 솔루션"
+    NAME = "DoNothingSolution"
     DESCRIPTION = """\
     아무 것도 하지 않고, 매트릭스 로그만 찍습니다.
     """
 
     def __init__(self, problem):
         super().__init__(problem)
+
+    def start(self):
+        super().start()
+
+        print("[parameters]")
+        print(f"problem: {self.problem}")
 
     def update_locations(self, locations):
         super().update_locations(locations)

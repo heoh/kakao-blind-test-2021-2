@@ -1,8 +1,9 @@
-아무 것도 안하는 솔루션
+DoNothingSolution
 
 아무 것도 하지 않고, 매트릭스 로그만 찍습니다.
 
 == Start ==
+[parameters]
 problem: 1
 
 == Time: 0 ==

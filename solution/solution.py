@@ -8,6 +8,9 @@ class Solution:
         self.problem = problem
         self.n = None
 
+    def start(self):
+        pass
+
     def update_locations(self, locations):
         self.n = int(len(locations) ** 0.5)
 

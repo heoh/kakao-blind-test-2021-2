@@ -1,0 +1,6493 @@
+아무 것도 안하는 솔루션
+
+아무 것도 하지 않고, 매트릭스 로그만 찍습니다.
+
+== Start ==
+problem: 1
+
+== Time: 0 ==
+failed_requests_count: 0
+distance: 0.0
+4 4 4 4 4 
+4 4 4 4 4 
+4 4 4 4 4 
+4 4 4 4 4 
+4 4 4 4 4 
+
+== Time: 1 ==
+failed_requests_count: 0
+distance: 0.0
+4 4 3 4 4 
+4 4 3 4 4 
+4 4 4 4 4 
+4 4 4 4 4 
+4 4 4 4 4 
+
+== Time: 2 ==
+failed_requests_count: 0
+distance: 0.0
+4 4 3 4 4 
+4 4 3 4 4 
+4 4 4 4 4 
+4 4 4 3 4 
+4 4 4 4 4 
+
+== Time: 3 ==
+failed_requests_count: 0
+distance: 0.0
+4 3 3 4 4 
+4 4 3 4 4 
+4 4 4 4 4 
+4 4 4 3 4 
+4 4 4 4 4 
+
+== Time: 4 ==
+failed_requests_count: 0
+distance: 0.0
+4 3 3 4 4 
+4 4 3 4 4 
+4 3 4 4 4 
+4 4 4 3 4 
+4 4 4 4 4 
+
+== Time: 5 ==
+failed_requests_count: 0
+distance: 0.0
+4 3 3 4 4 
+4 4 3 4 4 
+4 3 4 4 4 
+4 4 4 3 4 
+4 4 4 4 4 
+
+== Time: 6 ==
+failed_requests_count: 0
+distance: 0.0
+4 3 3 3 2 
+4 4 3 4 4 
+4 3 4 4 4 
+4 4 4 3 4 
+4 4 3 4 4 
+
+== Time: 7 ==
+failed_requests_count: 0
+distance: 0.0
+4 3 3 3 2 
+4 4 3 4 4 
+4 3 4 4 4 
+4 4 4 3 4 
+4 3 3 4 4 
+
+== Time: 8 ==
+failed_requests_count: 0
+distance: 0.0
+4 3 3 3 2 
+4 3 2 4 4 
+4 3 4 4 4 
+4 4 4 3 4 
+4 3 3 3 4 
+
+== Time: 9 ==
+failed_requests_count: 0
+distance: 0.0
+4 3 3 3 2 
+4 3 2 4 4 
+4 3 4 4 4 
+4 4 4 3 4 
+4 3 3 3 4 
+
+== Time: 10 ==
+failed_requests_count: 0
+distance: 0.0
+4 3 3 3 2 
+3 3 2 4 4 
+4 3 4 4 4 
+4 4 4 3 4 
+4 3 3 3 4 
+
+== Time: 11 ==
+failed_requests_count: 0
+distance: 0.0
+4 3 3 3 2 
+3 3 2 3 4 
+4 3 4 4 4 
+4 4 3 2 4 
+4 3 3 3 4 
+
+== Time: 12 ==
+failed_requests_count: 0
+distance: 0.0
+4 3 3 3 2 
+3 3 2 3 4 
+4 3 4 4 4 
+4 4 2 2 4 
+4 3 3 3 4 
+
+== Time: 13 ==
+failed_requests_count: 0
+distance: 0.0
+4 3 2 3 2 
+3 3 2 3 4 
+4 3 4 4 4 
+4 4 2 2 4 
+4 3 3 3 4 
+
+== Time: 14 ==
+failed_requests_count: 0
+distance: 0.0
+4 3 1 3 2 
+3 3 1 3 4 
+4 4 4 4 4 
+4 4 3 2 4 
+4 2 2 3 4 
+
+== Time: 15 ==
+failed_requests_count: 0
+distance: 0.0
+3 3 0 3 2 
+3 3 1 3 4 
+4 4 4 5 4 
+4 4 3 2 4 
+3 2 2 3 4 
+
+== Time: 16 ==
+failed_requests_count: 1
+distance: 0.0
+3 3 0 3 2 
+3 3 1 3 4 
+4 4 4 5 4 
+4 4 3 1 4 
+2 2 1 3 4 
+
+== Time: 17 ==
+failed_requests_count: 1
+distance: 0.0
+3 3 0 3 2 
+3 2 1 3 4 
+4 3 4 5 4 
+3 4 3 1 4 
+2 2 1 3 4 
+
+== Time: 18 ==
+failed_requests_count: 1
+distance: 0.0
+3 3 0 3 2 
+3 2 1 3 4 
+4 2 4 4 4 
+3 4 3 1 4 
+2 2 1 2 3 
+
+== Time: 19 ==
+failed_requests_count: 1
+distance: 0.0
+3 2 0 3 2 
+3 2 1 3 5 
+4 2 4 4 4 
+3 3 3 1 4 
+1 2 1 2 3 
+
+== Time: 20 ==
+failed_requests_count: 1
+distance: 0.0
+3 2 0 3 1 
+3 1 1 3 5 
+4 1 4 4 4 
+3 3 3 1 4 
+0 2 1 2 3 
+
+== Time: 21 ==
+failed_requests_count: 1
+distance: 0.0
+3 2 0 3 1 
+3 1 1 3 5 
+3 1 4 4 4 
+3 3 2 1 4 
+0 2 0 2 3 
+
+== Time: 22 ==
+failed_requests_count: 1
+distance: 0.0
+3 2 0 3 1 
+3 0 1 4 5 
+3 1 4 4 4 
+3 3 2 1 4 
+0 2 0 3 3 
+
+== Time: 23 ==
+failed_requests_count: 1
+distance: 0.0
+3 2 0 3 1 
+3 0 1 4 5 
+3 1 4 4 4 
+3 3 2 1 5 
+0 2 0 3 3 
+
+== Time: 24 ==
+failed_requests_count: 1
+distance: 0.0
+3 2 0 3 1 
+3 0 1 4 5 
+3 1 4 4 4 
+3 3 2 1 5 
+0 2 0 3 3 
+
+== Time: 25 ==
+failed_requests_count: 1
+distance: 0.0
+3 2 0 3 1 
+3 0 1 4 5 
+3 1 4 4 4 
+3 2 2 0 5 
+0 2 0 3 3 
+
+== Time: 26 ==
+failed_requests_count: 1
+distance: 0.0
+3 2 0 3 1 
+3 0 1 4 5 
+3 1 4 4 4 
+3 2 2 0 5 
+0 2 0 2 3 
+
+== Time: 27 ==
+failed_requests_count: 1
+distance: 0.0
+2 2 0 3 1 
+3 0 0 4 5 
+3 1 4 4 4 
+3 2 2 0 4 
+0 2 0 2 3 
+
+== Time: 28 ==
+failed_requests_count: 2
+distance: 0.0
+2 2 0 3 1 
+3 0 0 4 5 
+3 1 4 4 4 
+3 2 2 0 4 
+0 2 0 2 3 
+
+== Time: 29 ==
+failed_requests_count: 3
+distance: 0.0
+2 2 0 2 0 
+3 0 0 4 5 
+3 1 4 4 4 
+3 2 2 0 4 
+1 2 0 2 3 
+
+== Time: 30 ==
+failed_requests_count: 3
+distance: 0.0
+2 2 0 2 0 
+3 0 0 4 5 
+3 1 4 4 3 
+3 2 2 0 4 
+1 2 0 2 3 
+
+== Time: 31 ==
+failed_requests_count: 5
+distance: 0.0
+2 1 0 2 0 
+3 0 0 4 5 
+3 1 3 4 4 
+3 3 2 0 4 
+1 2 0 2 3 
+
+== Time: 32 ==
+failed_requests_count: 5
+distance: 0.0
+2 0 0 2 0 
+3 0 0 4 5 
+3 1 3 4 4 
+3 2 2 0 4 
+1 2 0 2 3 
+
+== Time: 33 ==
+failed_requests_count: 5
+distance: 0.0
+2 0 0 2 0 
+3 0 0 4 5 
+3 1 3 4 4 
+3 3 2 0 4 
+1 2 0 2 3 
+
+== Time: 34 ==
+failed_requests_count: 6
+distance: 0.0
+2 1 0 2 0 
+3 0 0 4 5 
+3 1 3 4 4 
+3 3 2 0 4 
+1 2 0 2 3 
+
+== Time: 35 ==
+failed_requests_count: 6
+distance: 0.0
+2 1 0 3 0 
+3 0 0 4 5 
+3 1 3 4 4 
+3 3 3 0 4 
+1 2 0 2 3 
+
+== Time: 36 ==
+failed_requests_count: 7
+distance: 0.0
+2 1 0 3 0 
+3 0 0 4 5 
+3 1 3 4 4 
+3 3 3 0 4 
+1 2 0 2 2 
+
+== Time: 37 ==
+failed_requests_count: 7
+distance: 0.0
+2 1 0 3 0 
+3 0 0 4 5 
+3 1 3 4 4 
+3 3 3 0 3 
+1 2 0 2 2 
+
+== Time: 38 ==
+failed_requests_count: 7
+distance: 0.0
+2 1 0 3 0 
+3 0 0 4 5 
+3 1 3 5 3 
+3 2 3 0 3 
+1 2 0 2 2 
+
+== Time: 39 ==
+failed_requests_count: 9
+distance: 0.0
+2 1 0 3 1 
+3 0 0 3 5 
+4 1 3 5 3 
+2 2 3 0 3 
+1 2 0 2 2 
+
+== Time: 40 ==
+failed_requests_count: 9
+distance: 0.0
+2 1 0 3 1 
+3 0 0 2 4 
+4 1 3 5 3 
+2 2 3 0 3 
+1 2 0 2 2 
+
+== Time: 41 ==
+failed_requests_count: 9
+distance: 0.0
+2 1 0 3 1 
+3 1 0 2 4 
+4 1 4 5 3 
+2 2 3 0 4 
+1 2 0 2 3 
+
+== Time: 42 ==
+failed_requests_count: 9
+distance: 0.0
+2 1 0 3 1 
+3 1 0 2 4 
+3 1 4 5 3 
+2 2 3 0 4 
+1 2 0 2 3 
+
+== Time: 43 ==
+failed_requests_count: 9
+distance: 0.0
+2 0 0 2 1 
+3 1 0 2 4 
+3 1 4 4 3 
+2 2 3 0 4 
+1 2 0 2 3 
+
+== Time: 44 ==
+failed_requests_count: 9
+distance: 0.0
+2 0 1 1 1 
+3 1 0 2 4 
+3 1 4 4 2 
+2 2 3 0 4 
+1 2 0 2 2 
+
+== Time: 45 ==
+failed_requests_count: 10
+distance: 0.0
+4 0 1 1 1 
+3 1 0 2 4 
+3 1 4 4 2 
+2 2 3 0 4 
+2 2 0 2 2 
+
+== Time: 46 ==
+failed_requests_count: 10
+distance: 0.0
+4 0 1 1 1 
+3 1 0 2 4 
+3 1 3 4 2 
+2 2 3 0 4 
+3 2 0 2 2 
+
+== Time: 47 ==
+failed_requests_count: 11
+distance: 0.0
+3 0 1 1 1 
+3 1 0 2 4 
+3 1 3 3 2 
+2 1 3 0 4 
+4 3 0 1 3 
+
+== Time: 48 ==
+failed_requests_count: 12
+distance: 0.0
+3 0 1 1 1 
+3 1 0 2 4 
+3 1 3 3 2 
+2 1 3 0 4 
+4 3 0 0 3 
+
+== Time: 49 ==
+failed_requests_count: 12
+distance: 0.0
+3 1 2 1 1 
+3 1 0 2 4 
+3 1 3 3 2 
+1 1 3 0 4 
+4 3 0 0 3 
+
+== Time: 50 ==
+failed_requests_count: 13
+distance: 0.0
+3 1 2 1 1 
+3 1 0 2 4 
+3 1 2 3 2 
+1 1 3 0 4 
+4 3 0 0 4 
+
+== Time: 51 ==
+failed_requests_count: 14
+distance: 0.0
+3 1 3 2 0 
+3 0 0 2 4 
+2 1 2 3 2 
+1 1 3 0 4 
+4 3 0 0 4 
+
+== Time: 52 ==
+failed_requests_count: 15
+distance: 0.0
+3 1 3 2 0 
+3 0 0 2 4 
+2 1 2 3 2 
+1 0 3 0 3 
+4 3 0 0 4 
+
+== Time: 53 ==
+failed_requests_count: 16
+distance: 0.0
+3 2 3 2 0 
+3 0 1 2 4 
+2 1 2 3 2 
+1 0 3 0 3 
+4 3 0 0 4 
+
+== Time: 54 ==
+failed_requests_count: 17
+distance: 0.0
+3 2 3 2 1 
+3 0 1 2 4 
+2 1 2 3 2 
+1 0 3 0 2 
+4 4 0 0 4 
+
+== Time: 55 ==
+failed_requests_count: 17
+distance: 0.0
+3 2 3 2 1 
+3 0 1 2 4 
+2 1 1 2 2 
+1 0 3 0 2 
+4 3 0 0 4 
+
+== Time: 56 ==
+failed_requests_count: 17
+distance: 0.0
+3 2 3 2 1 
+3 0 1 2 4 
+2 1 1 1 2 
+1 0 4 1 2 
+4 3 0 0 4 
+
+== Time: 57 ==
+failed_requests_count: 17
+distance: 0.0
+3 2 3 2 1 
+3 0 1 3 4 
+2 1 1 1 2 
+1 0 4 1 3 
+4 3 0 0 4 
+
+== Time: 58 ==
+failed_requests_count: 17
+distance: 0.0
+3 2 3 1 2 
+4 0 0 2 4 
+2 2 2 1 2 
+1 0 4 1 3 
+4 3 0 0 4 
+
+== Time: 59 ==
+failed_requests_count: 17
+distance: 0.0
+4 2 3 1 2 
+4 0 2 2 4 
+2 1 3 1 2 
+1 0 4 1 3 
+4 2 0 0 4 
+
+== Time: 60 ==
+failed_requests_count: 18
+distance: 0.0
+4 2 3 1 2 
+4 0 2 2 4 
+2 1 3 1 2 
+1 0 4 1 3 
+4 2 0 0 4 
+
+== Time: 61 ==
+failed_requests_count: 18
+distance: 0.0
+4 2 3 1 2 
+4 0 2 2 4 
+1 1 3 1 2 
+1 0 4 1 3 
+4 2 0 1 4 
+
+== Time: 62 ==
+failed_requests_count: 18
+distance: 0.0
+4 2 4 1 2 
+4 1 2 2 4 
+1 1 3 1 2 
+1 0 4 1 3 
+4 2 0 1 4 
+
+== Time: 63 ==
+failed_requests_count: 18
+distance: 0.0
+4 2 4 1 2 
+4 1 2 2 4 
+1 1 3 1 1 
+3 0 5 1 3 
+4 2 0 1 4 
+
+== Time: 64 ==
+failed_requests_count: 18
+distance: 0.0
+4 2 4 1 2 
+4 1 2 2 4 
+1 1 4 1 1 
+1 0 4 1 3 
+4 2 0 1 4 
+
+== Time: 65 ==
+failed_requests_count: 18
+distance: 0.0
+4 2 4 1 2 
+4 1 2 2 4 
+1 1 4 1 0 
+1 0 4 1 3 
+4 2 0 1 4 
+
+== Time: 66 ==
+failed_requests_count: 18
+distance: 0.0
+4 2 4 1 2 
+4 2 2 2 4 
+1 1 4 1 0 
+1 0 4 1 3 
+4 2 0 1 4 
+
+== Time: 67 ==
+failed_requests_count: 18
+distance: 0.0
+5 1 3 1 2 
+4 2 2 2 4 
+1 1 3 1 0 
+1 0 4 1 3 
+4 2 0 1 4 
+
+== Time: 68 ==
+failed_requests_count: 18
+distance: 0.0
+5 1 3 0 2 
+4 2 2 2 4 
+1 1 4 1 0 
+1 0 4 1 2 
+4 2 0 1 4 
+
+== Time: 69 ==
+failed_requests_count: 19
+distance: 0.0
+5 1 3 0 2 
+5 2 2 2 4 
+1 1 4 1 0 
+1 0 4 1 2 
+4 2 0 1 4 
+
+== Time: 70 ==
+failed_requests_count: 19
+distance: 0.0
+5 1 3 0 2 
+4 2 1 2 4 
+1 1 4 1 0 
+1 0 4 1 2 
+4 2 0 1 5 
+
+== Time: 71 ==
+failed_requests_count: 19
+distance: 0.0
+5 1 3 0 2 
+5 2 1 2 4 
+1 1 5 2 0 
+1 0 4 1 3 
+4 2 0 1 5 
+
+== Time: 72 ==
+failed_requests_count: 19
+distance: 0.0
+5 0 3 0 3 
+4 2 1 2 4 
+1 1 5 2 0 
+1 0 3 1 4 
+4 2 0 1 5 
+
+== Time: 73 ==
+failed_requests_count: 19
+distance: 0.0
+4 0 3 0 3 
+4 2 1 2 4 
+1 1 5 2 0 
+1 0 3 1 4 
+4 2 0 0 5 
+
+== Time: 74 ==
+failed_requests_count: 19
+distance: 0.0
+4 0 3 0 3 
+4 2 1 2 3 
+1 1 5 2 0 
+1 0 3 1 4 
+4 2 0 0 5 
+
+== Time: 75 ==
+failed_requests_count: 20
+distance: 0.0
+4 0 3 0 2 
+4 2 1 2 3 
+1 1 5 2 1 
+1 0 3 1 4 
+4 2 0 0 6 
+
+== Time: 76 ==
+failed_requests_count: 21
+distance: 0.0
+4 0 3 0 2 
+4 2 1 4 3 
+1 1 5 2 1 
+1 0 3 1 4 
+4 2 0 0 6 
+
+== Time: 77 ==
+failed_requests_count: 21
+distance: 0.0
+4 1 3 0 2 
+4 2 0 4 3 
+1 1 5 2 2 
+1 1 3 1 4 
+5 2 0 0 6 
+
+== Time: 78 ==
+failed_requests_count: 22
+distance: 0.0
+4 1 3 0 2 
+4 2 0 4 3 
+1 1 5 2 2 
+1 1 4 1 3 
+5 2 0 0 6 
+
+== Time: 79 ==
+failed_requests_count: 23
+distance: 0.0
+4 1 3 0 2 
+4 2 0 3 3 
+1 1 5 2 2 
+1 1 4 1 3 
+5 2 0 0 6 
+
+== Time: 80 ==
+failed_requests_count: 23
+distance: 0.0
+4 1 3 0 1 
+4 2 1 3 3 
+1 1 5 2 2 
+1 1 4 1 3 
+4 2 1 0 6 
+
+== Time: 81 ==
+failed_requests_count: 23
+distance: 0.0
+4 1 3 0 1 
+4 2 1 3 3 
+0 1 6 2 2 
+1 1 4 1 3 
+4 2 2 0 6 
+
+== Time: 82 ==
+failed_requests_count: 23
+distance: 0.0
+4 1 3 0 1 
+4 2 1 4 3 
+0 1 6 2 2 
+1 1 4 0 3 
+4 2 2 1 6 
+
+== Time: 83 ==
+failed_requests_count: 23
+distance: 0.0
+4 0 3 0 1 
+4 2 1 4 2 
+0 1 6 2 2 
+1 1 5 0 3 
+4 2 2 1 6 
+
+== Time: 84 ==
+failed_requests_count: 23
+distance: 0.0
+4 0 3 0 1 
+4 2 1 4 1 
+0 1 6 2 2 
+2 1 5 0 3 
+4 2 2 1 6 
+
+== Time: 85 ==
+failed_requests_count: 23
+distance: 0.0
+4 0 3 0 1 
+4 2 1 4 1 
+0 0 6 2 2 
+2 1 5 0 3 
+4 2 2 1 6 
+
+== Time: 86 ==
+failed_requests_count: 24
+distance: 0.0
+4 0 3 0 1 
+4 2 1 4 1 
+0 0 6 2 2 
+2 1 6 0 3 
+4 2 2 1 6 
+
+== Time: 87 ==
+failed_requests_count: 25
+distance: 0.0
+4 0 3 0 1 
+4 2 1 4 1 
+0 1 6 2 3 
+1 1 6 0 2 
+4 2 2 1 6 
+
+== Time: 88 ==
+failed_requests_count: 25
+distance: 0.0
+4 0 3 0 1 
+4 3 1 3 1 
+0 0 6 2 3 
+1 1 6 0 2 
+3 3 1 1 6 
+
+== Time: 89 ==
+failed_requests_count: 25
+distance: 0.0
+4 0 3 0 1 
+3 2 1 3 1 
+0 0 6 2 3 
+1 2 6 0 2 
+3 3 1 1 6 
+
+== Time: 90 ==
+failed_requests_count: 25
+distance: 0.0
+4 0 3 0 1 
+3 2 1 3 1 
+0 1 7 2 3 
+1 2 6 0 2 
+3 3 1 1 6 
+
+== Time: 91 ==
+failed_requests_count: 25
+distance: 0.0
+4 0 3 0 1 
+3 2 1 3 1 
+0 1 7 2 3 
+1 2 5 0 2 
+3 2 1 1 6 
+
+== Time: 92 ==
+failed_requests_count: 25
+distance: 0.0
+4 0 3 0 1 
+3 2 1 2 1 
+0 1 7 2 3 
+1 2 4 0 1 
+3 2 1 1 6 
+
+== Time: 93 ==
+failed_requests_count: 25
+distance: 0.0
+4 1 3 0 1 
+3 2 1 2 1 
+0 0 8 2 3 
+1 2 4 0 1 
+3 2 1 1 6 
+
+== Time: 94 ==
+failed_requests_count: 25
+distance: 0.0
+4 1 3 0 1 
+3 2 1 2 1 
+0 0 8 2 3 
+1 2 4 0 1 
+3 2 1 1 6 
+
+== Time: 95 ==
+failed_requests_count: 25
+distance: 0.0
+4 1 3 0 1 
+3 2 1 2 1 
+0 0 8 2 3 
+1 2 4 0 1 
+3 1 1 1 6 
+
+== Time: 96 ==
+failed_requests_count: 26
+distance: 0.0
+4 1 3 0 0 
+3 2 0 2 1 
+0 0 8 2 3 
+1 2 5 0 1 
+4 1 1 0 5 
+
+== Time: 97 ==
+failed_requests_count: 26
+distance: 0.0
+4 0 3 0 0 
+3 2 0 3 1 
+0 0 8 3 3 
+1 1 5 0 1 
+4 1 1 0 5 
+
+== Time: 98 ==
+failed_requests_count: 26
+distance: 0.0
+4 0 3 1 0 
+2 2 0 3 1 
+0 0 8 3 3 
+2 1 5 0 1 
+4 1 1 0 6 
+
+== Time: 99 ==
+failed_requests_count: 26
+distance: 0.0
+4 0 3 1 0 
+2 2 0 3 1 
+0 0 8 3 3 
+2 1 5 0 1 
+4 1 1 0 6 
+
+== Time: 100 ==
+failed_requests_count: 26
+distance: 0.0
+4 0 3 1 0 
+2 2 0 3 1 
+0 1 8 4 3 
+2 1 5 0 1 
+4 1 1 0 6 
+
+== Time: 101 ==
+failed_requests_count: 26
+distance: 0.0
+4 0 3 1 1 
+4 2 0 3 1 
+0 1 8 4 3 
+2 2 5 0 1 
+4 1 2 1 6 
+
+== Time: 102 ==
+failed_requests_count: 26
+distance: 0.0
+4 0 3 1 1 
+4 3 0 3 1 
+0 1 8 4 3 
+2 2 4 0 1 
+4 1 2 1 6 
+
+== Time: 103 ==
+failed_requests_count: 26
+distance: 0.0
+4 0 3 1 1 
+4 3 0 3 1 
+0 2 8 4 4 
+2 2 4 0 1 
+4 1 2 1 6 
+
+== Time: 104 ==
+failed_requests_count: 26
+distance: 0.0
+4 0 2 1 1 
+3 3 0 3 1 
+0 2 8 4 3 
+2 2 2 0 1 
+4 0 2 1 6 
+
+== Time: 105 ==
+failed_requests_count: 27
+distance: 0.0
+4 0 2 2 1 
+3 3 0 3 1 
+0 2 8 4 3 
+2 1 2 0 1 
+4 0 2 1 6 
+
+== Time: 106 ==
+failed_requests_count: 27
+distance: 0.0
+4 0 2 2 1 
+3 3 1 3 1 
+0 1 8 3 3 
+2 1 2 0 1 
+4 0 2 1 6 
+
+== Time: 107 ==
+failed_requests_count: 27
+distance: 0.0
+4 0 2 2 1 
+3 3 1 2 1 
+0 1 8 3 3 
+3 1 2 0 1 
+4 0 1 1 6 
+
+== Time: 108 ==
+failed_requests_count: 27
+distance: 0.0
+4 1 2 2 1 
+3 3 1 2 1 
+0 1 9 3 3 
+3 1 2 0 1 
+4 0 0 0 6 
+
+== Time: 109 ==
+failed_requests_count: 29
+distance: 0.0
+4 1 2 2 1 
+3 3 1 2 1 
+0 1 9 3 3 
+3 1 2 0 1 
+4 0 0 0 6 
+
+== Time: 110 ==
+failed_requests_count: 29
+distance: 0.0
+5 1 2 2 1 
+3 3 1 2 1 
+0 1 9 1 3 
+3 1 2 0 0 
+4 0 0 0 6 
+
+== Time: 111 ==
+failed_requests_count: 30
+distance: 0.0
+5 1 1 1 1 
+3 3 1 2 1 
+0 1 7 1 3 
+3 1 2 0 0 
+4 0 0 0 6 
+
+== Time: 112 ==
+failed_requests_count: 30
+distance: 0.0
+5 1 1 2 1 
+3 3 1 2 1 
+0 1 7 1 3 
+3 1 2 0 0 
+4 0 0 0 5 
+
+== Time: 113 ==
+failed_requests_count: 30
+distance: 0.0
+5 1 1 2 1 
+3 3 2 2 1 
+0 1 7 1 3 
+3 1 2 0 0 
+5 0 0 0 5 
+
+== Time: 114 ==
+failed_requests_count: 30
+distance: 0.0
+5 1 1 2 1 
+3 3 2 3 1 
+0 1 7 1 3 
+3 1 2 0 0 
+5 0 0 0 5 
+
+== Time: 115 ==
+failed_requests_count: 30
+distance: 0.0
+5 1 1 2 1 
+3 3 2 3 1 
+0 1 7 1 3 
+3 0 2 0 0 
+5 0 0 0 5 
+
+== Time: 116 ==
+failed_requests_count: 30
+distance: 0.0
+5 1 1 2 1 
+3 3 2 2 1 
+0 1 7 0 3 
+3 0 2 0 0 
+5 0 0 0 5 
+
+== Time: 117 ==
+failed_requests_count: 31
+distance: 0.0
+5 1 1 2 1 
+3 3 2 2 0 
+0 0 8 0 3 
+3 0 2 0 0 
+5 0 0 0 5 
+
+== Time: 118 ==
+failed_requests_count: 31
+distance: 0.0
+5 1 1 2 1 
+3 3 2 1 0 
+1 0 8 0 4 
+3 0 1 0 0 
+6 0 0 1 5 
+
+== Time: 119 ==
+failed_requests_count: 31
+distance: 0.0
+5 1 1 2 1 
+3 3 2 1 0 
+1 0 7 0 4 
+3 0 1 0 0 
+6 0 0 1 5 
+
+== Time: 120 ==
+failed_requests_count: 32
+distance: 0.0
+5 1 1 2 1 
+3 3 2 1 0 
+1 0 7 0 4 
+3 0 0 0 0 
+7 0 0 2 5 
+
+== Time: 121 ==
+failed_requests_count: 33
+distance: 0.0
+4 1 1 2 1 
+3 3 2 1 0 
+1 0 7 0 4 
+3 0 0 0 0 
+7 1 0 2 5 
+
+== Time: 122 ==
+failed_requests_count: 33
+distance: 0.0
+4 1 0 2 1 
+3 2 2 1 0 
+1 2 6 0 4 
+3 0 0 0 0 
+7 1 0 2 5 
+
+== Time: 123 ==
+failed_requests_count: 36
+distance: 0.0
+3 1 0 2 1 
+3 2 2 1 0 
+1 2 6 0 3 
+3 0 0 0 0 
+7 1 0 2 5 
+
+== Time: 124 ==
+failed_requests_count: 36
+distance: 0.0
+2 1 1 2 1 
+3 2 2 1 0 
+1 1 6 0 2 
+3 0 0 0 0 
+7 1 0 2 4 
+
+== Time: 125 ==
+failed_requests_count: 36
+distance: 0.0
+2 1 1 2 1 
+3 2 2 2 0 
+1 1 6 0 2 
+2 1 0 0 0 
+7 2 0 2 4 
+
+== Time: 126 ==
+failed_requests_count: 36
+distance: 0.0
+1 1 2 2 1 
+3 2 2 2 0 
+1 1 6 0 1 
+1 1 0 1 0 
+6 2 0 2 4 
+
+== Time: 127 ==
+failed_requests_count: 36
+distance: 0.0
+1 1 2 2 1 
+3 3 2 2 0 
+1 1 6 0 1 
+1 1 0 1 0 
+6 1 0 2 4 
+
+== Time: 128 ==
+failed_requests_count: 36
+distance: 0.0
+1 0 2 2 1 
+3 3 2 2 0 
+2 1 6 0 1 
+1 2 0 1 0 
+6 1 0 2 5 
+
+== Time: 129 ==
+failed_requests_count: 37
+distance: 0.0
+1 0 2 2 1 
+2 3 2 2 0 
+2 2 6 0 1 
+1 1 0 1 0 
+5 1 1 2 5 
+
+== Time: 130 ==
+failed_requests_count: 38
+distance: 0.0
+1 0 2 2 2 
+2 3 3 2 0 
+2 2 6 0 1 
+1 1 0 1 0 
+5 1 2 1 5 
+
+== Time: 131 ==
+failed_requests_count: 39
+distance: 0.0
+2 0 2 2 2 
+2 3 3 1 0 
+2 2 6 0 2 
+1 1 0 1 0 
+5 1 1 1 5 
+
+== Time: 132 ==
+failed_requests_count: 40
+distance: 0.0
+2 0 2 2 2 
+3 4 2 1 0 
+2 2 6 0 2 
+1 1 0 1 0 
+6 0 1 1 5 
+
+== Time: 133 ==
+failed_requests_count: 41
+distance: 0.0
+2 0 2 2 2 
+3 4 2 1 0 
+3 2 6 0 2 
+1 1 0 1 0 
+6 0 1 1 5 
+
+== Time: 134 ==
+failed_requests_count: 41
+distance: 0.0
+2 0 2 2 2 
+3 4 1 0 0 
+3 2 7 0 2 
+1 1 0 1 0 
+6 0 1 1 5 
+
+== Time: 135 ==
+failed_requests_count: 43
+distance: 0.0
+3 0 2 2 2 
+3 4 1 0 0 
+3 2 7 0 3 
+1 0 0 1 0 
+6 0 1 1 5 
+
+== Time: 136 ==
+failed_requests_count: 44
+distance: 0.0
+3 0 1 2 2 
+3 3 1 0 0 
+3 2 7 0 3 
+1 0 0 1 0 
+6 0 1 1 5 
+
+== Time: 137 ==
+failed_requests_count: 44
+distance: 0.0
+4 0 1 3 2 
+3 3 1 1 0 
+3 2 7 0 3 
+1 0 0 1 0 
+6 0 1 1 4 
+
+== Time: 138 ==
+failed_requests_count: 45
+distance: 0.0
+4 0 1 3 2 
+3 3 2 1 0 
+3 2 7 0 3 
+1 0 0 1 0 
+6 1 1 2 4 
+
+== Time: 139 ==
+failed_requests_count: 45
+distance: 0.0
+4 0 2 3 3 
+3 3 2 1 0 
+3 2 7 0 3 
+1 0 0 1 0 
+6 1 1 2 4 
+
+== Time: 140 ==
+failed_requests_count: 45
+distance: 0.0
+4 1 2 3 3 
+3 3 2 1 0 
+3 2 7 0 3 
+1 0 0 1 0 
+7 1 1 2 3 
+
+== Time: 141 ==
+failed_requests_count: 45
+distance: 0.0
+4 1 2 3 3 
+3 3 2 1 0 
+3 2 7 0 3 
+1 0 0 1 0 
+7 1 1 2 3 
+
+== Time: 142 ==
+failed_requests_count: 45
+distance: 0.0
+4 1 3 2 3 
+3 3 2 1 0 
+2 2 7 0 3 
+1 0 0 2 1 
+7 1 1 2 3 
+
+== Time: 143 ==
+failed_requests_count: 45
+distance: 0.0
+4 1 3 2 4 
+3 3 2 0 0 
+2 2 7 0 3 
+1 0 0 2 1 
+7 1 1 1 3 
+
+== Time: 144 ==
+failed_requests_count: 45
+distance: 0.0
+4 2 3 2 4 
+3 3 2 0 0 
+2 2 7 0 3 
+1 0 0 2 1 
+7 1 1 2 3 
+
+== Time: 145 ==
+failed_requests_count: 45
+distance: 0.0
+4 2 3 2 4 
+3 3 2 0 0 
+2 2 7 0 3 
+1 0 0 2 1 
+6 1 1 2 4 
+
+== Time: 146 ==
+failed_requests_count: 46
+distance: 0.0
+4 2 3 2 3 
+3 3 2 0 0 
+2 2 7 0 2 
+1 0 0 2 0 
+6 1 1 2 4 
+
+== Time: 147 ==
+failed_requests_count: 47
+distance: 0.0
+4 2 3 2 3 
+4 3 2 0 0 
+2 2 7 0 2 
+1 0 0 2 0 
+6 1 1 2 4 
+
+== Time: 148 ==
+failed_requests_count: 47
+distance: 0.0
+4 2 3 2 3 
+3 3 3 0 0 
+2 2 7 0 2 
+1 0 1 1 1 
+6 0 1 2 4 
+
+== Time: 149 ==
+failed_requests_count: 47
+distance: 0.0
+4 2 3 2 3 
+3 3 2 0 0 
+2 2 6 0 2 
+1 0 1 1 1 
+5 0 1 2 4 
+
+== Time: 150 ==
+failed_requests_count: 47
+distance: 0.0
+4 2 3 1 3 
+3 3 2 0 0 
+2 3 6 0 2 
+1 0 1 1 1 
+5 0 1 2 4 
+
+== Time: 151 ==
+failed_requests_count: 49
+distance: 0.0
+4 3 3 1 3 
+3 3 2 0 0 
+2 3 6 0 2 
+1 0 1 1 1 
+5 0 1 2 4 
+
+== Time: 152 ==
+failed_requests_count: 49
+distance: 0.0
+4 3 3 1 3 
+3 3 2 0 0 
+1 3 6 0 2 
+1 0 1 1 1 
+4 0 1 3 4 
+
+== Time: 153 ==
+failed_requests_count: 49
+distance: 0.0
+4 4 3 1 2 
+3 3 2 1 0 
+1 3 6 0 2 
+1 0 1 1 1 
+4 0 1 4 4 
+
+== Time: 154 ==
+failed_requests_count: 49
+distance: 0.0
+3 4 3 1 2 
+3 3 2 1 0 
+1 4 6 0 2 
+1 0 1 1 1 
+4 0 1 4 4 
+
+== Time: 155 ==
+failed_requests_count: 49
+distance: 0.0
+3 4 3 1 2 
+3 3 2 3 0 
+1 3 7 0 2 
+1 0 1 1 1 
+4 0 1 4 4 
+
+== Time: 156 ==
+failed_requests_count: 49
+distance: 0.0
+3 4 2 1 2 
+3 3 2 3 0 
+1 3 7 0 2 
+1 0 1 1 1 
+4 0 1 4 4 
+
+== Time: 157 ==
+failed_requests_count: 49
+distance: 0.0
+3 4 2 1 2 
+3 4 2 2 0 
+1 3 7 0 2 
+1 0 1 1 1 
+4 0 2 4 4 
+
+== Time: 158 ==
+failed_requests_count: 49
+distance: 0.0
+3 4 2 1 2 
+3 4 2 2 0 
+1 3 7 0 3 
+1 0 1 1 1 
+4 1 1 5 4 
+
+== Time: 159 ==
+failed_requests_count: 49
+distance: 0.0
+2 4 1 1 2 
+3 4 2 3 0 
+2 3 7 0 3 
+1 0 2 1 0 
+4 1 1 5 4 
+
+== Time: 160 ==
+failed_requests_count: 49
+distance: 0.0
+2 3 1 1 2 
+3 4 2 3 1 
+1 3 7 1 3 
+1 1 2 1 0 
+4 1 1 4 4 
+
+== Time: 161 ==
+failed_requests_count: 49
+distance: 0.0
+2 3 1 1 2 
+3 4 2 2 1 
+1 3 7 1 3 
+0 1 2 1 0 
+4 1 1 4 4 
+
+== Time: 162 ==
+failed_requests_count: 49
+distance: 0.0
+2 3 1 0 2 
+3 4 3 2 1 
+1 4 7 1 3 
+0 1 2 1 0 
+4 1 0 4 4 
+
+== Time: 163 ==
+failed_requests_count: 49
+distance: 0.0
+2 3 1 0 0 
+3 4 3 2 1 
+1 4 7 0 3 
+0 1 2 1 0 
+4 2 1 4 4 
+
+== Time: 164 ==
+failed_requests_count: 50
+distance: 0.0
+2 3 1 0 0 
+3 4 3 2 1 
+1 4 7 0 1 
+0 1 2 1 0 
+4 2 1 4 4 
+
+== Time: 165 ==
+failed_requests_count: 50
+distance: 0.0
+2 3 1 1 0 
+4 4 3 2 1 
+0 4 7 0 1 
+0 1 2 1 0 
+2 1 1 4 4 
+
+== Time: 166 ==
+failed_requests_count: 51
+distance: 0.0
+2 3 1 1 0 
+3 4 3 2 1 
+0 4 6 0 1 
+0 1 2 1 0 
+1 1 1 4 4 
+
+== Time: 167 ==
+failed_requests_count: 51
+distance: 0.0
+1 4 0 1 0 
+3 4 3 2 1 
+0 5 6 1 1 
+0 1 2 1 0 
+1 1 1 5 4 
+
+== Time: 168 ==
+failed_requests_count: 51
+distance: 0.0
+1 4 0 1 0 
+3 4 3 2 1 
+0 5 6 1 1 
+0 1 2 1 0 
+1 1 1 5 4 
+
+== Time: 169 ==
+failed_requests_count: 51
+distance: 0.0
+1 4 0 1 0 
+2 4 3 2 1 
+0 4 6 1 1 
+0 2 2 0 0 
+1 1 1 5 3 
+
+== Time: 170 ==
+failed_requests_count: 51
+distance: 0.0
+1 4 0 1 0 
+2 4 3 2 1 
+0 4 8 1 1 
+1 2 2 0 0 
+1 1 1 5 3 
+
+== Time: 171 ==
+failed_requests_count: 52
+distance: 0.0
+1 4 0 2 0 
+2 5 3 2 1 
+0 5 8 1 1 
+1 2 1 0 0 
+2 0 0 5 3 
+
+== Time: 172 ==
+failed_requests_count: 52
+distance: 0.0
+1 4 0 2 0 
+2 4 1 2 1 
+0 5 8 1 1 
+1 2 1 0 0 
+2 0 0 5 3 
+
+== Time: 173 ==
+failed_requests_count: 52
+distance: 0.0
+1 4 0 2 0 
+2 4 1 2 1 
+0 5 7 1 1 
+1 2 1 0 0 
+2 0 0 5 3 
+
+== Time: 174 ==
+failed_requests_count: 52
+distance: 0.0
+1 4 0 2 0 
+2 4 0 3 1 
+0 4 7 1 1 
+1 2 1 0 0 
+2 0 0 5 3 
+
+== Time: 175 ==
+failed_requests_count: 52
+distance: 0.0
+0 4 0 2 0 
+3 3 0 3 1 
+0 4 7 1 1 
+1 2 0 0 0 
+2 0 0 6 3 
+
+== Time: 176 ==
+failed_requests_count: 52
+distance: 0.0
+0 4 0 2 0 
+2 3 0 3 1 
+0 4 7 1 1 
+1 2 0 0 0 
+2 1 0 6 3 
+
+== Time: 177 ==
+failed_requests_count: 52
+distance: 0.0
+0 4 0 2 0 
+2 3 0 3 1 
+0 4 7 1 2 
+1 2 0 0 0 
+2 1 0 6 3 
+
+== Time: 178 ==
+failed_requests_count: 53
+distance: 0.0
+0 4 0 2 0 
+2 3 1 3 1 
+0 4 7 1 2 
+1 2 0 1 0 
+1 1 0 6 3 
+
+== Time: 179 ==
+failed_requests_count: 53
+distance: 0.0
+0 4 0 2 0 
+2 4 1 3 1 
+0 4 7 1 2 
+1 2 0 1 0 
+1 1 0 6 3 
+
+== Time: 180 ==
+failed_requests_count: 54
+distance: 0.0
+0 3 0 2 0 
+2 4 1 3 1 
+0 4 7 1 2 
+0 2 0 1 0 
+1 1 0 6 3 
+
+== Time: 181 ==
+failed_requests_count: 54
+distance: 0.0
+1 3 0 1 0 
+1 4 0 3 1 
+1 4 7 1 2 
+0 2 0 1 0 
+1 1 0 7 3 
+
+== Time: 182 ==
+failed_requests_count: 55
+distance: 0.0
+1 3 0 1 0 
+1 4 0 3 1 
+1 5 7 2 2 
+0 2 0 1 0 
+2 1 0 7 3 
+
+== Time: 183 ==
+failed_requests_count: 56
+distance: 0.0
+1 3 0 1 0 
+1 4 1 3 1 
+1 5 7 3 2 
+0 2 0 1 0 
+2 1 0 7 3 
+
+== Time: 184 ==
+failed_requests_count: 56
+distance: 0.0
+1 3 0 0 0 
+1 4 1 3 1 
+1 5 7 3 2 
+0 2 0 1 1 
+2 1 0 7 3 
+
+== Time: 185 ==
+failed_requests_count: 56
+distance: 0.0
+1 3 0 0 0 
+1 4 1 3 1 
+1 5 7 3 2 
+0 2 0 1 1 
+2 1 0 7 3 
+
+== Time: 186 ==
+failed_requests_count: 56
+distance: 0.0
+1 3 0 0 0 
+1 4 1 3 1 
+1 5 7 3 2 
+0 2 0 1 1 
+2 1 0 7 3 
+
+== Time: 187 ==
+failed_requests_count: 56
+distance: 0.0
+2 4 0 0 0 
+1 4 1 3 1 
+1 6 8 3 2 
+0 2 0 1 1 
+2 1 0 7 3 
+
+== Time: 188 ==
+failed_requests_count: 58
+distance: 0.0
+2 4 0 0 0 
+1 4 1 3 0 
+1 6 8 2 2 
+0 2 0 1 1 
+2 1 0 7 3 
+
+== Time: 189 ==
+failed_requests_count: 58
+distance: 0.0
+2 4 0 1 0 
+0 4 1 3 0 
+1 6 7 2 2 
+0 2 0 1 1 
+2 1 0 7 3 
+
+== Time: 190 ==
+failed_requests_count: 61
+distance: 0.0
+1 4 0 1 0 
+0 3 1 2 0 
+1 6 7 2 2 
+0 2 0 1 1 
+2 1 1 6 3 
+
+== Time: 191 ==
+failed_requests_count: 61
+distance: 0.0
+0 4 0 1 1 
+0 3 1 2 0 
+1 6 7 2 2 
+0 2 0 1 1 
+2 0 1 6 3 
+
+== Time: 192 ==
+failed_requests_count: 61
+distance: 0.0
+0 4 0 1 1 
+0 3 1 3 0 
+1 6 7 2 2 
+1 2 0 1 1 
+2 0 1 8 3 
+
+== Time: 193 ==
+failed_requests_count: 61
+distance: 0.0
+0 4 0 1 2 
+0 3 1 3 0 
+1 6 7 1 3 
+2 2 0 1 1 
+1 1 1 8 3 
+
+== Time: 194 ==
+failed_requests_count: 62
+distance: 0.0
+0 4 0 1 2 
+0 3 1 3 1 
+1 6 7 1 3 
+2 2 0 1 0 
+1 1 1 8 3 
+
+== Time: 195 ==
+failed_requests_count: 63
+distance: 0.0
+0 4 0 1 2 
+0 3 1 3 1 
+1 6 7 1 3 
+2 2 1 1 0 
+0 1 1 8 3 
+
+== Time: 196 ==
+failed_requests_count: 63
+distance: 0.0
+0 4 0 1 2 
+0 3 2 3 1 
+1 6 6 1 3 
+2 2 0 1 0 
+0 1 1 8 3 
+
+== Time: 197 ==
+failed_requests_count: 63
+distance: 0.0
+0 4 0 1 2 
+0 3 2 3 1 
+1 6 6 1 3 
+3 2 0 1 0 
+0 1 1 8 3 
+
+== Time: 198 ==
+failed_requests_count: 64
+distance: 0.0
+0 4 0 1 2 
+0 3 2 3 1 
+0 6 6 1 3 
+3 2 0 1 0 
+0 1 1 7 2 
+
+== Time: 199 ==
+failed_requests_count: 64
+distance: 0.0
+0 4 0 1 2 
+0 3 2 3 1 
+0 6 6 1 3 
+3 2 0 1 0 
+0 1 1 7 1 
+
+== Time: 200 ==
+failed_requests_count: 64
+distance: 0.0
+0 4 0 1 3 
+0 3 2 3 2 
+0 6 5 1 3 
+3 2 1 0 0 
+0 1 1 7 1 
+
+== Time: 201 ==
+failed_requests_count: 66
+distance: 0.0
+0 4 0 1 3 
+0 3 2 3 2 
+0 6 5 1 3 
+3 2 1 0 0 
+0 1 1 7 1 
+
+== Time: 202 ==
+failed_requests_count: 66
+distance: 0.0
+1 4 0 1 3 
+0 3 2 4 2 
+0 6 4 1 3 
+3 2 1 0 0 
+0 1 1 6 0 
+
+== Time: 203 ==
+failed_requests_count: 66
+distance: 0.0
+1 4 0 2 2 
+0 3 2 4 2 
+0 6 4 1 3 
+3 2 1 0 0 
+0 1 0 6 0 
+
+== Time: 204 ==
+failed_requests_count: 67
+distance: 0.0
+1 3 0 2 2 
+1 3 2 4 2 
+0 7 5 1 4 
+3 3 1 0 0 
+0 0 0 6 0 
+
+== Time: 205 ==
+failed_requests_count: 67
+distance: 0.0
+1 3 0 2 2 
+1 2 2 3 2 
+0 9 5 1 4 
+3 3 1 0 0 
+0 0 0 6 0 
+
+== Time: 206 ==
+failed_requests_count: 67
+distance: 0.0
+1 3 0 2 2 
+1 2 2 3 2 
+0 9 5 1 4 
+3 3 2 0 0 
+0 0 0 6 0 
+
+== Time: 207 ==
+failed_requests_count: 67
+distance: 0.0
+1 3 1 2 2 
+1 2 2 3 2 
+0 9 5 1 4 
+3 3 2 0 0 
+0 0 0 5 0 
+
+== Time: 208 ==
+failed_requests_count: 67
+distance: 0.0
+1 3 1 2 2 
+1 1 2 3 2 
+0 9 5 1 4 
+4 4 2 0 0 
+0 0 0 4 0 
+
+== Time: 209 ==
+failed_requests_count: 68
+distance: 0.0
+1 3 1 2 2 
+1 1 2 3 2 
+0 9 5 1 4 
+4 4 2 0 0 
+0 0 0 4 1 
+
+== Time: 210 ==
+failed_requests_count: 68
+distance: 0.0
+1 3 0 2 2 
+1 1 2 3 2 
+0 9 5 1 4 
+4 4 2 0 0 
+0 1 0 4 1 
+
+== Time: 211 ==
+failed_requests_count: 68
+distance: 0.0
+1 3 0 2 2 
+2 1 2 3 2 
+0 9 5 1 4 
+4 4 2 0 0 
+0 1 0 4 1 
+
+== Time: 212 ==
+failed_requests_count: 69
+distance: 0.0
+1 3 0 2 2 
+2 1 2 3 2 
+0 9 5 1 4 
+5 4 2 0 0 
+0 1 0 4 0 
+
+== Time: 213 ==
+failed_requests_count: 69
+distance: 0.0
+1 3 0 2 2 
+2 1 2 3 2 
+0 10 5 1 3 
+5 4 2 1 0 
+0 1 0 4 0 
+
+== Time: 214 ==
+failed_requests_count: 69
+distance: 0.0
+1 3 0 2 2 
+2 1 2 2 2 
+1 10 4 1 3 
+5 3 2 1 0 
+0 1 0 4 0 
+
+== Time: 215 ==
+failed_requests_count: 69
+distance: 0.0
+1 3 0 1 2 
+2 1 3 2 2 
+1 10 4 1 3 
+5 4 2 1 0 
+0 0 0 4 0 
+
+== Time: 216 ==
+failed_requests_count: 69
+distance: 0.0
+1 3 0 1 2 
+2 1 4 2 2 
+1 10 4 1 4 
+5 4 2 3 0 
+1 0 0 4 0 
+
+== Time: 217 ==
+failed_requests_count: 70
+distance: 0.0
+1 3 0 2 2 
+2 1 4 2 2 
+1 10 4 1 4 
+5 4 2 3 0 
+1 0 0 4 0 
+
+== Time: 218 ==
+failed_requests_count: 70
+distance: 0.0
+1 3 1 2 2 
+2 1 4 2 2 
+1 10 4 1 4 
+6 4 2 3 0 
+0 0 0 4 0 
+
+== Time: 219 ==
+failed_requests_count: 70
+distance: 0.0
+1 3 1 2 2 
+2 1 4 2 2 
+1 10 4 0 4 
+5 4 1 3 0 
+0 0 0 4 0 
+
+== Time: 220 ==
+failed_requests_count: 70
+distance: 0.0
+1 2 1 2 2 
+2 1 4 2 1 
+1 10 4 0 5 
+6 4 1 3 0 
+0 0 0 4 2 
+
+== Time: 221 ==
+failed_requests_count: 72
+distance: 0.0
+0 2 1 2 2 
+2 1 4 2 1 
+0 10 4 0 5 
+5 4 1 3 0 
+0 0 0 4 2 
+
+== Time: 222 ==
+failed_requests_count: 73
+distance: 0.0
+0 2 1 2 2 
+2 1 4 2 2 
+0 10 4 0 5 
+5 4 1 3 0 
+0 0 0 4 2 
+
+== Time: 223 ==
+failed_requests_count: 75
+distance: 0.0
+0 2 1 2 2 
+2 1 4 2 2 
+0 10 5 0 5 
+5 4 1 3 0 
+0 0 0 4 2 
+
+== Time: 224 ==
+failed_requests_count: 76
+distance: 0.0
+0 2 1 2 2 
+2 1 4 2 3 
+1 10 5 0 5 
+5 4 1 3 0 
+0 0 0 3 2 
+
+== Time: 225 ==
+failed_requests_count: 77
+distance: 0.0
+0 2 1 2 3 
+2 1 4 2 3 
+1 10 6 0 5 
+5 4 1 3 0 
+0 1 0 2 2 
+
+== Time: 226 ==
+failed_requests_count: 78
+distance: 0.0
+0 1 1 2 3 
+1 1 3 1 2 
+1 9 6 0 5 
+5 4 1 3 0 
+0 1 0 2 2 
+
+== Time: 227 ==
+failed_requests_count: 78
+distance: 0.0
+0 1 1 2 2 
+1 1 3 1 2 
+1 8 6 0 5 
+4 4 1 3 0 
+0 1 0 3 2 
+
+== Time: 228 ==
+failed_requests_count: 79
+distance: 0.0
+0 1 1 1 2 
+1 1 4 1 2 
+1 8 6 0 5 
+4 4 1 3 0 
+0 1 0 3 2 
+
+== Time: 229 ==
+failed_requests_count: 81
+distance: 0.0
+0 1 1 1 2 
+1 1 4 1 2 
+1 8 6 0 5 
+4 4 1 3 0 
+0 1 0 1 2 
+
+== Time: 230 ==
+failed_requests_count: 81
+distance: 0.0
+0 1 0 0 2 
+1 1 4 1 2 
+1 8 6 0 5 
+4 4 1 3 0 
+0 1 0 1 3 
+
+== Time: 231 ==
+failed_requests_count: 84
+distance: 0.0
+0 1 0 0 2 
+1 1 4 1 2 
+1 7 7 1 4 
+4 4 1 3 0 
+0 1 0 1 3 
+
+== Time: 232 ==
+failed_requests_count: 84
+distance: 0.0
+0 1 0 0 2 
+1 1 3 2 2 
+1 7 9 1 4 
+4 3 1 3 0 
+0 1 0 1 3 
+
+== Time: 233 ==
+failed_requests_count: 86
+distance: 0.0
+0 3 0 0 2 
+1 1 3 1 2 
+1 7 9 1 4 
+4 3 1 3 0 
+0 0 0 1 3 
+
+== Time: 234 ==
+failed_requests_count: 86
+distance: 0.0
+0 3 0 0 1 
+1 1 3 1 2 
+1 7 9 1 4 
+4 2 1 3 0 
+0 0 0 1 3 
+
+== Time: 235 ==
+failed_requests_count: 86
+distance: 0.0
+0 3 0 0 1 
+1 1 3 1 2 
+1 7 9 1 4 
+4 2 1 3 0 
+0 0 0 1 3 
+
+== Time: 236 ==
+failed_requests_count: 86
+distance: 0.0
+0 2 0 0 1 
+1 1 2 1 2 
+1 7 9 1 4 
+4 2 1 3 0 
+0 0 0 1 2 
+
+== Time: 237 ==
+failed_requests_count: 86
+distance: 0.0
+0 2 0 0 1 
+1 0 2 1 2 
+1 7 9 1 4 
+4 2 1 3 1 
+0 0 0 1 2 
+
+== Time: 238 ==
+failed_requests_count: 86
+distance: 0.0
+0 2 0 0 1 
+1 0 2 1 2 
+1 7 9 1 4 
+4 2 1 3 1 
+0 0 0 1 1 
+
+== Time: 239 ==
+failed_requests_count: 86
+distance: 0.0
+0 2 0 0 1 
+2 0 1 1 2 
+1 7 10 1 4 
+4 2 1 3 1 
+0 0 0 1 1 
+
+== Time: 240 ==
+failed_requests_count: 86
+distance: 0.0
+0 2 0 1 1 
+2 0 1 1 2 
+1 7 10 1 4 
+4 2 1 3 1 
+0 1 0 1 1 
+
+== Time: 241 ==
+failed_requests_count: 88
+distance: 0.0
+0 2 0 1 1 
+2 0 1 1 2 
+1 7 10 1 4 
+4 2 1 3 2 
+0 1 0 1 1 
+
+== Time: 242 ==
+failed_requests_count: 89
+distance: 0.0
+0 2 0 1 1 
+2 0 1 1 1 
+1 8 10 1 3 
+4 2 1 3 2 
+0 1 0 1 0 
+
+== Time: 243 ==
+failed_requests_count: 90
+distance: 0.0
+0 2 1 1 1 
+2 1 2 2 1 
+1 8 10 1 3 
+4 2 0 3 2 
+0 2 1 1 0 
+
+== Time: 244 ==
+failed_requests_count: 90
+distance: 0.0
+0 2 1 1 1 
+2 0 2 3 1 
+1 8 10 1 3 
+4 3 0 3 2 
+0 1 1 1 0 
+
+== Time: 245 ==
+failed_requests_count: 91
+distance: 0.0
+0 2 1 0 1 
+2 0 3 3 1 
+1 8 10 1 3 
+4 3 0 3 2 
+0 2 1 1 0 
+
+== Time: 246 ==
+failed_requests_count: 92
+distance: 0.0
+0 2 1 0 1 
+2 1 3 3 1 
+1 8 10 1 3 
+4 2 0 2 2 
+1 2 2 1 0 
+
+== Time: 247 ==
+failed_requests_count: 93
+distance: 0.0
+0 2 1 0 1 
+2 1 3 3 0 
+1 8 10 1 3 
+4 2 0 2 2 
+1 3 2 1 0 
+
+== Time: 248 ==
+failed_requests_count: 93
+distance: 0.0
+0 2 1 1 1 
+2 1 3 3 0 
+1 8 9 1 3 
+4 2 0 2 2 
+1 3 2 1 0 
+
+== Time: 249 ==
+failed_requests_count: 93
+distance: 0.0
+0 2 1 1 1 
+2 1 3 3 0 
+1 8 8 1 3 
+4 1 0 2 2 
+1 3 2 1 0 
+
+== Time: 250 ==
+failed_requests_count: 93
+distance: 0.0
+0 2 1 1 1 
+2 1 3 3 0 
+1 8 7 0 3 
+4 1 0 2 2 
+1 3 2 1 0 
+
+== Time: 251 ==
+failed_requests_count: 93
+distance: 0.0
+0 3 1 1 0 
+2 1 3 3 0 
+1 8 6 0 3 
+4 1 0 2 2 
+1 3 2 1 0 
+
+== Time: 252 ==
+failed_requests_count: 94
+distance: 0.0
+0 3 1 1 0 
+2 1 2 2 0 
+1 8 6 0 3 
+4 1 0 2 2 
+1 3 2 1 0 
+
+== Time: 253 ==
+failed_requests_count: 96
+distance: 0.0
+0 3 1 1 0 
+2 1 2 2 0 
+1 8 6 0 4 
+4 1 1 2 2 
+2 3 2 1 0 
+
+== Time: 254 ==
+failed_requests_count: 97
+distance: 0.0
+0 3 1 1 0 
+2 1 2 2 0 
+1 8 6 0 4 
+5 1 2 2 2 
+2 3 2 1 0 
+
+== Time: 255 ==
+failed_requests_count: 97
+distance: 0.0
+0 3 2 1 0 
+2 1 2 2 0 
+1 8 6 0 4 
+5 1 2 2 2 
+1 3 2 1 0 
+
+== Time: 256 ==
+failed_requests_count: 97
+distance: 0.0
+0 3 2 1 0 
+2 1 2 2 1 
+2 8 6 0 4 
+5 0 2 2 2 
+1 3 2 1 1 
+
+== Time: 257 ==
+failed_requests_count: 97
+distance: 0.0
+0 3 2 1 0 
+2 2 2 2 1 
+2 8 6 0 4 
+5 0 2 2 2 
+1 3 2 1 0 
+
+== Time: 258 ==
+failed_requests_count: 97
+distance: 0.0
+0 3 2 1 0 
+2 2 2 2 1 
+2 8 6 0 4 
+4 0 2 2 2 
+1 3 2 1 0 
+
+== Time: 259 ==
+failed_requests_count: 98
+distance: 0.0
+0 3 2 1 0 
+2 2 2 2 1 
+2 8 6 0 4 
+4 0 2 2 2 
+1 3 1 1 0 
+
+== Time: 260 ==
+failed_requests_count: 98
+distance: 0.0
+0 3 2 0 0 
+2 2 2 2 2 
+2 8 6 0 4 
+4 0 2 2 2 
+1 3 1 1 0 
+
+== Time: 261 ==
+failed_requests_count: 99
+distance: 0.0
+0 3 2 0 0 
+2 2 2 2 2 
+2 8 6 0 4 
+4 0 2 2 2 
+1 3 1 1 0 
+
+== Time: 262 ==
+failed_requests_count: 99
+distance: 0.0
+0 4 2 0 0 
+2 2 2 2 2 
+2 8 6 0 4 
+4 0 2 3 1 
+2 3 1 1 0 
+
+== Time: 263 ==
+failed_requests_count: 99
+distance: 0.0
+0 4 2 0 0 
+2 2 1 2 2 
+3 10 6 0 4 
+3 1 2 3 1 
+2 3 1 1 0 
+
+== Time: 264 ==
+failed_requests_count: 99
+distance: 0.0
+0 4 2 0 0 
+2 3 1 2 2 
+3 10 6 0 4 
+3 1 2 3 2 
+2 4 1 1 0 
+
+== Time: 265 ==
+failed_requests_count: 100
+distance: 0.0
+0 4 2 0 0 
+2 3 0 2 2 
+3 10 6 0 4 
+3 0 2 3 2 
+2 4 1 1 0 
+
+== Time: 266 ==
+failed_requests_count: 100
+distance: 0.0
+0 5 3 0 0 
+2 3 0 2 2 
+3 10 6 0 4 
+3 0 2 3 2 
+2 4 1 1 0 
+
+== Time: 267 ==
+failed_requests_count: 100
+distance: 0.0
+0 5 3 0 0 
+3 3 0 1 2 
+3 10 6 0 4 
+3 0 2 3 1 
+2 4 1 1 0 
+
+== Time: 268 ==
+failed_requests_count: 100
+distance: 0.0
+0 5 3 0 0 
+3 3 0 1 2 
+3 10 6 0 4 
+3 0 2 3 1 
+1 4 1 1 0 
+
+== Time: 269 ==
+failed_requests_count: 100
+distance: 0.0
+0 5 3 0 0 
+3 3 0 1 2 
+3 9 6 0 4 
+3 0 2 3 1 
+1 4 1 1 0 
+
+== Time: 270 ==
+failed_requests_count: 101
+distance: 0.0
+0 5 4 0 0 
+3 2 1 1 2 
+2 9 6 0 4 
+3 0 1 4 1 
+1 4 1 1 0 
+
+== Time: 271 ==
+failed_requests_count: 103
+distance: 0.0
+0 5 4 0 0 
+3 2 0 1 2 
+2 9 6 0 4 
+4 0 1 4 1 
+1 4 1 1 0 
+
+== Time: 272 ==
+failed_requests_count: 103
+distance: 0.0
+0 4 4 0 0 
+3 2 0 1 2 
+1 9 6 0 4 
+4 0 0 4 1 
+1 4 1 1 0 
+
+== Time: 273 ==
+failed_requests_count: 103
+distance: 0.0
+0 4 4 1 0 
+3 2 0 1 2 
+1 10 6 0 4 
+4 0 0 4 2 
+1 4 1 1 0 
+
+== Time: 274 ==
+failed_requests_count: 103
+distance: 0.0
+1 4 4 1 0 
+3 2 0 1 2 
+1 10 6 0 4 
+4 0 0 4 2 
+1 4 1 1 0 
+
+== Time: 275 ==
+failed_requests_count: 103
+distance: 0.0
+1 4 3 1 0 
+3 1 0 1 2 
+1 10 6 0 4 
+4 0 0 4 2 
+1 4 1 1 0 
+
+== Time: 276 ==
+failed_requests_count: 103
+distance: 0.0
+1 4 3 1 0 
+3 1 0 1 2 
+1 9 6 1 4 
+4 0 0 5 2 
+1 3 1 1 0 
+
+== Time: 277 ==
+failed_requests_count: 103
+distance: 0.0
+1 5 3 1 0 
+3 1 0 1 1 
+2 9 6 1 4 
+3 0 0 5 2 
+1 3 1 1 0 
+
+== Time: 278 ==
+failed_requests_count: 103
+distance: 0.0
+1 3 3 1 0 
+3 1 0 1 1 
+2 9 6 1 4 
+4 0 0 5 3 
+1 3 1 1 0 
+
+== Time: 279 ==
+failed_requests_count: 104
+distance: 0.0
+1 3 3 1 0 
+4 1 0 1 1 
+2 9 6 1 4 
+4 0 0 6 3 
+1 3 1 1 0 
+
+== Time: 280 ==
+failed_requests_count: 104
+distance: 0.0
+1 3 3 1 0 
+4 1 0 1 1 
+2 9 6 0 3 
+5 0 0 5 3 
+1 4 1 2 0 
+
+== Time: 281 ==
+failed_requests_count: 104
+distance: 0.0
+1 3 3 1 0 
+4 1 0 1 1 
+3 9 6 0 3 
+5 0 0 5 3 
+2 4 1 2 0 
+
+== Time: 282 ==
+failed_requests_count: 104
+distance: 0.0
+1 3 3 1 0 
+4 1 0 1 1 
+3 9 6 0 3 
+5 0 0 5 3 
+3 4 1 2 0 
+
+== Time: 283 ==
+failed_requests_count: 104
+distance: 0.0
+1 3 3 1 0 
+4 1 0 1 1 
+3 9 6 0 3 
+5 1 0 5 3 
+3 4 0 1 1 
+
+== Time: 284 ==
+failed_requests_count: 104
+distance: 0.0
+1 3 3 1 0 
+4 1 0 1 1 
+4 9 6 0 4 
+5 1 0 5 3 
+3 4 0 1 1 
+
+== Time: 285 ==
+failed_requests_count: 105
+distance: 0.0
+1 3 3 1 0 
+4 1 0 1 1 
+4 10 6 0 4 
+5 1 0 5 3 
+4 4 0 1 1 
+
+== Time: 286 ==
+failed_requests_count: 105
+distance: 0.0
+1 3 2 1 0 
+4 1 0 1 1 
+3 10 6 1 4 
+5 2 1 5 2 
+4 4 0 1 1 
+
+== Time: 287 ==
+failed_requests_count: 106
+distance: 0.0
+0 3 2 1 0 
+3 0 0 1 1 
+3 10 6 1 4 
+5 2 1 5 2 
+4 2 0 1 1 
+
+== Time: 288 ==
+failed_requests_count: 106
+distance: 0.0
+1 3 2 1 0 
+3 0 0 1 1 
+3 10 5 1 4 
+6 2 1 5 2 
+3 2 0 1 1 
+
+== Time: 289 ==
+failed_requests_count: 106
+distance: 0.0
+1 3 2 1 0 
+3 0 0 1 1 
+3 10 5 1 4 
+6 2 1 5 2 
+3 3 0 1 1 
+
+== Time: 290 ==
+failed_requests_count: 106
+distance: 0.0
+1 3 2 1 0 
+4 0 0 1 1 
+3 10 5 1 4 
+5 2 1 5 2 
+3 3 0 1 1 
+
+== Time: 291 ==
+failed_requests_count: 106
+distance: 0.0
+1 2 2 1 0 
+4 0 0 1 1 
+3 10 5 2 4 
+5 2 1 5 2 
+3 3 0 1 1 
+
+== Time: 292 ==
+failed_requests_count: 106
+distance: 0.0
+0 2 2 1 0 
+4 0 0 1 1 
+3 10 5 2 4 
+5 2 1 5 2 
+3 3 0 1 1 
+
+== Time: 293 ==
+failed_requests_count: 106
+distance: 0.0
+0 2 2 1 0 
+4 0 0 1 1 
+3 10 4 1 4 
+5 2 1 5 2 
+3 4 0 1 2 
+
+== Time: 294 ==
+failed_requests_count: 107
+distance: 0.0
+0 2 2 1 0 
+4 0 0 1 1 
+3 10 4 1 4 
+5 2 1 5 2 
+3 4 0 1 2 
+
+== Time: 295 ==
+failed_requests_count: 107
+distance: 0.0
+0 2 1 1 0 
+4 0 1 1 1 
+3 10 4 1 4 
+5 2 1 6 2 
+3 4 0 1 2 
+
+== Time: 296 ==
+failed_requests_count: 107
+distance: 0.0
+1 2 1 1 0 
+4 0 1 1 1 
+3 10 4 1 4 
+5 2 1 6 2 
+3 4 0 1 2 
+
+== Time: 297 ==
+failed_requests_count: 107
+distance: 0.0
+1 2 0 1 0 
+4 0 1 1 1 
+3 10 4 1 4 
+5 2 1 6 2 
+3 4 0 1 2 
+
+== Time: 298 ==
+failed_requests_count: 107
+distance: 0.0
+1 2 0 1 0 
+4 0 0 1 1 
+3 10 4 1 4 
+5 0 1 6 1 
+3 4 0 1 2 
+
+== Time: 299 ==
+failed_requests_count: 108
+distance: 0.0
+1 2 0 1 0 
+4 0 0 1 1 
+3 10 4 2 4 
+5 0 1 7 1 
+3 3 0 1 2 
+
+== Time: 300 ==
+failed_requests_count: 110
+distance: 0.0
+1 2 0 1 0 
+3 0 0 1 1 
+3 9 4 2 4 
+5 0 1 8 1 
+3 3 0 0 2 
+
+== Time: 301 ==
+failed_requests_count: 110
+distance: 0.0
+1 2 0 1 0 
+3 0 1 1 1 
+3 9 3 3 4 
+5 0 1 8 1 
+3 3 0 0 2 
+
+== Time: 302 ==
+failed_requests_count: 110
+distance: 0.0
+1 2 0 1 0 
+3 0 1 1 2 
+3 9 3 3 4 
+5 0 1 7 0 
+3 3 0 0 2 
+
+== Time: 303 ==
+failed_requests_count: 113
+distance: 0.0
+1 2 0 1 0 
+3 0 1 0 2 
+4 9 3 3 3 
+5 0 1 7 0 
+3 3 0 0 3 
+
+== Time: 304 ==
+failed_requests_count: 113
+distance: 0.0
+1 2 0 1 0 
+3 0 1 0 1 
+4 9 3 3 3 
+5 0 1 7 0 
+3 4 0 0 3 
+
+== Time: 305 ==
+failed_requests_count: 114
+distance: 0.0
+1 2 0 1 0 
+3 0 1 0 1 
+4 9 3 3 3 
+4 0 1 7 0 
+2 4 0 0 3 
+
+== Time: 306 ==
+failed_requests_count: 114
+distance: 0.0
+2 2 0 1 1 
+3 0 1 0 1 
+4 9 3 3 4 
+4 0 2 6 0 
+2 4 0 0 3 
+
+== Time: 307 ==
+failed_requests_count: 115
+distance: 0.0
+2 2 0 1 1 
+3 0 1 0 1 
+4 9 3 3 4 
+4 0 2 6 0 
+2 5 0 0 3 
+
+== Time: 308 ==
+failed_requests_count: 117
+distance: 0.0
+2 3 0 1 1 
+3 0 0 0 1 
+3 8 3 3 4 
+4 0 2 6 0 
+2 5 0 0 3 
+
+== Time: 309 ==
+failed_requests_count: 118
+distance: 0.0
+2 3 0 1 1 
+3 0 0 0 1 
+3 8 3 3 3 
+4 0 2 6 0 
+2 5 0 0 3 
+
+== Time: 310 ==
+failed_requests_count: 118
+distance: 0.0
+3 3 0 1 1 
+3 0 0 0 1 
+3 8 2 3 3 
+4 0 1 6 0 
+2 5 0 0 2 
+
+== Time: 311 ==
+failed_requests_count: 119
+distance: 0.0
+3 3 0 1 1 
+4 0 0 0 1 
+4 8 1 3 3 
+4 0 1 6 0 
+2 5 0 0 2 
+
+== Time: 312 ==
+failed_requests_count: 120
+distance: 0.0
+3 3 0 2 1 
+4 0 0 0 1 
+4 8 0 3 3 
+4 0 1 6 0 
+2 5 0 0 2 
+
+== Time: 313 ==
+failed_requests_count: 120
+distance: 0.0
+4 3 0 1 0 
+4 0 0 0 1 
+4 8 0 4 3 
+3 0 1 6 0 
+2 5 0 0 2 
+
+== Time: 314 ==
+failed_requests_count: 120
+distance: 0.0
+3 3 1 1 0 
+4 0 1 0 0 
+4 8 0 4 3 
+3 1 0 6 0 
+2 5 0 0 2 
+
+== Time: 315 ==
+failed_requests_count: 121
+distance: 0.0
+2 3 0 1 0 
+4 0 1 0 0 
+4 8 0 3 3 
+3 1 0 6 1 
+2 5 0 0 2 
+
+== Time: 316 ==
+failed_requests_count: 121
+distance: 0.0
+2 4 0 1 0 
+4 0 1 0 0 
+4 8 0 3 3 
+3 1 0 6 1 
+2 5 0 0 2 
+
+== Time: 317 ==
+failed_requests_count: 121
+distance: 0.0
+2 5 0 1 0 
+5 0 2 0 0 
+4 8 0 3 3 
+3 1 0 5 2 
+2 5 0 0 2 
+
+== Time: 318 ==
+failed_requests_count: 122
+distance: 0.0
+2 5 0 1 0 
+5 0 2 0 0 
+4 8 0 2 3 
+3 1 0 4 2 
+2 5 0 0 2 
+
+== Time: 319 ==
+failed_requests_count: 122
+distance: 0.0
+2 5 0 1 0 
+5 0 2 0 0 
+4 8 0 3 3 
+3 1 0 4 2 
+2 5 0 0 3 
+
+== Time: 320 ==
+failed_requests_count: 122
+distance: 0.0
+2 6 0 1 0 
+5 0 1 0 0 
+4 8 0 3 3 
+3 1 0 4 2 
+2 5 0 0 3 
+
+== Time: 321 ==
+failed_requests_count: 123
+distance: 0.0
+2 6 0 1 0 
+5 0 2 0 0 
+4 8 0 3 3 
+3 1 0 4 2 
+2 4 0 0 3 
+
+== Time: 322 ==
+failed_requests_count: 123
+distance: 0.0
+2 6 0 1 0 
+5 0 2 0 0 
+4 8 0 3 3 
+3 1 0 4 5 
+2 4 0 0 3 
+
+== Time: 323 ==
+failed_requests_count: 125
+distance: 0.0
+0 6 0 1 0 
+5 0 2 0 0 
+4 8 0 3 3 
+3 1 0 4 5 
+2 5 0 0 3 
+
+== Time: 324 ==
+failed_requests_count: 127
+distance: 0.0
+0 6 0 1 0 
+5 0 2 0 0 
+4 8 0 3 3 
+3 1 0 4 5 
+1 5 0 0 2 
+
+== Time: 325 ==
+failed_requests_count: 129
+distance: 0.0
+0 5 0 1 0 
+6 0 2 0 0 
+4 8 0 3 3 
+3 1 0 4 5 
+1 5 0 0 2 
+
+== Time: 326 ==
+failed_requests_count: 130
+distance: 0.0
+0 5 1 1 0 
+6 0 2 0 0 
+4 9 0 3 3 
+3 1 1 4 5 
+2 5 0 0 2 
+
+== Time: 327 ==
+failed_requests_count: 132
+distance: 0.0
+0 5 1 1 0 
+6 0 2 0 0 
+4 10 0 3 3 
+3 1 1 4 5 
+2 5 0 0 3 
+
+== Time: 328 ==
+failed_requests_count: 133
+distance: 0.0
+0 6 1 1 0 
+6 0 2 0 0 
+4 10 0 3 3 
+3 2 0 4 5 
+2 5 0 0 3 
+
+== Time: 329 ==
+failed_requests_count: 135
+distance: 0.0
+0 6 1 1 0 
+6 0 2 0 0 
+4 10 0 3 3 
+3 2 0 3 5 
+1 5 0 0 3 
+
+== Time: 330 ==
+failed_requests_count: 135
+distance: 0.0
+0 6 1 2 0 
+6 0 2 0 0 
+4 10 0 3 3 
+3 2 0 3 5 
+1 5 0 0 3 
+
+== Time: 331 ==
+failed_requests_count: 137
+distance: 0.0
+0 6 1 2 0 
+6 0 2 1 0 
+4 10 0 3 3 
+3 2 0 3 5 
+1 5 0 0 4 
+
+== Time: 332 ==
+failed_requests_count: 137
+distance: 0.0
+0 7 1 2 0 
+6 0 2 1 0 
+4 10 0 3 3 
+3 2 0 4 6 
+1 5 0 0 4 
+
+== Time: 333 ==
+failed_requests_count: 137
+distance: 0.0
+0 7 1 2 0 
+6 0 2 1 0 
+4 10 0 3 3 
+3 2 0 4 6 
+1 4 0 0 4 
+
+== Time: 334 ==
+failed_requests_count: 137
+distance: 0.0
+0 7 1 2 0 
+6 0 2 1 0 
+4 10 1 3 3 
+3 2 0 4 7 
+0 4 0 0 4 
+
+== Time: 335 ==
+failed_requests_count: 137
+distance: 0.0
+0 7 1 1 0 
+6 0 2 2 0 
+4 10 1 3 3 
+3 2 0 4 7 
+0 4 0 0 4 
+
+== Time: 336 ==
+failed_requests_count: 138
+distance: 0.0
+0 7 0 1 0 
+6 0 2 2 0 
+4 9 0 3 3 
+3 2 0 4 7 
+0 4 0 0 4 
+
+== Time: 337 ==
+failed_requests_count: 138
+distance: 0.0
+0 7 0 1 0 
+7 0 2 2 0 
+4 9 1 3 3 
+3 2 0 4 7 
+0 4 0 0 4 
+
+== Time: 338 ==
+failed_requests_count: 140
+distance: 0.0
+0 7 0 1 0 
+7 0 2 2 0 
+4 9 1 3 3 
+3 2 0 3 7 
+0 4 0 0 4 
+
+== Time: 339 ==
+failed_requests_count: 141
+distance: 0.0
+0 7 0 1 0 
+7 0 2 2 0 
+5 9 1 3 3 
+3 2 0 3 7 
+0 4 0 0 4 
+
+== Time: 340 ==
+failed_requests_count: 141
+distance: 0.0
+0 7 0 1 0 
+7 0 2 2 0 
+5 9 1 3 3 
+3 2 0 3 7 
+0 4 0 1 3 
+
+== Time: 341 ==
+failed_requests_count: 142
+distance: 0.0
+1 7 0 1 0 
+7 0 2 2 0 
+5 9 1 3 3 
+3 2 0 3 7 
+0 4 0 1 3 
+
+== Time: 342 ==
+failed_requests_count: 144
+distance: 0.0
+1 7 0 1 1 
+7 0 3 2 0 
+5 9 1 3 3 
+4 1 0 3 7 
+0 4 0 1 2 
+
+== Time: 343 ==
+failed_requests_count: 145
+distance: 0.0
+1 7 0 1 1 
+7 0 3 2 0 
+5 9 1 3 3 
+4 1 0 3 7 
+0 4 0 1 2 
+
+== Time: 344 ==
+failed_requests_count: 146
+distance: 0.0
+1 7 0 1 1 
+7 0 4 2 0 
+5 9 1 2 3 
+4 1 0 3 7 
+0 4 0 0 1 
+
+== Time: 345 ==
+failed_requests_count: 146
+distance: 0.0
+1 7 0 1 1 
+7 0 4 2 0 
+4 9 1 2 3 
+4 1 0 3 7 
+0 4 0 0 1 
+
+== Time: 346 ==
+failed_requests_count: 146
+distance: 0.0
+1 7 0 1 1 
+7 0 4 2 0 
+4 9 1 2 3 
+4 1 0 3 7 
+0 4 1 0 1 
+
+== Time: 347 ==
+failed_requests_count: 146
+distance: 0.0
+1 7 0 1 1 
+7 0 4 1 0 
+4 9 1 2 3 
+4 1 0 3 7 
+0 4 1 0 1 
+
+== Time: 348 ==
+failed_requests_count: 147
+distance: 0.0
+1 7 0 1 1 
+7 0 4 1 0 
+4 9 2 2 3 
+3 1 0 3 6 
+0 4 1 0 1 
+
+== Time: 349 ==
+failed_requests_count: 148
+distance: 0.0
+1 6 0 1 1 
+6 0 4 1 0 
+4 9 2 2 3 
+4 1 0 3 6 
+0 4 1 0 1 
+
+== Time: 350 ==
+failed_requests_count: 148
+distance: 0.0
+1 6 0 1 1 
+7 0 4 1 0 
+3 9 2 2 3 
+4 1 0 3 6 
+0 4 1 0 1 
+
+== Time: 351 ==
+failed_requests_count: 148
+distance: 0.0
+1 6 0 1 1 
+7 0 4 1 0 
+4 9 2 2 3 
+4 1 0 3 6 
+0 4 1 0 1 
+
+== Time: 352 ==
+failed_requests_count: 148
+distance: 0.0
+1 6 0 1 1 
+7 0 4 1 0 
+4 9 2 2 3 
+4 1 0 3 6 
+0 4 1 0 1 
+
+== Time: 353 ==
+failed_requests_count: 151
+distance: 0.0
+2 6 0 1 1 
+8 0 4 1 0 
+4 9 2 2 3 
+5 1 0 3 6 
+0 4 1 0 1 
+
+== Time: 354 ==
+failed_requests_count: 151
+distance: 0.0
+2 6 0 0 1 
+8 0 5 1 0 
+4 9 2 2 3 
+5 1 0 3 6 
+0 4 1 0 1 
+
+== Time: 355 ==
+failed_requests_count: 152
+distance: 0.0
+2 6 0 0 1 
+8 0 5 1 0 
+4 10 2 2 3 
+6 1 0 3 7 
+0 4 1 0 1 
+
+== Time: 356 ==
+failed_requests_count: 154
+distance: 0.0
+2 6 0 0 1 
+8 1 6 0 0 
+4 10 1 2 3 
+6 1 0 3 7 
+0 4 1 0 1 
+
+== Time: 357 ==
+failed_requests_count: 155
+distance: 0.0
+2 6 0 0 1 
+8 1 6 0 0 
+4 10 1 2 3 
+6 0 0 2 7 
+0 4 1 0 1 
+
+== Time: 358 ==
+failed_requests_count: 156
+distance: 0.0
+2 6 0 0 1 
+8 0 6 0 0 
+4 9 1 2 3 
+6 0 0 2 7 
+0 4 1 0 1 
+
+== Time: 359 ==
+failed_requests_count: 157
+distance: 0.0
+2 6 0 0 1 
+8 0 6 0 0 
+4 9 1 2 3 
+6 0 0 2 7 
+0 3 2 0 1 
+
+== Time: 360 ==
+failed_requests_count: 157
+distance: 0.0
+2 6 0 0 1 
+8 0 6 0 1 
+4 10 0 2 3 
+6 0 0 1 7 
+0 3 2 0 1 
+
+== Time: 361 ==
+failed_requests_count: 157
+distance: 0.0
+2 6 0 0 1 
+7 0 6 0 1 
+4 9 0 3 3 
+6 0 0 1 7 
+0 3 2 0 1 
+
+== Time: 362 ==
+failed_requests_count: 159
+distance: 0.0
+2 5 0 0 1 
+7 0 6 0 1 
+4 9 0 4 3 
+6 0 0 1 7 
+0 3 2 0 0 
+
+== Time: 363 ==
+failed_requests_count: 159
+distance: 0.0
+2 5 0 0 1 
+6 0 6 0 1 
+4 9 0 4 3 
+6 0 1 2 7 
+0 3 2 0 0 
+
+== Time: 364 ==
+failed_requests_count: 161
+distance: 0.0
+2 5 1 0 1 
+6 0 6 0 1 
+4 9 0 4 3 
+5 0 1 2 7 
+0 3 2 0 0 
+
+== Time: 365 ==
+failed_requests_count: 162
+distance: 0.0
+1 5 1 0 1 
+6 0 7 0 1 
+4 9 0 4 3 
+5 0 1 2 7 
+0 3 2 0 0 
+
+== Time: 366 ==
+failed_requests_count: 163
+distance: 0.0
+2 5 1 0 1 
+6 0 7 0 1 
+4 9 0 4 3 
+5 0 1 2 7 
+0 3 2 0 0 
+
+== Time: 367 ==
+failed_requests_count: 163
+distance: 0.0
+2 4 1 0 1 
+6 0 7 0 1 
+4 9 0 4 3 
+5 0 1 2 7 
+0 4 2 0 0 
+
+== Time: 368 ==
+failed_requests_count: 163
+distance: 0.0
+2 4 1 0 1 
+6 0 7 0 1 
+4 9 0 4 3 
+4 0 1 2 6 
+0 4 2 0 0 
+
+== Time: 369 ==
+failed_requests_count: 163
+distance: 0.0
+2 4 1 1 1 
+6 0 7 0 1 
+4 8 0 4 3 
+5 0 1 1 6 
+1 4 2 0 0 
+
+== Time: 370 ==
+failed_requests_count: 163
+distance: 0.0
+2 4 1 1 2 
+6 0 7 0 1 
+4 8 0 4 3 
+5 0 1 1 6 
+0 4 2 0 0 
+
+== Time: 371 ==
+failed_requests_count: 163
+distance: 0.0
+2 5 2 2 2 
+6 0 7 0 1 
+4 8 0 4 3 
+5 0 1 1 6 
+0 4 2 0 0 
+
+== Time: 372 ==
+failed_requests_count: 164
+distance: 0.0
+2 4 2 2 2 
+5 0 7 0 1 
+4 8 0 4 3 
+5 0 1 1 6 
+1 5 2 0 0 
+
+== Time: 373 ==
+failed_requests_count: 164
+distance: 0.0
+2 4 2 2 2 
+5 0 8 0 1 
+4 7 1 4 3 
+5 0 1 1 6 
+1 4 2 0 0 
+
+== Time: 374 ==
+failed_requests_count: 164
+distance: 0.0
+2 4 2 2 2 
+5 1 7 0 1 
+4 7 1 4 3 
+5 0 1 1 6 
+1 4 2 0 0 
+
+== Time: 375 ==
+failed_requests_count: 165
+distance: 0.0
+2 4 2 2 2 
+6 1 7 0 1 
+4 7 1 3 3 
+5 0 1 1 6 
+0 4 2 0 0 
+
+== Time: 376 ==
+failed_requests_count: 165
+distance: 0.0
+2 4 2 2 2 
+6 1 7 0 1 
+4 7 1 2 2 
+5 0 1 1 6 
+0 4 2 0 0 
+
+== Time: 377 ==
+failed_requests_count: 165
+distance: 0.0
+2 4 2 2 2 
+6 1 7 0 1 
+5 7 1 2 2 
+5 0 2 1 6 
+0 4 1 1 0 
+
+== Time: 378 ==
+failed_requests_count: 166
+distance: 0.0
+3 4 2 2 2 
+6 1 7 0 1 
+5 7 0 2 2 
+5 0 2 1 6 
+0 4 1 1 0 
+
+== Time: 379 ==
+failed_requests_count: 166
+distance: 0.0
+3 3 2 2 2 
+6 1 7 0 1 
+5 7 0 2 2 
+5 0 2 1 6 
+0 4 1 1 0 
+
+== Time: 380 ==
+failed_requests_count: 166
+distance: 0.0
+3 3 2 2 2 
+6 1 7 0 0 
+5 7 0 2 2 
+5 0 2 1 6 
+1 4 1 1 0 
+
+== Time: 381 ==
+failed_requests_count: 166
+distance: 0.0
+4 3 2 3 2 
+6 1 7 0 0 
+5 6 0 2 2 
+5 0 2 1 6 
+0 4 1 1 0 
+
+== Time: 382 ==
+failed_requests_count: 166
+distance: 0.0
+3 3 2 4 2 
+6 1 7 0 0 
+4 6 0 2 2 
+5 0 2 1 6 
+0 3 1 1 0 
+
+== Time: 383 ==
+failed_requests_count: 166
+distance: 0.0
+3 3 2 4 2 
+6 1 7 0 0 
+4 6 0 2 2 
+5 0 2 1 6 
+0 3 1 1 0 
+
+== Time: 384 ==
+failed_requests_count: 168
+distance: 0.0
+3 3 1 5 2 
+6 1 7 0 0 
+4 6 0 2 2 
+5 0 2 1 6 
+0 3 1 1 0 
+
+== Time: 385 ==
+failed_requests_count: 168
+distance: 0.0
+3 3 1 5 2 
+6 1 7 0 0 
+4 6 0 2 2 
+5 0 2 1 6 
+0 4 1 1 0 
+
+== Time: 386 ==
+failed_requests_count: 169
+distance: 0.0
+3 3 1 6 2 
+6 1 7 0 0 
+4 6 0 2 2 
+4 0 2 1 5 
+0 4 1 1 0 
+
+== Time: 387 ==
+failed_requests_count: 169
+distance: 0.0
+3 3 1 6 2 
+6 1 7 0 0 
+4 6 0 2 2 
+3 0 3 2 5 
+0 4 1 1 0 
+
+== Time: 388 ==
+failed_requests_count: 169
+distance: 0.0
+3 3 1 6 2 
+6 1 7 0 0 
+4 6 0 2 2 
+3 0 4 2 5 
+0 4 1 1 0 
+
+== Time: 389 ==
+failed_requests_count: 169
+distance: 0.0
+3 3 2 6 2 
+6 1 7 0 0 
+4 6 0 2 1 
+3 0 4 2 5 
+0 4 1 1 0 
+
+== Time: 390 ==
+failed_requests_count: 170
+distance: 0.0
+3 3 2 6 1 
+6 1 7 0 0 
+4 6 0 2 1 
+3 0 4 2 5 
+0 3 1 1 0 
+
+== Time: 391 ==
+failed_requests_count: 170
+distance: 0.0
+3 3 2 6 1 
+6 1 7 0 0 
+4 6 0 2 1 
+3 0 4 2 5 
+0 3 1 1 0 
+
+== Time: 392 ==
+failed_requests_count: 170
+distance: 0.0
+3 3 2 6 1 
+6 1 7 0 0 
+4 6 0 2 1 
+3 0 4 2 5 
+0 3 2 1 0 
+
+== Time: 393 ==
+failed_requests_count: 170
+distance: 0.0
+4 3 2 6 1 
+6 1 7 0 0 
+4 6 0 2 1 
+3 0 4 2 6 
+0 3 2 1 0 
+
+== Time: 394 ==
+failed_requests_count: 171
+distance: 0.0
+4 3 2 6 1 
+6 2 9 0 0 
+4 6 0 2 1 
+3 0 4 2 6 
+0 3 2 1 0 
+
+== Time: 395 ==
+failed_requests_count: 172
+distance: 0.0
+4 3 2 6 1 
+6 2 9 0 0 
+4 6 0 2 1 
+3 0 4 2 6 
+0 3 2 1 0 
+
+== Time: 396 ==
+failed_requests_count: 172
+distance: 0.0
+4 3 2 7 1 
+6 2 9 0 0 
+4 6 0 2 0 
+3 0 3 2 6 
+0 3 3 1 0 
+
+== Time: 397 ==
+failed_requests_count: 173
+distance: 0.0
+4 3 2 7 1 
+6 2 9 0 0 
+4 5 0 2 0 
+3 0 3 2 6 
+0 3 3 1 0 
+
+== Time: 398 ==
+failed_requests_count: 173
+distance: 0.0
+4 3 1 7 1 
+6 2 9 0 0 
+3 5 0 2 0 
+3 0 3 2 6 
+0 3 3 1 0 
+
+== Time: 399 ==
+failed_requests_count: 174
+distance: 0.0
+4 3 1 7 2 
+6 3 9 0 0 
+3 5 0 2 0 
+3 0 3 2 6 
+0 3 3 1 0 
+
+== Time: 400 ==
+failed_requests_count: 175
+distance: 0.0
+4 3 1 7 2 
+6 3 9 0 0 
+3 4 0 2 0 
+3 0 3 2 6 
+0 3 3 1 0 
+
+== Time: 401 ==
+failed_requests_count: 175
+distance: 0.0
+3 3 1 7 2 
+6 3 9 0 0 
+3 4 0 2 0 
+2 0 3 2 6 
+0 3 3 1 0 
+
+== Time: 402 ==
+failed_requests_count: 175
+distance: 0.0
+2 3 1 7 2 
+6 3 9 0 0 
+4 4 0 2 0 
+3 0 3 3 6 
+0 3 3 1 0 
+
+== Time: 403 ==
+failed_requests_count: 176
+distance: 0.0
+2 3 1 7 2 
+6 3 9 0 0 
+4 5 0 2 0 
+3 0 3 3 6 
+0 3 3 0 0 
+
+== Time: 404 ==
+failed_requests_count: 177
+distance: 0.0
+2 3 1 6 3 
+6 3 9 0 1 
+4 5 0 2 0 
+3 0 3 3 6 
+0 3 4 0 0 
+
+== Time: 405 ==
+failed_requests_count: 177
+distance: 0.0
+2 3 1 6 3 
+6 3 9 0 1 
+4 5 0 2 0 
+3 0 3 3 6 
+0 2 4 0 0 
+
+== Time: 406 ==
+failed_requests_count: 179
+distance: 0.0
+2 3 2 6 3 
+6 3 8 0 1 
+4 5 1 2 0 
+3 0 3 3 6 
+0 2 4 0 0 
+
+== Time: 407 ==
+failed_requests_count: 179
+distance: 0.0
+2 3 2 7 3 
+6 3 8 0 1 
+4 5 1 2 0 
+3 0 3 3 6 
+0 2 4 0 0 
+
+== Time: 408 ==
+failed_requests_count: 179
+distance: 0.0
+1 3 3 7 3 
+5 3 7 0 1 
+3 5 1 2 0 
+4 0 3 3 6 
+0 2 4 0 0 
+
+== Time: 409 ==
+failed_requests_count: 179
+distance: 0.0
+2 2 1 7 3 
+5 3 7 0 1 
+3 4 1 3 0 
+4 0 3 3 6 
+0 2 4 0 0 
+
+== Time: 410 ==
+failed_requests_count: 181
+distance: 0.0
+2 2 0 7 3 
+5 3 7 0 1 
+3 4 1 3 2 
+4 0 3 3 6 
+0 2 4 0 1 
+
+== Time: 411 ==
+failed_requests_count: 182
+distance: 0.0
+2 2 0 6 3 
+5 3 7 1 1 
+3 4 1 3 2 
+4 0 3 4 6 
+0 2 4 0 1 
+
+== Time: 412 ==
+failed_requests_count: 182
+distance: 0.0
+2 2 0 6 4 
+5 3 7 1 1 
+3 4 2 2 2 
+4 0 3 4 6 
+0 2 4 0 1 
+
+== Time: 413 ==
+failed_requests_count: 182
+distance: 0.0
+2 2 0 6 4 
+5 3 7 1 1 
+3 4 2 3 2 
+4 0 3 4 6 
+0 2 4 0 1 
+
+== Time: 414 ==
+failed_requests_count: 182
+distance: 0.0
+2 2 0 7 4 
+5 3 7 1 1 
+3 4 2 3 2 
+4 0 3 4 6 
+0 2 4 0 1 
+
+== Time: 415 ==
+failed_requests_count: 182
+distance: 0.0
+2 2 0 7 3 
+5 3 7 1 1 
+3 4 2 4 2 
+4 0 2 4 5 
+0 2 4 0 1 
+
+== Time: 416 ==
+failed_requests_count: 182
+distance: 0.0
+2 2 0 7 3 
+5 3 7 1 1 
+3 4 2 3 2 
+3 0 2 4 4 
+0 2 4 0 0 
+
+== Time: 417 ==
+failed_requests_count: 182
+distance: 0.0
+2 2 0 7 3 
+5 3 7 1 1 
+3 4 2 3 2 
+3 0 1 4 4 
+0 3 4 0 0 
+
+== Time: 418 ==
+failed_requests_count: 183
+distance: 0.0
+2 2 1 7 3 
+5 3 7 1 1 
+3 4 2 3 2 
+3 0 1 4 4 
+0 3 4 0 0 
+
+== Time: 419 ==
+failed_requests_count: 183
+distance: 0.0
+2 2 1 7 3 
+4 3 8 1 1 
+3 4 2 3 2 
+3 0 1 4 4 
+0 3 4 0 0 
+
+== Time: 420 ==
+failed_requests_count: 183
+distance: 0.0
+2 2 1 7 2 
+4 3 8 1 1 
+3 4 2 3 2 
+3 0 1 4 4 
+0 3 4 0 0 
+
+== Time: 421 ==
+failed_requests_count: 183
+distance: 0.0
+2 2 1 7 2 
+4 3 8 1 2 
+3 4 2 3 2 
+3 0 1 5 4 
+0 3 4 0 0 
+
+== Time: 422 ==
+failed_requests_count: 184
+distance: 0.0
+2 2 1 8 2 
+4 3 8 1 2 
+3 4 2 3 2 
+3 0 1 5 4 
+0 3 4 0 0 
+
+== Time: 423 ==
+failed_requests_count: 184
+distance: 0.0
+2 2 1 8 2 
+4 3 8 1 2 
+3 4 2 3 2 
+3 0 2 5 4 
+0 3 3 0 0 
+
+== Time: 424 ==
+failed_requests_count: 184
+distance: 0.0
+2 2 1 8 2 
+4 3 8 2 2 
+3 4 1 3 2 
+3 0 2 5 4 
+0 3 3 0 0 
+
+== Time: 425 ==
+failed_requests_count: 185
+distance: 0.0
+1 2 0 8 2 
+4 2 8 2 2 
+3 4 1 3 2 
+3 0 2 5 4 
+0 3 3 0 0 
+
+== Time: 426 ==
+failed_requests_count: 185
+distance: 0.0
+1 2 0 8 2 
+4 2 8 2 2 
+3 5 1 2 1 
+4 0 2 5 4 
+0 3 3 0 0 
+
+== Time: 427 ==
+failed_requests_count: 185
+distance: 0.0
+1 2 0 8 2 
+4 1 9 3 2 
+3 5 1 2 1 
+4 0 1 5 4 
+0 3 3 0 0 
+
+== Time: 428 ==
+failed_requests_count: 186
+distance: 0.0
+1 2 0 8 2 
+4 1 9 3 2 
+3 5 1 2 1 
+4 0 1 5 4 
+0 3 3 0 0 
+
+== Time: 429 ==
+failed_requests_count: 187
+distance: 0.0
+1 2 0 8 2 
+4 1 9 3 2 
+3 5 1 1 1 
+4 0 1 5 4 
+0 3 4 0 0 
+
+== Time: 430 ==
+failed_requests_count: 187
+distance: 0.0
+0 2 1 8 2 
+4 1 8 2 2 
+3 5 1 1 1 
+4 0 1 5 3 
+0 3 4 0 0 
+
+== Time: 431 ==
+failed_requests_count: 188
+distance: 0.0
+0 2 0 8 2 
+4 1 8 2 2 
+3 5 1 1 0 
+4 0 0 5 3 
+0 3 4 0 0 
+
+== Time: 432 ==
+failed_requests_count: 188
+distance: 0.0
+0 2 0 8 2 
+4 1 8 2 3 
+3 5 1 1 0 
+4 0 0 5 3 
+0 3 4 0 0 
+
+== Time: 433 ==
+failed_requests_count: 188
+distance: 0.0
+0 3 0 8 2 
+4 1 8 2 3 
+3 4 1 1 0 
+4 0 0 5 3 
+0 4 4 0 0 
+
+== Time: 434 ==
+failed_requests_count: 188
+distance: 0.0
+0 3 0 8 2 
+4 2 7 2 3 
+3 4 1 1 0 
+4 0 0 5 3 
+0 4 3 1 0 
+
+== Time: 435 ==
+failed_requests_count: 189
+distance: 0.0
+0 2 0 8 1 
+4 3 7 1 3 
+3 5 0 1 0 
+4 0 0 5 3 
+0 3 4 1 0 
+
+== Time: 436 ==
+failed_requests_count: 189
+distance: 0.0
+0 2 0 8 2 
+4 3 7 1 3 
+3 5 0 1 0 
+4 0 0 5 3 
+0 3 4 1 0 
+
+== Time: 437 ==
+failed_requests_count: 189
+distance: 0.0
+0 3 0 8 2 
+4 3 7 2 3 
+3 5 0 2 0 
+4 0 0 5 3 
+0 3 4 1 0 
+
+== Time: 438 ==
+failed_requests_count: 190
+distance: 0.0
+0 3 0 8 2 
+4 3 7 2 3 
+3 5 0 2 0 
+4 0 0 5 3 
+0 3 4 1 0 
+
+== Time: 439 ==
+failed_requests_count: 190
+distance: 0.0
+0 3 0 8 2 
+4 3 7 3 3 
+4 5 0 2 0 
+4 0 0 5 4 
+0 3 4 1 0 
+
+== Time: 440 ==
+failed_requests_count: 190
+distance: 0.0
+0 3 0 8 2 
+4 2 6 4 3 
+4 5 0 2 0 
+4 0 0 5 4 
+0 2 4 1 0 
+
+== Time: 441 ==
+failed_requests_count: 191
+distance: 0.0
+0 3 0 8 2 
+4 2 6 4 3 
+4 4 0 2 0 
+4 0 0 5 4 
+1 3 4 1 0 
+
+== Time: 442 ==
+failed_requests_count: 191
+distance: 0.0
+0 3 0 8 2 
+4 2 5 4 3 
+4 4 0 2 0 
+4 0 0 5 4 
+1 3 3 0 0 
+
+== Time: 443 ==
+failed_requests_count: 192
+distance: 0.0
+0 3 0 8 2 
+4 2 5 4 3 
+4 4 0 2 0 
+4 0 0 5 4 
+1 3 3 0 0 
+
+== Time: 444 ==
+failed_requests_count: 192
+distance: 0.0
+0 2 0 8 2 
+4 2 5 4 2 
+4 4 0 2 0 
+4 0 0 5 4 
+1 3 3 0 0 
+
+== Time: 445 ==
+failed_requests_count: 194
+distance: 0.0
+0 3 0 8 1 
+4 2 5 4 3 
+3 4 0 3 0 
+4 0 0 5 4 
+1 3 3 0 0 
+
+== Time: 446 ==
+failed_requests_count: 195
+distance: 0.0
+1 3 0 8 1 
+4 2 5 4 3 
+3 4 0 3 0 
+3 0 0 5 4 
+1 3 3 0 1 
+
+== Time: 447 ==
+failed_requests_count: 199
+distance: 0.0
+1 3 0 8 0 
+4 2 5 4 3 
+3 4 0 2 0 
+3 0 0 5 4 
+1 3 3 0 1 
+
+== Time: 448 ==
+failed_requests_count: 199
+distance: 0.0
+1 3 0 8 0 
+3 2 5 4 3 
+4 4 0 2 0 
+3 0 0 5 4 
+1 3 3 0 0 
+
+== Time: 449 ==
+failed_requests_count: 199
+distance: 0.0
+1 3 0 7 0 
+3 2 5 4 3 
+3 4 0 2 0 
+3 0 0 5 4 
+1 2 2 0 0 
+
+== Time: 450 ==
+failed_requests_count: 200
+distance: 0.0
+1 3 0 7 0 
+3 2 5 4 3 
+3 4 0 2 0 
+3 1 0 5 4 
+1 2 2 0 0 
+
+== Time: 451 ==
+failed_requests_count: 200
+distance: 0.0
+1 3 0 7 0 
+3 2 5 4 3 
+3 4 0 3 0 
+2 1 0 5 4 
+1 2 2 0 0 
+
+== Time: 452 ==
+failed_requests_count: 201
+distance: 0.0
+1 3 0 7 0 
+3 2 5 4 3 
+3 4 0 2 0 
+2 1 0 5 4 
+1 2 2 0 0 
+
+== Time: 453 ==
+failed_requests_count: 201
+distance: 0.0
+1 2 2 7 0 
+3 2 5 4 3 
+3 4 0 3 0 
+2 1 0 5 4 
+1 2 2 0 0 
+
+== Time: 454 ==
+failed_requests_count: 203
+distance: 0.0
+1 2 2 7 0 
+3 3 5 4 3 
+3 4 0 3 0 
+2 1 0 5 4 
+1 1 2 0 0 
+
+== Time: 455 ==
+failed_requests_count: 204
+distance: 0.0
+1 2 2 7 0 
+3 3 5 4 3 
+3 4 0 3 0 
+2 1 0 5 4 
+1 1 2 0 0 
+
+== Time: 456 ==
+failed_requests_count: 204
+distance: 0.0
+1 2 2 7 0 
+3 3 5 3 3 
+3 4 0 4 0 
+2 0 0 5 4 
+1 1 1 0 0 
+
+== Time: 457 ==
+failed_requests_count: 205
+distance: 0.0
+1 2 2 7 0 
+3 3 5 3 3 
+3 4 0 4 0 
+2 1 0 5 4 
+1 0 1 0 0 
+
+== Time: 458 ==
+failed_requests_count: 205
+distance: 0.0
+1 2 2 8 0 
+3 3 4 3 3 
+3 4 0 4 0 
+3 1 0 5 4 
+1 0 1 0 0 
+
+== Time: 459 ==
+failed_requests_count: 206
+distance: 0.0
+1 2 2 8 0 
+3 3 4 3 4 
+3 3 0 4 0 
+3 1 0 5 4 
+1 0 1 0 0 
+
+== Time: 460 ==
+failed_requests_count: 207
+distance: 0.0
+1 2 2 8 0 
+3 3 3 2 4 
+4 3 0 4 0 
+3 1 0 5 3 
+1 0 2 0 0 
+
+== Time: 461 ==
+failed_requests_count: 207
+distance: 0.0
+1 1 2 8 0 
+3 3 3 2 3 
+4 3 0 4 1 
+4 1 0 5 3 
+1 0 2 0 0 
+
+== Time: 462 ==
+failed_requests_count: 207
+distance: 0.0
+1 1 2 8 0 
+3 2 2 0 3 
+3 3 0 3 1 
+4 1 0 5 2 
+0 0 2 0 0 
+
+== Time: 463 ==
+failed_requests_count: 207
+distance: 0.0
+1 1 2 8 0 
+3 2 2 0 3 
+3 3 0 3 1 
+4 1 1 5 2 
+0 0 2 0 0 
+
+== Time: 464 ==
+failed_requests_count: 207
+distance: 0.0
+1 1 2 8 0 
+3 2 1 0 3 
+3 3 0 3 1 
+4 1 1 5 2 
+0 1 2 0 0 
+
+== Time: 465 ==
+failed_requests_count: 208
+distance: 0.0
+1 1 2 8 0 
+3 2 1 0 3 
+3 3 0 3 1 
+4 1 1 5 1 
+0 0 2 0 0 
+
+== Time: 466 ==
+failed_requests_count: 209
+distance: 0.0
+1 1 2 8 0 
+3 2 1 0 3 
+3 3 1 3 1 
+4 1 1 5 2 
+0 0 2 0 0 
+
+== Time: 467 ==
+failed_requests_count: 210
+distance: 0.0
+1 1 2 8 0 
+3 2 1 1 3 
+3 3 1 3 1 
+4 1 1 4 2 
+0 0 1 0 0 
+
+== Time: 468 ==
+failed_requests_count: 212
+distance: 0.0
+1 1 2 8 0 
+4 2 1 1 3 
+3 3 1 3 1 
+4 1 1 5 2 
+0 0 1 0 0 
+
+== Time: 469 ==
+failed_requests_count: 212
+distance: 0.0
+1 1 2 8 0 
+4 2 1 1 3 
+3 3 1 3 1 
+4 1 1 5 2 
+0 0 1 0 0 
+
+== Time: 470 ==
+failed_requests_count: 212
+distance: 0.0
+1 0 2 8 0 
+4 2 1 1 3 
+3 3 1 3 1 
+4 1 1 5 2 
+0 0 0 0 0 
+
+== Time: 471 ==
+failed_requests_count: 214
+distance: 0.0
+0 0 2 8 0 
+4 2 2 1 3 
+2 3 1 3 1 
+4 1 1 4 2 
+0 0 0 0 0 
+
+== Time: 472 ==
+failed_requests_count: 214
+distance: 0.0
+0 0 2 8 0 
+4 2 2 1 3 
+2 3 0 3 1 
+4 1 2 4 2 
+0 0 0 0 0 
+
+== Time: 473 ==
+failed_requests_count: 215
+distance: 0.0
+0 0 2 8 0 
+4 1 2 1 3 
+2 2 0 3 0 
+3 1 3 4 2 
+0 0 0 0 0 
+
+== Time: 474 ==
+failed_requests_count: 215
+distance: 0.0
+0 0 2 8 0 
+4 1 2 1 3 
+3 2 0 3 0 
+3 1 3 4 2 
+0 0 0 0 0 
+
+== Time: 475 ==
+failed_requests_count: 215
+distance: 0.0
+0 0 2 9 0 
+4 1 2 1 3 
+2 2 0 3 0 
+3 1 4 3 2 
+0 0 0 0 0 
+
+== Time: 476 ==
+failed_requests_count: 217
+distance: 0.0
+0 0 2 9 0 
+4 1 2 1 3 
+1 2 0 3 1 
+3 1 4 3 1 
+0 0 0 0 1 
+
+== Time: 477 ==
+failed_requests_count: 219
+distance: 0.0
+0 0 2 9 0 
+4 1 2 0 3 
+1 2 0 3 1 
+3 1 5 3 0 
+1 0 0 0 1 
+
+== Time: 478 ==
+failed_requests_count: 220
+distance: 0.0
+0 0 2 10 1 
+4 1 3 0 3 
+1 2 0 3 1 
+3 1 5 3 0 
+1 0 0 0 1 
+
+== Time: 479 ==
+failed_requests_count: 221
+distance: 0.0
+0 0 2 10 1 
+4 0 3 0 3 
+1 2 0 2 0 
+3 0 5 3 0 
+1 0 0 0 1 
+
+== Time: 480 ==
+failed_requests_count: 221
+distance: 0.0
+0 0 2 10 1 
+4 0 3 0 3 
+1 2 0 2 0 
+3 1 5 4 0 
+1 0 0 0 1 
+
+== Time: 481 ==
+failed_requests_count: 221
+distance: 0.0
+0 0 3 10 1 
+4 0 3 0 3 
+1 2 0 2 0 
+5 1 5 4 0 
+1 0 0 0 1 
+
+== Time: 482 ==
+failed_requests_count: 222
+distance: 0.0
+0 0 3 10 1 
+4 0 3 0 2 
+1 2 0 2 0 
+5 1 5 3 0 
+1 0 0 0 1 
+
+== Time: 483 ==
+failed_requests_count: 222
+distance: 0.0
+0 0 3 10 1 
+4 0 4 0 2 
+1 2 0 2 0 
+5 1 5 3 0 
+1 0 0 0 1 
+
+== Time: 484 ==
+failed_requests_count: 222
+distance: 0.0
+0 0 3 10 0 
+4 0 4 0 3 
+1 2 0 1 1 
+5 1 5 2 0 
+1 0 0 1 0 
+
+== Time: 485 ==
+failed_requests_count: 222
+distance: 0.0
+0 0 3 10 0 
+4 0 4 0 3 
+1 1 1 1 1 
+5 1 5 2 0 
+1 1 0 1 0 
+
+== Time: 486 ==
+failed_requests_count: 223
+distance: 0.0
+0 1 3 10 0 
+4 0 4 0 3 
+1 1 1 1 1 
+5 1 6 2 0 
+1 1 0 1 0 
+
+== Time: 487 ==
+failed_requests_count: 225
+distance: 0.0
+0 1 4 10 0 
+4 0 4 0 3 
+1 1 2 1 2 
+5 1 6 1 0 
+1 0 0 1 0 
+
+== Time: 488 ==
+failed_requests_count: 225
+distance: 0.0
+0 1 4 10 1 
+5 0 4 0 3 
+1 1 2 1 2 
+5 1 6 1 0 
+1 0 0 1 0 
+
+== Time: 489 ==
+failed_requests_count: 225
+distance: 0.0
+1 1 3 10 2 
+5 0 5 0 3 
+1 1 2 1 2 
+5 0 6 1 0 
+1 0 0 1 0 
+
+== Time: 490 ==
+failed_requests_count: 228
+distance: 0.0
+1 1 3 10 2 
+5 0 5 0 3 
+1 0 2 1 2 
+5 0 6 1 0 
+1 0 0 1 0 
+
+== Time: 491 ==
+failed_requests_count: 229
+distance: 0.0
+2 1 3 10 3 
+5 0 5 0 3 
+1 0 2 1 2 
+5 0 6 1 0 
+3 0 0 0 0 
+
+== Time: 492 ==
+failed_requests_count: 230
+distance: 0.0
+2 1 3 10 3 
+5 0 6 0 3 
+1 0 2 1 2 
+6 0 4 1 0 
+3 0 0 0 0 
+
+== Time: 493 ==
+failed_requests_count: 232
+distance: 0.0
+3 1 3 10 3 
+5 0 6 0 3 
+1 0 2 1 2 
+6 0 4 1 0 
+4 0 1 0 0 
+
+== Time: 494 ==
+failed_requests_count: 232
+distance: 0.0
+3 1 3 9 3 
+5 0 5 0 5 
+1 1 2 1 2 
+6 0 4 1 0 
+4 0 1 0 0 
+
+== Time: 495 ==
+failed_requests_count: 233
+distance: 0.0
+3 1 3 9 3 
+5 0 4 0 5 
+1 1 2 1 3 
+5 0 4 1 0 
+4 0 1 0 0 
+
+== Time: 496 ==
+failed_requests_count: 233
+distance: 0.0
+3 1 3 9 3 
+5 0 4 1 5 
+0 1 2 1 3 
+4 0 4 1 0 
+4 0 1 0 0 
+
+== Time: 497 ==
+failed_requests_count: 234
+distance: 0.0
+3 1 3 9 4 
+4 0 4 1 5 
+0 1 2 1 3 
+4 0 4 1 0 
+4 0 1 0 0 
+
+== Time: 498 ==
+failed_requests_count: 234
+distance: 0.0
+3 0 3 9 4 
+4 0 4 1 5 
+0 0 2 1 3 
+4 0 3 1 0 
+4 0 1 0 0 
+
+== Time: 499 ==
+failed_requests_count: 234
+distance: 0.0
+3 0 3 9 4 
+4 0 4 2 5 
+0 0 2 1 3 
+5 0 3 2 0 
+4 0 1 0 0 
+
+== Time: 500 ==
+failed_requests_count: 234
+distance: 0.0
+3 0 3 9 4 
+4 0 4 2 4 
+0 0 2 1 3 
+4 1 2 2 0 
+4 0 1 0 1 
+
+== Time: 501 ==
+failed_requests_count: 234
+distance: 0.0
+2 0 3 9 4 
+4 0 5 2 4 
+0 0 2 1 3 
+4 1 2 2 0 
+4 0 1 0 1 
+
+== Time: 502 ==
+failed_requests_count: 234
+distance: 0.0
+2 0 3 9 3 
+4 0 5 2 4 
+0 0 2 1 3 
+4 1 2 3 0 
+4 0 2 0 1 
+
+== Time: 503 ==
+failed_requests_count: 234
+distance: 0.0
+2 0 3 8 2 
+4 0 5 1 4 
+0 0 2 1 3 
+4 1 3 2 0 
+3 0 2 0 1 
+
+== Time: 504 ==
+failed_requests_count: 234
+distance: 0.0
+2 1 3 8 2 
+4 0 5 1 4 
+0 1 1 1 3 
+4 1 3 2 0 
+3 0 2 0 1 
+
+== Time: 505 ==
+failed_requests_count: 234
+distance: 0.0
+2 1 3 8 2 
+4 1 5 2 4 
+0 1 1 1 3 
+4 1 4 2 0 
+3 0 1 0 1 
+
+== Time: 506 ==
+failed_requests_count: 234
+distance: 0.0
+2 1 3 8 2 
+4 1 6 2 4 
+1 1 1 1 3 
+4 1 4 2 0 
+3 0 1 0 2 
+
+== Time: 507 ==
+failed_requests_count: 236
+distance: 0.0
+2 2 3 8 2 
+4 1 6 2 4 
+1 1 1 1 3 
+4 1 4 2 0 
+3 0 1 0 2 
+
+== Time: 508 ==
+failed_requests_count: 237
+distance: 0.0
+2 2 3 8 2 
+4 1 7 3 4 
+1 1 0 1 3 
+4 1 4 2 0 
+3 0 0 0 2 
+
+== Time: 509 ==
+failed_requests_count: 239
+distance: 0.0
+2 2 3 8 2 
+4 1 7 3 4 
+1 1 0 1 3 
+4 1 4 2 0 
+3 0 0 0 2 
+
+== Time: 510 ==
+failed_requests_count: 239
+distance: 0.0
+2 3 3 8 2 
+4 1 6 3 4 
+1 1 0 1 3 
+4 1 4 2 0 
+3 0 0 0 2 
+
+== Time: 511 ==
+failed_requests_count: 240
+distance: 0.0
+2 2 2 8 0 
+4 1 6 3 4 
+1 2 0 1 3 
+4 1 4 2 0 
+3 0 0 1 2 
+
+== Time: 512 ==
+failed_requests_count: 240
+distance: 0.0
+2 2 2 8 0 
+4 1 6 2 4 
+1 2 0 2 3 
+4 1 3 3 0 
+3 0 0 2 2 
+
+== Time: 513 ==
+failed_requests_count: 240
+distance: 0.0
+2 2 3 8 0 
+4 1 6 2 4 
+1 2 1 1 3 
+4 1 3 3 0 
+3 0 0 2 2 
+
+== Time: 514 ==
+failed_requests_count: 240
+distance: 0.0
+2 2 3 7 0 
+4 1 6 2 3 
+1 2 0 1 3 
+4 1 3 3 0 
+3 0 0 2 2 
+
+== Time: 515 ==
+failed_requests_count: 240
+distance: 0.0
+3 2 3 7 0 
+3 1 6 2 3 
+1 2 0 1 3 
+4 1 3 3 0 
+3 0 0 2 2 
+
+== Time: 516 ==
+failed_requests_count: 241
+distance: 0.0
+3 2 3 7 0 
+2 1 6 2 3 
+0 2 0 1 3 
+2 1 3 3 0 
+3 0 0 2 2 
+
+== Time: 517 ==
+failed_requests_count: 243
+distance: 0.0
+3 2 3 7 0 
+1 1 6 2 3 
+0 2 0 1 3 
+2 1 3 3 0 
+3 0 0 2 2 
+
+== Time: 518 ==
+failed_requests_count: 243
+distance: 0.0
+2 2 3 8 0 
+1 1 6 2 3 
+0 2 0 1 2 
+3 1 3 3 0 
+3 0 0 2 2 
+
+== Time: 519 ==
+failed_requests_count: 243
+distance: 0.0
+2 2 3 8 1 
+1 2 6 2 3 
+0 2 0 1 2 
+3 1 3 3 0 
+3 0 0 1 2 
+
+== Time: 520 ==
+failed_requests_count: 243
+distance: 0.0
+2 0 3 8 1 
+2 1 6 2 3 
+0 2 0 2 2 
+3 1 3 3 0 
+3 0 0 1 2 
+
+== Time: 521 ==
+failed_requests_count: 244
+distance: 0.0
+2 0 3 9 1 
+3 1 6 2 3 
+0 2 1 3 2 
+3 1 3 3 0 
+3 0 0 1 1 
+
+== Time: 522 ==
+failed_requests_count: 244
+distance: 0.0
+2 0 2 9 1 
+3 1 6 2 3 
+0 2 1 3 2 
+3 1 3 3 0 
+4 0 0 2 1 
+
+== Time: 523 ==
+failed_requests_count: 245
+distance: 0.0
+2 0 2 9 1 
+3 1 6 2 3 
+0 2 1 3 2 
+3 1 2 3 1 
+4 0 0 2 1 
+
+== Time: 524 ==
+failed_requests_count: 248
+distance: 0.0
+2 0 2 9 0 
+3 1 6 2 3 
+0 2 1 3 2 
+3 1 2 3 1 
+4 0 0 2 1 
+
+== Time: 525 ==
+failed_requests_count: 249
+distance: 0.0
+2 0 2 9 0 
+3 1 6 2 3 
+0 2 1 2 2 
+3 1 2 3 1 
+4 0 0 2 0 
+
+== Time: 526 ==
+failed_requests_count: 250
+distance: 0.0
+1 0 2 10 0 
+3 2 6 2 3 
+0 1 1 3 2 
+4 1 3 3 1 
+4 0 0 2 0 
+
+== Time: 527 ==
+failed_requests_count: 250
+distance: 0.0
+1 1 2 10 0 
+3 2 6 2 3 
+0 1 1 3 2 
+4 1 3 3 1 
+4 0 0 2 1 
+
+== Time: 528 ==
+failed_requests_count: 250
+distance: 0.0
+1 1 1 10 0 
+3 2 6 2 3 
+0 1 1 3 1 
+4 1 3 3 1 
+4 0 0 2 1 
+
+== Time: 529 ==
+failed_requests_count: 250
+distance: 0.0
+1 1 1 10 0 
+3 2 6 2 3 
+0 1 1 3 1 
+4 1 2 3 2 
+4 0 0 2 0 
+
+== Time: 530 ==
+failed_requests_count: 252
+distance: 0.0
+1 0 1 10 0 
+3 2 6 2 3 
+0 0 1 3 1 
+4 1 2 3 2 
+3 0 0 2 0 
+
+== Time: 531 ==
+failed_requests_count: 252
+distance: 0.0
+1 0 1 10 0 
+3 2 6 2 3 
+0 0 1 2 1 
+4 1 2 3 2 
+3 0 0 3 0 
+
+== Time: 532 ==
+failed_requests_count: 252
+distance: 0.0
+1 0 0 10 0 
+2 2 6 2 3 
+0 0 2 2 1 
+5 1 3 3 2 
+4 0 1 3 0 
+
+== Time: 533 ==
+failed_requests_count: 252
+distance: 0.0
+1 0 0 10 0 
+2 2 6 1 3 
+0 1 2 2 1 
+5 1 3 2 2 
+4 1 1 3 0 
+
+== Time: 534 ==
+failed_requests_count: 252
+distance: 0.0
+1 0 0 10 0 
+2 2 6 1 3 
+0 1 3 2 1 
+5 1 3 2 2 
+4 1 1 3 0 
+
+== Time: 535 ==
+failed_requests_count: 252
+distance: 0.0
+1 0 0 10 0 
+2 2 5 1 3 
+1 1 3 2 1 
+5 1 2 2 2 
+4 1 1 3 0 
+
+== Time: 536 ==
+failed_requests_count: 253
+distance: 0.0
+1 0 0 10 0 
+2 3 5 1 3 
+1 2 3 2 1 
+5 1 2 2 2 
+4 1 1 3 1 
+
+== Time: 537 ==
+failed_requests_count: 253
+distance: 0.0
+0 0 0 10 0 
+2 3 5 1 3 
+2 2 3 2 1 
+5 1 2 3 2 
+4 1 1 3 1 
+
+== Time: 538 ==
+failed_requests_count: 253
+distance: 0.0
+0 0 0 10 0 
+2 3 5 1 3 
+2 2 3 2 1 
+5 1 2 3 2 
+4 2 1 3 1 
+
+== Time: 539 ==
+failed_requests_count: 255
+distance: 0.0
+0 0 0 10 0 
+2 3 5 1 3 
+3 2 3 2 1 
+5 1 2 3 2 
+4 2 1 3 0 
+
+== Time: 540 ==
+failed_requests_count: 255
+distance: 0.0
+0 0 0 10 0 
+1 5 5 1 3 
+3 2 3 2 1 
+4 1 2 3 2 
+4 2 2 3 0 
+
+== Time: 541 ==
+failed_requests_count: 255
+distance: 0.0
+0 0 0 10 0 
+1 5 5 1 3 
+3 2 3 2 1 
+4 1 2 3 2 
+4 2 2 3 0 
+
+== Time: 542 ==
+failed_requests_count: 255
+distance: 0.0
+0 0 0 10 0 
+1 5 5 1 3 
+3 2 3 2 1 
+4 1 1 3 2 
+4 2 2 3 0 
+
+== Time: 543 ==
+failed_requests_count: 257
+distance: 0.0
+0 0 0 10 0 
+1 5 5 1 3 
+3 2 3 2 1 
+4 1 1 3 2 
+4 2 2 3 0 
+
+== Time: 544 ==
+failed_requests_count: 258
+distance: 0.0
+0 0 0 10 0 
+1 5 5 1 3 
+3 2 3 2 0 
+3 2 0 4 2 
+4 2 2 2 0 
+
+== Time: 545 ==
+failed_requests_count: 258
+distance: 0.0
+0 0 0 11 0 
+1 5 5 1 3 
+3 2 4 2 0 
+3 2 0 4 1 
+4 2 2 2 0 
+
+== Time: 546 ==
+failed_requests_count: 258
+distance: 0.0
+0 0 0 10 0 
+1 5 5 1 3 
+3 2 4 3 0 
+3 2 0 4 1 
+5 2 2 1 0 
+
+== Time: 547 ==
+failed_requests_count: 258
+distance: 0.0
+0 0 0 10 0 
+1 5 5 1 3 
+3 2 4 3 0 
+4 2 0 4 0 
+5 2 2 1 0 
+
+== Time: 548 ==
+failed_requests_count: 259
+distance: 0.0
+0 0 0 10 0 
+1 5 5 1 3 
+3 1 4 3 0 
+3 2 0 4 0 
+5 2 2 1 0 
+
+== Time: 549 ==
+failed_requests_count: 261
+distance: 0.0
+0 0 1 10 0 
+1 5 5 1 4 
+3 1 4 3 0 
+3 2 0 4 0 
+5 2 2 1 0 
+
+== Time: 550 ==
+failed_requests_count: 261
+distance: 0.0
+0 0 1 10 0 
+1 5 5 0 4 
+3 1 4 3 0 
+3 2 0 4 0 
+5 2 2 1 0 
+
+== Time: 551 ==
+failed_requests_count: 264
+distance: 0.0
+0 0 1 9 0 
+1 5 5 0 4 
+3 1 4 3 0 
+4 2 0 4 0 
+5 2 2 1 0 
+
+== Time: 552 ==
+failed_requests_count: 265
+distance: 0.0
+0 0 1 9 0 
+1 5 5 0 3 
+3 1 4 2 0 
+4 2 0 4 0 
+5 1 2 1 0 
+
+== Time: 553 ==
+failed_requests_count: 266
+distance: 0.0
+0 0 1 9 0 
+1 5 4 0 3 
+3 1 4 2 0 
+4 3 0 4 0 
+5 1 2 1 0 
+
+== Time: 554 ==
+failed_requests_count: 267
+distance: 0.0
+0 0 1 9 0 
+1 5 4 0 3 
+3 1 3 2 0 
+4 3 0 4 0 
+4 1 2 0 0 
+
+== Time: 555 ==
+failed_requests_count: 269
+distance: 0.0
+0 0 0 9 0 
+1 4 4 0 3 
+3 1 3 2 0 
+4 3 0 4 0 
+4 1 2 0 0 
+
+== Time: 556 ==
+failed_requests_count: 271
+distance: 0.0
+0 0 0 9 0 
+1 4 3 0 3 
+3 0 3 2 0 
+4 4 1 4 0 
+4 1 2 0 0 
+
+== Time: 557 ==
+failed_requests_count: 271
+distance: 0.0
+0 0 0 9 0 
+1 4 3 0 3 
+3 0 3 2 0 
+4 4 1 4 0 
+4 1 3 0 0 
+
+== Time: 558 ==
+failed_requests_count: 272
+distance: 0.0
+0 0 0 9 0 
+1 4 2 0 3 
+3 0 2 2 0 
+4 4 1 5 0 
+4 1 3 0 0 
+
+== Time: 559 ==
+failed_requests_count: 274
+distance: 0.0
+1 0 0 9 0 
+1 4 3 0 3 
+3 0 2 2 0 
+4 4 1 5 0 
+3 1 3 0 1 
+
+== Time: 560 ==
+failed_requests_count: 274
+distance: 0.0
+1 0 0 8 0 
+1 4 3 0 3 
+3 0 2 2 0 
+4 5 1 5 0 
+3 1 3 0 1 
+
+== Time: 561 ==
+failed_requests_count: 274
+distance: 0.0
+1 0 0 8 0 
+1 4 3 0 3 
+3 0 3 2 0 
+4 5 1 5 0 
+3 1 3 1 1 
+
+== Time: 562 ==
+failed_requests_count: 275
+distance: 0.0
+1 0 0 8 0 
+1 4 3 0 3 
+3 1 3 2 0 
+4 5 1 5 0 
+3 2 3 1 1 
+
+== Time: 563 ==
+failed_requests_count: 275
+distance: 0.0
+0 0 0 8 0 
+1 3 3 0 3 
+3 0 3 1 0 
+4 6 1 4 0 
+3 2 3 1 1 
+
+== Time: 564 ==
+failed_requests_count: 275
+distance: 0.0
+0 0 0 8 0 
+1 3 4 0 3 
+3 0 3 1 1 
+4 6 0 4 0 
+3 2 3 1 1 
+
+== Time: 565 ==
+failed_requests_count: 275
+distance: 0.0
+0 0 0 8 0 
+1 3 4 0 3 
+2 0 4 1 1 
+3 7 0 4 0 
+3 2 3 1 1 
+
+== Time: 566 ==
+failed_requests_count: 275
+distance: 0.0
+1 0 0 8 0 
+1 3 4 0 4 
+2 0 4 0 1 
+3 7 0 4 2 
+3 2 3 1 1 
+
+== Time: 567 ==
+failed_requests_count: 276
+distance: 0.0
+1 1 0 8 1 
+1 3 4 0 4 
+2 0 4 0 1 
+3 7 0 4 2 
+3 2 4 2 1 
+
+== Time: 568 ==
+failed_requests_count: 276
+distance: 0.0
+1 1 0 8 1 
+1 3 4 0 4 
+3 0 4 0 0 
+3 7 0 5 2 
+3 2 3 2 1 
+
+== Time: 569 ==
+failed_requests_count: 277
+distance: 0.0
+1 1 0 9 0 
+2 3 4 0 3 
+3 0 4 0 1 
+3 7 0 4 2 
+3 2 3 2 1 
+
+== Time: 570 ==
+failed_requests_count: 277
+distance: 0.0
+1 1 0 9 0 
+2 2 4 1 3 
+3 0 4 0 1 
+3 6 0 4 2 
+3 2 3 2 1 
+
+== Time: 571 ==
+failed_requests_count: 277
+distance: 0.0
+1 1 0 9 0 
+2 2 4 1 2 
+3 0 4 0 1 
+3 6 0 4 2 
+3 2 3 2 1 
+
+== Time: 572 ==
+failed_requests_count: 277
+distance: 0.0
+1 1 0 9 0 
+2 2 4 1 2 
+3 0 4 0 1 
+3 6 0 4 2 
+3 1 3 2 1 
+
+== Time: 573 ==
+failed_requests_count: 277
+distance: 0.0
+1 1 0 9 0 
+2 2 4 1 2 
+3 0 4 0 1 
+3 6 1 4 3 
+3 1 3 2 1 
+
+== Time: 574 ==
+failed_requests_count: 277
+distance: 0.0
+1 1 0 9 0 
+2 2 4 1 2 
+3 0 3 0 1 
+3 6 1 4 3 
+3 1 3 2 0 
+
+== Time: 575 ==
+failed_requests_count: 277
+distance: 0.0
+1 1 0 10 0 
+2 2 4 1 2 
+3 0 3 0 1 
+3 6 1 4 3 
+3 1 3 2 0 
+
+== Time: 576 ==
+failed_requests_count: 278
+distance: 0.0
+1 1 0 10 0 
+2 2 3 1 2 
+3 0 3 0 1 
+3 6 1 4 4 
+3 1 3 2 0 
+
+== Time: 577 ==
+failed_requests_count: 278
+distance: 0.0
+1 1 0 10 0 
+2 2 2 1 2 
+3 0 3 0 1 
+3 6 2 4 4 
+3 1 3 2 0 
+
+== Time: 578 ==
+failed_requests_count: 280
+distance: 0.0
+1 1 0 10 0 
+1 2 2 1 2 
+3 0 3 0 3 
+3 6 2 4 5 
+3 1 3 3 0 
+
+== Time: 579 ==
+failed_requests_count: 280
+distance: 0.0
+1 1 0 10 0 
+1 2 2 1 2 
+2 0 3 0 3 
+3 6 2 4 5 
+3 1 3 3 0 
+
+== Time: 580 ==
+failed_requests_count: 280
+distance: 0.0
+1 1 0 10 0 
+1 2 2 1 2 
+2 0 4 0 3 
+3 6 2 4 5 
+3 1 3 3 0 
+
+== Time: 581 ==
+failed_requests_count: 281
+distance: 0.0
+1 0 0 10 0 
+1 2 2 1 2 
+1 0 4 0 3 
+3 6 2 4 5 
+3 1 3 3 0 
+
+== Time: 582 ==
+failed_requests_count: 282
+distance: 0.0
+1 0 0 10 0 
+1 2 2 1 2 
+1 0 4 0 3 
+2 6 1 4 4 
+3 1 3 2 1 
+
+== Time: 583 ==
+failed_requests_count: 282
+distance: 0.0
+1 0 0 9 0 
+1 2 2 1 3 
+1 0 4 0 3 
+2 6 1 4 4 
+3 1 3 2 1 
+
+== Time: 584 ==
+failed_requests_count: 283
+distance: 0.0
+2 0 0 9 0 
+1 3 1 1 3 
+1 0 4 0 3 
+3 5 1 4 4 
+3 1 3 2 1 
+
+== Time: 585 ==
+failed_requests_count: 284
+distance: 0.0
+2 1 0 9 0 
+0 1 1 1 3 
+1 1 4 1 3 
+3 5 1 4 4 
+3 1 3 2 1 
+
+== Time: 586 ==
+failed_requests_count: 284
+distance: 0.0
+2 1 1 9 1 
+0 1 1 1 3 
+1 1 4 1 3 
+3 5 1 4 4 
+3 1 3 3 1 
+
+== Time: 587 ==
+failed_requests_count: 284
+distance: 0.0
+2 1 1 9 1 
+0 1 1 1 3 
+1 1 4 1 3 
+3 5 1 4 4 
+3 1 3 3 1 
+
+== Time: 588 ==
+failed_requests_count: 284
+distance: 0.0
+2 1 1 9 1 
+0 1 1 1 3 
+2 1 3 1 3 
+3 5 1 4 4 
+3 1 3 4 1 
+
+== Time: 589 ==
+failed_requests_count: 284
+distance: 0.0
+2 1 1 9 1 
+0 1 1 1 3 
+2 1 3 1 2 
+3 5 1 4 4 
+3 1 3 4 1 
+
+== Time: 590 ==
+failed_requests_count: 285
+distance: 0.0
+2 1 1 9 1 
+0 1 1 1 2 
+2 1 3 1 3 
+3 6 1 4 5 
+3 1 3 4 1 
+
+== Time: 591 ==
+failed_requests_count: 285
+distance: 0.0
+3 1 1 9 1 
+0 1 1 1 2 
+2 1 3 1 3 
+3 6 1 4 5 
+4 0 3 4 2 
+
+== Time: 592 ==
+failed_requests_count: 285
+distance: 0.0
+3 1 1 9 1 
+0 1 1 1 2 
+2 1 3 1 4 
+3 6 1 3 5 
+4 0 3 4 2 
+
+== Time: 593 ==
+failed_requests_count: 285
+distance: 0.0
+2 1 1 9 1 
+0 1 1 2 2 
+2 2 3 1 4 
+3 6 1 3 5 
+4 0 3 5 3 
+
+== Time: 594 ==
+failed_requests_count: 285
+distance: 0.0
+2 1 1 9 1 
+0 1 1 2 2 
+2 2 3 1 4 
+3 6 0 3 5 
+3 0 4 4 3 
+
+== Time: 595 ==
+failed_requests_count: 286
+distance: 0.0
+2 1 1 9 1 
+0 1 1 2 2 
+2 2 3 1 4 
+3 6 0 3 5 
+3 0 4 4 3 
+
+== Time: 596 ==
+failed_requests_count: 287
+distance: 0.0
+2 1 1 9 1 
+0 1 0 2 2 
+2 2 3 1 4 
+3 5 0 3 5 
+3 1 4 4 3 
+
+== Time: 597 ==
+failed_requests_count: 287
+distance: 0.0
+2 1 0 9 1 
+0 1 0 2 2 
+1 2 3 1 4 
+2 5 0 3 5 
+3 1 4 4 3 
+
+== Time: 598 ==
+failed_requests_count: 288
+distance: 0.0
+2 1 0 9 0 
+1 1 0 2 2 
+1 2 3 1 4 
+2 5 0 3 6 
+3 0 4 4 4 
+
+== Time: 599 ==
+failed_requests_count: 288
+distance: 0.0
+1 1 0 8 1 
+1 1 0 2 2 
+1 2 3 1 4 
+2 5 0 3 6 
+4 0 3 4 4 
+
+== Time: 600 ==
+failed_requests_count: 288
+distance: 0.0
+1 1 0 8 1 
+1 2 0 2 2 
+1 2 3 0 4 
+2 5 0 3 6 
+4 0 3 4 4 
+
+== Time: 601 ==
+failed_requests_count: 288
+distance: 0.0
+0 1 0 7 1 
+1 2 0 2 2 
+1 2 3 0 4 
+2 5 1 3 6 
+4 0 3 4 4 
+
+== Time: 602 ==
+failed_requests_count: 289
+distance: 0.0
+0 1 0 7 0 
+1 2 0 2 3 
+1 0 3 0 4 
+2 5 1 3 6 
+4 0 3 4 3 
+
+== Time: 603 ==
+failed_requests_count: 289
+distance: 0.0
+0 1 0 7 0 
+1 2 0 2 3 
+1 1 3 0 4 
+2 5 1 3 6 
+4 0 3 4 3 
+
+== Time: 604 ==
+failed_requests_count: 289
+distance: 0.0
+0 2 0 7 0 
+1 2 0 2 3 
+0 0 3 0 3 
+2 5 1 3 6 
+4 0 3 4 3 
+
+== Time: 605 ==
+failed_requests_count: 289
+distance: 0.0
+0 2 0 7 0 
+1 2 0 1 3 
+0 0 3 0 3 
+2 5 1 3 6 
+4 0 3 4 3 
+
+== Time: 606 ==
+failed_requests_count: 290
+distance: 0.0
+0 2 0 7 0 
+1 2 0 1 3 
+0 0 3 0 3 
+2 5 1 3 6 
+5 0 3 4 3 
+
+== Time: 607 ==
+failed_requests_count: 291
+distance: 0.0
+0 2 0 7 0 
+1 2 0 1 4 
+0 0 3 0 3 
+1 5 1 3 6 
+5 0 3 4 3 
+
+== Time: 608 ==
+failed_requests_count: 293
+distance: 0.0
+0 2 0 8 0 
+0 2 0 1 4 
+0 0 3 0 3 
+1 5 1 3 5 
+5 0 3 4 3 
+
+== Time: 609 ==
+failed_requests_count: 293
+distance: 0.0
+0 2 0 8 0 
+0 1 0 1 3 
+0 0 3 0 3 
+1 5 1 4 5 
+5 0 3 4 3 
+
+== Time: 610 ==
+failed_requests_count: 294
+distance: 0.0
+0 1 0 9 0 
+0 2 0 1 3 
+0 0 3 0 3 
+1 5 1 4 5 
+5 0 3 4 2 
+
+== Time: 611 ==
+failed_requests_count: 294
+distance: 0.0
+0 1 0 9 0 
+0 2 0 1 3 
+0 0 3 0 3 
+1 6 1 4 5 
+6 0 3 3 2 
+
+== Time: 612 ==
+failed_requests_count: 294
+distance: 0.0
+0 2 0 9 0 
+0 1 0 1 3 
+0 0 3 0 3 
+1 6 1 4 4 
+6 0 3 3 2 
+
+== Time: 613 ==
+failed_requests_count: 296
+distance: 0.0
+0 1 0 9 0 
+0 1 0 1 3 
+0 0 4 0 3 
+1 6 1 4 4 
+6 0 2 3 2 
+
+== Time: 614 ==
+failed_requests_count: 296
+distance: 0.0
+0 0 0 9 0 
+0 1 0 1 3 
+0 0 4 0 3 
+1 6 1 3 5 
+6 0 2 3 1 
+
+== Time: 615 ==
+failed_requests_count: 296
+distance: 0.0
+0 0 0 9 0 
+0 1 0 1 3 
+0 1 4 0 3 
+1 7 0 2 5 
+6 0 3 3 1 
+
+== Time: 616 ==
+failed_requests_count: 299
+distance: 0.0
+0 0 0 10 0 
+0 1 0 2 3 
+0 1 4 0 3 
+1 7 0 2 5 
+7 0 3 2 1 
+
+== Time: 617 ==
+failed_requests_count: 299
+distance: 0.0
+0 0 0 10 0 
+0 1 0 2 4 
+1 1 3 0 3 
+1 7 1 2 5 
+7 0 3 2 1 
+
+== Time: 618 ==
+failed_requests_count: 300
+distance: 0.0
+0 0 0 10 0 
+0 1 0 2 4 
+1 1 2 0 3 
+1 7 1 2 5 
+7 1 3 2 1 
+
+== Time: 619 ==
+failed_requests_count: 300
+distance: 0.0
+1 0 0 11 0 
+0 1 0 2 4 
+0 1 0 0 2 
+1 7 1 2 5 
+7 1 3 2 1 
+
+== Time: 620 ==
+failed_requests_count: 302
+distance: 0.0
+1 0 0 10 0 
+0 1 0 2 4 
+0 1 0 0 1 
+1 7 1 2 5 
+7 1 3 2 1 
+
+== Time: 621 ==
+failed_requests_count: 302
+distance: 0.0
+1 1 0 10 0 
+0 1 0 2 4 
+0 1 0 0 0 
+1 7 1 2 5 
+6 1 2 2 1 
+
+== Time: 622 ==
+failed_requests_count: 302
+distance: 0.0
+1 1 0 10 0 
+0 1 0 2 4 
+0 0 0 0 0 
+1 7 1 2 5 
+6 1 2 2 1 
+
+== Time: 623 ==
+failed_requests_count: 303
+distance: 0.0
+1 1 1 10 0 
+0 1 0 2 4 
+0 0 0 0 0 
+1 7 1 1 5 
+6 1 2 2 1 
+
+== Time: 624 ==
+failed_requests_count: 304
+distance: 0.0
+1 1 1 10 0 
+0 1 0 2 4 
+0 0 0 0 0 
+1 8 1 1 5 
+6 1 2 2 1 
+
+== Time: 625 ==
+failed_requests_count: 304
+distance: 0.0
+1 2 1 10 1 
+0 1 0 2 4 
+0 0 0 0 1 
+0 8 1 2 6 
+6 1 2 2 1 
+
+== Time: 626 ==
+failed_requests_count: 304
+distance: 0.0
+1 3 1 10 1 
+0 0 0 2 4 
+0 0 0 0 1 
+0 8 2 2 6 
+6 1 2 2 1 
+
+== Time: 627 ==
+failed_requests_count: 307
+distance: 0.0
+1 3 1 10 1 
+0 0 0 2 4 
+0 2 0 0 1 
+0 9 2 2 6 
+6 1 2 3 1 
+
+== Time: 628 ==
+failed_requests_count: 307
+distance: 0.0
+1 3 1 10 1 
+0 1 0 2 4 
+0 2 0 1 1 
+0 9 2 2 6 
+6 1 2 3 0 
+
+== Time: 629 ==
+failed_requests_count: 308
+distance: 0.0
+1 3 1 10 0 
+0 0 0 2 4 
+0 2 0 0 1 
+0 9 2 2 6 
+6 1 2 3 0 
+
+== Time: 630 ==
+failed_requests_count: 309
+distance: 0.0
+1 3 1 9 0 
+0 0 0 2 4 
+0 1 0 0 1 
+0 8 2 3 6 
+6 1 2 3 0 
+
+== Time: 631 ==
+failed_requests_count: 309
+distance: 0.0
+1 3 1 9 1 
+0 0 0 2 4 
+0 1 0 0 1 
+0 8 2 3 6 
+6 1 2 3 0 
+
+== Time: 632 ==
+failed_requests_count: 310
+distance: 0.0
+1 2 1 8 1 
+0 0 0 2 4 
+0 1 0 0 1 
+0 8 2 3 6 
+6 0 2 3 0 
+
+== Time: 633 ==
+failed_requests_count: 310
+distance: 0.0
+1 2 1 7 1 
+0 0 0 2 4 
+0 0 0 0 1 
+0 8 3 3 6 
+6 0 2 3 0 
+
+== Time: 634 ==
+failed_requests_count: 310
+distance: 0.0
+1 2 1 7 1 
+0 0 0 2 4 
+0 0 1 0 2 
+0 8 3 3 7 
+6 0 2 3 0 
+
+== Time: 635 ==
+failed_requests_count: 310
+distance: 0.0
+1 2 1 6 2 
+0 0 0 2 4 
+0 1 0 0 2 
+0 8 3 3 7 
+6 0 2 2 0 
+
+== Time: 636 ==
+failed_requests_count: 311
+distance: 0.0
+0 1 1 6 2 
+0 0 0 2 4 
+0 1 0 0 2 
+0 8 3 3 7 
+6 0 2 2 0 
+
+== Time: 637 ==
+failed_requests_count: 311
+distance: 0.0
+0 1 1 6 2 
+0 0 0 2 4 
+0 1 0 0 2 
+0 8 3 3 6 
+5 0 2 1 0 
+
+== Time: 638 ==
+failed_requests_count: 311
+distance: 0.0
+0 1 2 6 2 
+0 0 0 3 4 
+0 1 0 0 2 
+0 8 3 3 7 
+5 0 2 1 0 
+
+== Time: 639 ==
+failed_requests_count: 312
+distance: 0.0
+0 1 2 6 2 
+0 0 0 3 4 
+0 1 0 0 2 
+0 8 3 4 8 
+5 0 2 1 0 
+
+== Time: 640 ==
+failed_requests_count: 312
+distance: 0.0
+0 1 2 6 2 
+0 0 0 2 4 
+0 0 0 0 2 
+0 7 3 4 8 
+5 0 2 1 0 
+
+== Time: 641 ==
+failed_requests_count: 312
+distance: 0.0
+0 1 2 6 0 
+0 0 0 2 4 
+0 0 0 0 2 
+0 7 3 4 8 
+5 0 2 1 0 
+
+== Time: 642 ==
+failed_requests_count: 312
+distance: 0.0
+0 2 2 6 0 
+0 0 0 2 4 
+0 0 0 0 2 
+0 7 2 4 7 
+5 0 2 1 0 
+
+== Time: 643 ==
+failed_requests_count: 313
+distance: 0.0
+0 2 2 6 0 
+0 1 0 2 4 
+0 0 0 0 2 
+0 5 2 4 7 
+6 0 2 1 0 
+
+== Time: 644 ==
+failed_requests_count: 315
+distance: 0.0
+0 2 3 6 0 
+0 1 0 2 4 
+1 0 0 0 2 
+0 5 2 4 7 
+6 0 2 1 1 
+
+== Time: 645 ==
+failed_requests_count: 317
+distance: 0.0
+0 2 3 6 0 
+0 1 0 2 5 
+0 0 0 0 2 
+0 5 2 4 7 
+6 0 2 1 1 
+
+== Time: 646 ==
+failed_requests_count: 317
+distance: 0.0
+0 2 3 6 0 
+0 1 0 2 5 
+0 0 0 0 2 
+0 5 2 4 6 
+6 0 2 1 1 
+
+== Time: 647 ==
+failed_requests_count: 318
+distance: 0.0
+0 2 2 6 0 
+0 1 0 2 5 
+0 0 0 0 2 
+0 5 2 4 6 
+6 0 2 1 1 
+
+== Time: 648 ==
+failed_requests_count: 319
+distance: 0.0
+0 2 3 7 0 
+0 2 0 2 5 
+0 1 0 0 2 
+0 5 2 4 6 
+7 0 2 1 1 
+
+== Time: 649 ==
+failed_requests_count: 319
+distance: 0.0
+0 2 4 7 0 
+0 2 0 3 5 
+0 1 0 0 2 
+0 5 2 4 6 
+7 0 2 1 1 
+
+== Time: 650 ==
+failed_requests_count: 320
+distance: 0.0
+0 2 4 7 0 
+0 2 0 3 5 
+0 1 0 0 2 
+0 5 2 4 6 
+7 0 2 1 1 
+
+== Time: 651 ==
+failed_requests_count: 320
+distance: 0.0
+0 2 4 7 0 
+0 2 0 3 4 
+0 1 0 1 1 
+1 5 2 4 6 
+7 0 2 1 1 
+
+== Time: 652 ==
+failed_requests_count: 320
+distance: 0.0
+1 2 4 7 0 
+0 2 0 3 4 
+0 1 0 2 1 
+1 5 2 5 6 
+7 0 2 1 1 
+
+== Time: 653 ==
+failed_requests_count: 321
+distance: 0.0
+2 2 4 8 0 
+0 2 0 3 4 
+0 1 0 2 1 
+1 5 2 5 6 
+7 1 2 1 1 
+
+== Time: 654 ==
+failed_requests_count: 321
+distance: 0.0
+2 2 4 8 0 
+0 2 0 3 4 
+0 1 0 2 1 
+1 5 2 5 6 
+7 1 2 1 2 
+
+== Time: 655 ==
+failed_requests_count: 321
+distance: 0.0
+2 2 3 8 0 
+0 2 0 3 4 
+0 0 0 2 1 
+1 5 2 4 6 
+7 1 2 1 2 
+
+== Time: 656 ==
+failed_requests_count: 321
+distance: 0.0
+2 2 3 8 0 
+0 1 0 3 4 
+0 0 0 2 1 
+1 5 2 4 6 
+7 1 1 1 2 
+
+== Time: 657 ==
+failed_requests_count: 322
+distance: 0.0
+2 2 3 7 0 
+0 1 0 3 4 
+0 0 1 2 1 
+1 5 2 4 6 
+7 0 1 1 2 
+
+== Time: 658 ==
+failed_requests_count: 323
+distance: 0.0
+2 2 3 8 0 
+0 0 0 3 4 
+0 0 1 2 1 
+1 5 2 5 6 
+7 0 1 1 2 
+
+== Time: 659 ==
+failed_requests_count: 323
+distance: 0.0
+2 2 3 8 0 
+0 0 0 3 4 
+0 0 1 2 1 
+1 5 2 6 6 
+7 0 2 1 2 
+
+== Time: 660 ==
+failed_requests_count: 324
+distance: 0.0
+2 2 3 8 1 
+0 0 0 3 4 
+0 0 1 2 1 
+1 4 2 5 5 
+7 0 2 1 2 
+
+== Time: 661 ==
+failed_requests_count: 324
+distance: 0.0
+2 2 3 8 1 
+0 0 0 3 4 
+0 0 1 2 1 
+1 4 2 5 5 
+7 0 2 1 2 
+
+== Time: 662 ==
+failed_requests_count: 325
+distance: 0.0
+2 2 2 8 1 
+0 1 0 3 4 
+0 0 1 2 1 
+1 4 2 5 5 
+8 0 1 1 1 
+
+== Time: 663 ==
+failed_requests_count: 325
+distance: 0.0
+2 2 2 8 1 
+0 2 0 3 3 
+0 0 1 2 1 
+2 4 2 5 5 
+8 0 0 1 1 
+
+== Time: 664 ==
+failed_requests_count: 326
+distance: 0.0
+2 2 2 8 1 
+0 2 0 3 3 
+1 0 1 3 1 
+2 4 2 5 5 
+8 0 0 2 1 
+
+== Time: 665 ==
+failed_requests_count: 326
+distance: 0.0
+2 2 2 8 1 
+0 2 0 3 3 
+1 0 1 3 1 
+2 4 2 5 5 
+8 0 0 2 1 
+
+== Time: 666 ==
+failed_requests_count: 327
+distance: 0.0
+2 2 2 8 1 
+0 1 0 3 3 
+2 0 1 3 1 
+2 4 2 4 5 
+8 0 0 2 1 
+
+== Time: 667 ==
+failed_requests_count: 328
+distance: 0.0
+2 2 2 8 1 
+0 1 0 3 3 
+2 0 1 3 1 
+2 4 2 4 5 
+8 0 0 2 1 
+
+== Time: 668 ==
+failed_requests_count: 329
+distance: 0.0
+2 1 2 8 1 
+0 1 0 3 3 
+2 0 0 3 1 
+2 4 2 4 5 
+8 0 0 2 1 
+
+== Time: 669 ==
+failed_requests_count: 329
+distance: 0.0
+2 1 2 8 1 
+0 1 0 3 3 
+2 0 0 3 1 
+2 4 2 4 5 
+8 0 0 2 1 
+
+== Time: 670 ==
+failed_requests_count: 329
+distance: 0.0
+2 1 2 8 1 
+0 1 0 3 3 
+3 0 0 3 2 
+1 4 2 4 5 
+8 0 0 2 1 
+
+== Time: 671 ==
+failed_requests_count: 329
+distance: 0.0
+2 1 2 8 1 
+0 1 0 3 3 
+3 0 0 3 2 
+1 4 2 4 5 
+8 0 0 2 1 
+
+== Time: 672 ==
+failed_requests_count: 329
+distance: 0.0
+2 1 2 8 1 
+0 1 0 3 3 
+3 0 0 3 2 
+1 4 2 5 5 
+8 1 0 2 1 
+
+== Time: 673 ==
+failed_requests_count: 329
+distance: 0.0
+2 1 2 8 1 
+0 2 0 3 3 
+3 0 0 3 2 
+1 4 2 6 5 
+8 1 0 2 1 
+
+== Time: 674 ==
+failed_requests_count: 329
+distance: 0.0
+2 0 2 8 1 
+1 2 0 4 3 
+3 0 0 3 2 
+1 4 2 6 5 
+8 1 0 2 1 
+
+== Time: 675 ==
+failed_requests_count: 329
+distance: 0.0
+3 0 2 9 1 
+1 2 0 4 3 
+3 0 0 3 2 
+1 4 2 6 5 
+8 1 0 2 1 
+
+== Time: 676 ==
+failed_requests_count: 329
+distance: 0.0
+2 0 2 9 1 
+0 1 0 4 3 
+3 0 0 3 2 
+1 4 2 6 5 
+8 2 0 2 1 
+
+== Time: 677 ==
+failed_requests_count: 329
+distance: 0.0
+2 0 2 9 1 
+0 1 0 4 3 
+3 0 0 4 2 
+1 5 2 6 5 
+8 3 0 2 1 
+
+== Time: 678 ==
+failed_requests_count: 330
+distance: 0.0
+2 0 2 9 1 
+0 1 0 4 3 
+3 0 0 4 2 
+1 5 2 6 5 
+8 3 0 3 1 
+
+== Time: 679 ==
+failed_requests_count: 331
+distance: 0.0
+2 0 2 9 1 
+0 1 0 4 3 
+3 0 0 4 2 
+2 5 2 6 7 
+8 2 0 3 1 
+
+== Time: 680 ==
+failed_requests_count: 331
+distance: 0.0
+1 0 2 9 1 
+0 1 0 4 3 
+2 0 0 4 2 
+2 5 2 6 7 
+7 3 0 3 1 
+
+== Time: 681 ==
+failed_requests_count: 331
+distance: 0.0
+1 0 2 9 1 
+0 1 0 4 3 
+2 0 1 4 2 
+2 5 2 6 7 
+7 3 0 3 1 
+
+== Time: 682 ==
+failed_requests_count: 331
+distance: 0.0
+1 0 2 9 1 
+0 1 0 4 3 
+2 0 1 4 2 
+2 5 2 6 7 
+7 3 0 2 0 
+
+== Time: 683 ==
+failed_requests_count: 331
+distance: 0.0
+1 0 2 9 1 
+0 1 0 4 3 
+2 0 1 4 2 
+2 5 3 7 7 
+7 3 0 2 0 
+
+== Time: 684 ==
+failed_requests_count: 332
+distance: 0.0
+1 0 2 9 1 
+0 1 0 4 3 
+2 0 1 4 1 
+1 5 3 7 6 
+7 3 0 1 0 
+
+== Time: 685 ==
+failed_requests_count: 332
+distance: 0.0
+1 0 2 8 1 
+0 1 0 4 3 
+2 0 0 4 2 
+1 5 3 7 6 
+7 3 0 1 0 
+
+== Time: 686 ==
+failed_requests_count: 335
+distance: 0.0
+1 1 2 8 1 
+0 1 0 4 3 
+2 0 0 5 2 
+1 4 3 7 6 
+8 3 0 2 0 
+
+== Time: 687 ==
+failed_requests_count: 335
+distance: 0.0
+1 2 2 8 1 
+0 1 0 4 3 
+2 0 0 5 2 
+2 4 3 7 6 
+8 3 0 3 0 
+
+== Time: 688 ==
+failed_requests_count: 335
+distance: 0.0
+1 2 2 7 1 
+0 1 1 4 3 
+0 0 0 5 2 
+2 4 3 7 6 
+10 3 0 3 0 
+
+== Time: 689 ==
+failed_requests_count: 335
+distance: 0.0
+1 2 2 7 1 
+0 1 1 4 3 
+0 0 0 5 2 
+2 4 3 7 6 
+10 3 0 3 0 
+
+== Time: 690 ==
+failed_requests_count: 335
+distance: 0.0
+1 2 2 7 1 
+0 1 1 4 3 
+0 0 0 6 2 
+2 4 3 7 6 
+10 3 0 3 0 
+
+== Time: 691 ==
+failed_requests_count: 335
+distance: 0.0
+1 2 2 7 1 
+0 1 1 4 3 
+0 0 1 6 0 
+2 3 3 7 6 
+10 3 0 3 1 
+
+== Time: 692 ==
+failed_requests_count: 335
+distance: 0.0
+1 2 2 7 1 
+0 1 1 4 3 
+0 0 1 6 0 
+1 3 4 7 6 
+10 3 0 3 1 
+
+== Time: 693 ==
+failed_requests_count: 335
+distance: 0.0
+1 2 2 7 2 
+1 1 1 4 3 
+0 0 1 6 0 
+1 3 4 7 4 
+10 3 0 3 1 
+
+== Time: 694 ==
+failed_requests_count: 335
+distance: 0.0
+0 2 2 7 1 
+1 1 1 4 3 
+0 0 3 6 0 
+1 3 4 7 4 
+10 3 0 3 1 
+
+== Time: 695 ==
+failed_requests_count: 335
+distance: 0.0
+0 2 2 7 2 
+1 1 1 4 2 
+0 0 3 6 0 
+1 3 4 7 5 
+10 4 0 3 1 
+
+== Time: 696 ==
+failed_requests_count: 335
+distance: 0.0
+0 2 2 7 2 
+1 1 1 4 2 
+0 1 3 5 0 
+1 3 4 7 5 
+10 4 0 2 1 
+
+== Time: 697 ==
+failed_requests_count: 336
+distance: 0.0
+0 2 2 7 2 
+1 1 1 4 2 
+0 1 3 5 0 
+1 3 3 7 5 
+10 4 0 2 1 
+
+== Time: 698 ==
+failed_requests_count: 336
+distance: 0.0
+0 2 2 6 2 
+0 1 1 4 2 
+0 1 3 5 0 
+1 3 3 7 5 
+10 4 0 2 1 
+
+== Time: 699 ==
+failed_requests_count: 336
+distance: 0.0
+0 2 2 6 2 
+1 1 1 4 2 
+0 1 3 5 0 
+1 3 3 7 5 
+10 4 0 2 1 
+
+== Time: 700 ==
+failed_requests_count: 336
+distance: 0.0
+1 2 2 6 1 
+1 1 1 4 2 
+0 1 3 5 0 
+1 3 3 7 5 
+10 3 1 2 1 
+
+== Time: 701 ==
+failed_requests_count: 337
+distance: 0.0
+1 2 2 6 1 
+1 1 1 4 2 
+0 1 3 5 0 
+1 3 3 7 5 
+10 3 1 2 1 
+
+== Time: 702 ==
+failed_requests_count: 338
+distance: 0.0
+1 2 2 7 1 
+2 0 1 4 2 
+0 2 3 5 0 
+1 3 3 7 5 
+10 3 1 3 1 
+
+== Time: 703 ==
+failed_requests_count: 339
+distance: 0.0
+1 1 2 6 1 
+2 0 1 4 2 
+0 2 3 5 0 
+1 3 3 7 4 
+10 3 0 3 1 
+
+== Time: 704 ==
+failed_requests_count: 339
+distance: 0.0
+0 1 2 6 1 
+2 0 1 5 2 
+0 2 3 5 0 
+1 3 2 8 3 
+10 3 0 3 1 
+
+== Time: 705 ==
+failed_requests_count: 340
+distance: 0.0
+0 1 2 6 1 
+2 0 1 5 2 
+0 2 3 5 0 
+1 3 2 8 3 
+10 4 0 3 1 
+
+== Time: 706 ==
+failed_requests_count: 340
+distance: 0.0
+0 0 2 6 1 
+2 0 1 5 2 
+0 2 3 5 0 
+1 2 2 8 3 
+10 4 0 3 0 
+
+== Time: 707 ==
+failed_requests_count: 340
+distance: 0.0
+0 0 2 6 2 
+2 0 1 5 2 
+0 2 3 5 0 
+1 1 2 8 3 
+10 4 0 3 0 
+
+== Time: 708 ==
+failed_requests_count: 341
+distance: 0.0
+0 0 2 6 2 
+2 0 1 5 2 
+0 2 3 5 0 
+1 1 2 7 3 
+10 4 0 2 0 
+
+== Time: 709 ==
+failed_requests_count: 341
+distance: 0.0
+0 0 2 6 2 
+2 0 1 5 2 
+0 2 3 5 1 
+1 1 2 7 3 
+9 4 0 2 0 
+
+== Time: 710 ==
+failed_requests_count: 342
+distance: 0.0
+0 0 2 6 2 
+2 0 1 5 2 
+0 2 3 5 1 
+1 1 2 7 3 
+9 4 0 2 0 
+
+== Time: 711 ==
+failed_requests_count: 343
+distance: 0.0
+0 0 2 6 2 
+2 0 1 5 2 
+0 2 3 5 1 
+1 1 2 7 3 
+9 4 0 2 0 
+
+== Time: 712 ==
+failed_requests_count: 343
+distance: 0.0
+0 1 2 6 2 
+2 0 1 5 2 
+0 2 2 5 1 
+1 1 2 7 3 
+9 4 0 2 0 
+
+== Time: 713 ==
+failed_requests_count: 344
+distance: 0.0
+0 1 2 6 2 
+2 0 1 5 2 
+0 2 2 5 1 
+1 1 2 6 3 
+9 5 0 2 0 
+
+== Time: 714 ==
+failed_requests_count: 346
+distance: 0.0
+0 1 2 6 2 
+2 0 1 5 1 
+0 3 2 5 1 
+1 1 2 6 3 
+9 5 0 2 0 
+
+== Time: 715 ==
+failed_requests_count: 346
+distance: 0.0
+0 1 2 6 2 
+2 0 1 5 1 
+0 3 2 5 1 
+1 1 2 6 3 
+10 5 0 1 0 
+
+== Time: 716 ==
+failed_requests_count: 348
+distance: 0.0
+0 1 2 6 2 
+2 0 0 5 0 
+0 4 2 5 1 
+1 1 2 6 3 
+10 5 0 1 0 
+
+== Time: 717 ==
+failed_requests_count: 349
+distance: 0.0
+0 1 2 6 2 
+2 0 0 5 0 
+0 4 2 5 1 
+1 1 2 6 3 
+10 5 0 1 0 
+
+== Time: 718 ==
+failed_requests_count: 350
+distance: 0.0
+1 1 2 6 2 
+2 0 0 5 0 
+0 4 2 5 1 
+1 1 2 6 3 
+11 5 0 1 0 
+
+== Time: 719 ==
+failed_requests_count: 351
+distance: 0.0
+1 1 2 5 2 
+2 1 0 4 1 
+0 4 2 5 2 
+1 0 2 6 3 
+11 5 0 1 0 
+
+== End ==
+failed_requests_count: 351
+distance: 0.0
+SCORE: 229.94747899159663
+========
+

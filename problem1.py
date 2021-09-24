@@ -1,10 +1,11 @@
-from common.constant import BASE_URL, X_AUTH_TOKEN
+from common.constant import BASE_URL, X_AUTH_TOKEN, LOG_DIR
 from common.api import Session, Command, Status
 from common.util import (
     location_to_point, point_to_location,
     array_to_matrix, print_matrix,
     parse_locations,
 )
+from common.log import set_log_filename_auto, override_print_globally
 
 DEBUG = True
 
@@ -27,6 +28,9 @@ class Solution:
 
 
 def main():
+    set_log_filename_auto(LOG_DIR)
+    override_print_globally()
+
     solution = Solution()
     session = Session(BASE_URL, X_AUTH_TOKEN).start(problem=1)
 
